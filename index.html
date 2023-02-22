@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Socket.IO chat</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        .wrapper {
+            width: 1080px;
+            margin: 0 auto;
+        }
+
+        body {
+            margin: 0;
+            padding-bottom: 3rem;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        .player-list {
+            width: 300px;
+            margin: 50px auto;
+        }
+
+        .player-registration-box {
+            margin: 50px auto 50px auto;
+            width: 50%;
+        }
+
+        .join-button {
+            width: 100%;
+        }
+
+        .start-game-button{
+            display: none;
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        .info-message-after-user-joined{
+            display: none;
+            margin: 0 auto;
+            text-align: center;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+<div class="wrapper">
+    <div id="player-registration-box-id" class="player-registration-box">
+        <label for="user-nickname-input">Enter a nickname:</label>
+        <div class="input-group mb-3">
+            <input id="user-nickname-input" type="text" class="form-control" aria-describedby="basic-addon3">
+        </div>
+        <button id="player-create-button" type="button" class="btn btn-success join-button">CREATE A GAME</button>
+        <button id="player-join-button" type="button" class="btn btn-success join-button" style="display: none">JOIN GAME</button>
+    </div>
+
+    <ul id="player-list" class="list-group player-list">
+
+    </ul>
+    <button id="start-game-button-id" class="btn btn-success start-game-button">START GAME</button>
+    <h2 id="user-joined-message" class="info-message-after-user-joined"></h2>
+</div>
+
+<script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+<script>
+    let socket = io();
+    let isGameCreated = false;
+    let currentUser = "";
+
+    fetch("/players").then(response => response.json())
+        .then((data) => {
+            if (data.length !== 0){
+                document.getElementById("player-create-button").style.display = "none";
+                document.getElementById("player-join-button").style.display = "block";
+            }
+            for (let player of data) {
+                addUserToList(player.username);
+            }
+
+            document.getElementById("player-create-button").addEventListener("click", function () {
+                let userNickname = document.getElementById("user-nickname-input").value
+                if (userNickname === ""){
+                    alert("Girilen nick geçerli değildir.")
+                    return
+                }
+                localStorage.setItem("username", userNickname);
+                currentUser = userNickname;
+                socket.emit("PLAYER_JOIN_REQUEST_RECEIVED", userNickname);
+                document.getElementById("player-registration-box-id").style.display = "none";
+                isGameCreated = true;
+                document.getElementById("start-game-button-id").style.display = "block";
+            })
+
+            document.getElementById("player-join-button").addEventListener("click", function () {
+                let userNickname = document.getElementById("user-nickname-input").value
+                if (userNickname === ""){
+                    alert("Girilen nick geçerli değildir.")
+                    return
+                }
+                localStorage.setItem("username", userNickname);
+                currentUser = userNickname;
+                socket.emit("PLAYER_JOIN_REQUEST_RECEIVED", userNickname);
+                document.getElementById("player-registration-box-id").style.display = "none";
+            })
+
+            document.getElementById("start-game-button-id").addEventListener("click", function () {
+                socket.emit("START_GAME_REQUEST_RECEIVED");
+            })
+
+        });
+
+    socket.on("GAME_CREATED", function (){
+        isGameCreated = true
+    })
+
+    socket.on("PLAYER_JOINED", function (player) {
+        if (player["username"] === currentUser){
+            if (player["role"] === "host"){
+
+            }
+        }
+        console.log(`PLAYER_JOINED->username: ${player["username"]}->role:${player["role"]}->currentUser: ${currentUser}`)
+        addUserToList(player["username"]);
+        document.getElementById("user-joined-message").style.display = "block";
+        document.getElementById("user-joined-message").textContent = "Waiting the game to be started by host..."
+        if (localStorage.getItem("username") === player["username"]){
+            localStorage.setItem("role", player["role"])
+        }
+    })
+
+    socket.on("GAME_STARTED", function (data) {
+        window.location.href = "/game";
+    })
+
+    let addUserToList = function (username) {
+        let ul = document.getElementById("player-list");
+        let li = document.createElement("li");
+        li.classList.add("list-group-item")
+        li.appendChild(document.createTextNode(username));
+        ul.appendChild(li);
+    }
+</script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+</html>

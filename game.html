@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        .wrapper {
+            width: 1080px;
+            margin: 0 auto;
+            padding: 25px;
+        }
+
+        .flex-container {
+            display: flex;
+        }
+
+        .player-screen {
+            width: 75%;
+            height: 500px;
+            border: 1px solid black;
+            float: left;
+        }
+
+        .scoreboard-wrapper {
+            width: 25%;
+            height: 500px;
+            background-color: gainsboro;
+        }
+
+        .scoreboard-title {
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .user-hint-input-div {
+            width: 75%;
+        }
+
+        .shake {
+            animation-name: shake;
+            animation-duration: 0.5s;
+            animation-fill-mode: both;
+        }
+
+        @keyframes shake {
+            0%, 100% {
+                transform: translateX(0);
+            }
+            10%, 30%, 50%, 70%, 90% {
+                transform: translateX(-5px);
+            }
+            20%, 40%, 60%, 80% {
+                transform: translateX(5px);
+            }
+        }
+
+        .red-border{
+            border: 3px solid red;
+        }
+
+        .green-border{
+            border: 3px solid lawngreen;
+        }
+
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="flex-container">
+        <div id="player-hints-id" class="player-screen">
+
+        </div>
+        <div class="scoreboard-wrapper">
+            <h2 class="scoreboard-title">Puan Durumu</h2>
+            <ul id="player-list" class="list-group">
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="input-group mb-3 user-hint-input-div">
+        <input id="user-guess-input" type="text" class="form-control" placeholder="Tahminin..."
+               aria-label="Recipient's username" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+            <button id="player-guess-button" class="btn btn-primary" type="button" disabled>Gönder</button>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+<script>
+    let socket = io();
+    let currentUser = localStorage.getItem("username")
+    console.log(currentUser)
+
+    fetch("/scores").then(response => response.json())
+        .then((scores) => {
+            updateScoreboard(scores)
+        });
+
+    socket.on("HINT_RECEIVED", function (hint) {
+        addHint(hint)
+    })
+
+    socket.on("QUESTION_GUESSED", function () {
+
+    })
+
+    socket.on("SCOREBOARD_UPDATED", function (scores) {
+        updateScoreboard(scores)
+    })
+
+    socket.on("GAME_WILL_START_IN", function (data) {
+        let playerHintBox = document.getElementById("player-hints-id")
+        playerHintBox.innerHTML = ""
+        let h3 = document.createElement("h3")
+        h3.style.textTransform = "uppercase"
+        h3.style.fontFamily = "Tahoma, sans-serif"
+        h3.style.textAlign = "center"
+        h3.style.marginTop = "200px"
+        h3.textContent = "OYUN BAŞLIYOR"
+        let h1 = document.createElement("h1")
+        h1.textContent = data
+        h1.style.fontFamily = "Tahoma, sans-serif"
+        h1.style.textAlign = "center"
+        playerHintBox.appendChild(h3)
+        playerHintBox.appendChild(h1)
+    })
+
+    socket.on("FIRST_HINT_RECEIVED", function () {
+        let playerHintBox = document.getElementById("player-hints-id")
+        playerHintBox.innerHTML = ""
+        document.getElementById("player-guess-button").disabled = false;
+    })
+
+    socket.on("QUESTION_GUESSED", function (data) {
+        let playerHintBox = document.getElementById("player-hints-id")
+        playerHintBox.innerHTML = ""
+        let div = document.createElement("div")
+        div.style.margin = "200px auto 0"
+        div.style.backgroundColor = "lawngreen"
+        let h2 = document.createElement("h2")
+        h2.style.textAlign = "center"
+        h2.textContent = `${data["guessedBy"]} doğru tahmin etti!!`
+        div.appendChild(h2)
+        playerHintBox.appendChild(div)
+        document.getElementById("player-guess-button").disabled = true;
+    })
+
+    socket.on("WRONG_GUESS_RECEIVED", function (username) {
+        console.log("WRONG_GUESS_RECEIVED arrived. ", username)
+        if (username === currentUser) {
+            let playerHintBox = document.getElementById("player-hints-id")
+            playerHintBox.classList.add("shake")
+            playerHintBox.classList.add("red-border")
+            playerHintBox.addEventListener("animationend", ev => {
+                playerHintBox.classList.remove("shake")
+                playerHintBox.classList.remove("red-border")
+            })
+        }
+    })
+
+    socket.on("QUESTION_COULD_NOT_GUESSED", function (answer) {
+        let playerHintBox = document.getElementById("player-hints-id")
+        playerHintBox.innerHTML = ""
+        let h1 = document.createElement("h1")
+        h1.style.textTransform = "uppercase"
+        h1.style.fontFamily = "Tahoma, sans-serif"
+        h1.style.textAlign = "center"
+        h1.style.marginTop = "200px"
+        h1.appendChild(document.createTextNode(answer))
+        playerHintBox.appendChild(h1)
+        document.getElementById("player-guess-button").disabled = true;
+    })
+
+    document.getElementById("player-guess-button").addEventListener("click", function () {
+        let guess = document.getElementById("user-guess-input").value
+        document.getElementById("user-guess-input").value = ""
+        socket.emit("GUESS_RECEIVED", {"username": currentUser, "guess": guess})
+    })
+
+    let updateScoreboard = function (scores) {
+        let ul = document.getElementById("player-list");
+        ul.innerHTML = "";
+        let sortedScores = sortObject(scores)
+        for (const [key, value] of Object.entries(sortedScores)) {
+            let li = document.createElement("li");
+            li.classList.add("list-group-item")
+            li.classList.add("d-flex")
+            li.classList.add("justify-content-between")
+            li.classList.add("align-items-center")
+            let span = document.createElement("span")
+            span.classList.add("badge")
+            span.classList.add("badge-primary")
+            span.classList.add("badge-pill")
+            span.appendChild(document.createTextNode(value))
+            li.appendChild(document.createTextNode(key));
+            li.appendChild(span)
+            ul.appendChild(li);
+        }
+    }
+
+    let sortObject = function (scores) {
+        let sortable = []
+        for (let player in scores) {
+            sortable.push([player, scores[player]]);
+        }
+        sortable.sort(function (a, b) {
+            return b[1] - a[1];
+        });
+        let sortedScores = {}
+        sortable.forEach(function (item) {
+            sortedScores[item[0]] = item[1]
+        })
+        return sortedScores
+    }
+
+    let addHint = function (hint) {
+        let playerHintsBox = document.getElementById("player-hints-id");
+        let div = document.createElement("div");
+        div.classList.add("alert")
+        div.classList.add("alert-success")
+        div.style.marginBottom = "0px";
+        div.textContent = `${hint["attribute"]}: ${hint["value"]}`
+        playerHintsBox.appendChild(div);
+    }
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+</html>
