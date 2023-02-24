@@ -96,7 +96,7 @@ io.on('connection', (socket) => {
         console.log("GUESS_RECEIVED arrived with data: ", JSON.stringify(data))
         let guessByUser = data["username"]
         let guess = data["guess"]
-        if (normalizeGuess(currentQuestion["name"]).includes(normalizeGuess(guess))){
+        if (normalizeAnswer(currentQuestion["name"]).includes(normalizeGuess(guess))){
             if (scores.hasOwnProperty(guessByUser)){
                 console.log(`player ${guessByUser} found on scores object. Current score: ${scores[guessByUser]}`)
                 scores[guessByUser]++;
@@ -127,6 +127,10 @@ server.listen(3000, () => {
     console.log('listening on *:3000');
 });
 
+function normalizeAnswer(answer){
+    return normalizeGuess(answer).split(" ")
+}
+
 function normalizeGuess(guess) {
     guess = guess.toLowerCase()
     guess = guess.replace("ç", "c")
@@ -142,47 +146,48 @@ function getRandomQuestion(){
     return data[randomIdx]
 }
 
-function countDownFrom(from, callback){
+function countDownFrom(from, callingFunction, onComplete){
     let countdownFrom = from;
     let countdownID = setInterval(function () {
-        io.emit("GAME_WILL_START_IN", countdownFrom)
+        callingFunction(countdownFrom)
         if (countdownFrom === 0){
             clearInterval(countdownID)
-            callback()
+            onComplete()
         }
         countdownFrom--;
     }, 1000)
 }
 
 function startGameLoop(onTimeout){
-    countDownFrom(10, function () {
+    countDownFrom(10, function(countdown){
+        io.emit("GAME_WILL_START_IN", countdown)
+    }, function () {
         isQuestionGuessed = false;
         currentQuestion = getRandomQuestion()
-        io.emit("FIRST_HINT_RECEIVED")
-        io.emit("HINT_RECEIVED", {attribute:"Uyruk", value: currentQuestion["nationality"]})
+        io.emit("FIRST_HINT_RECEIVED", {attribute:"Uyruk", value: currentQuestion["nationality"]})
         let firstHintID = setTimeout(function () {
-            io.emit("HINT_RECEIVED", {attribute:"Pozisyon", value: currentQuestion["pos"]})
+            io.emit("SECOND_HINT_RECEIVED", {attribute:"Pozisyon", value: currentQuestion["pos"]})
             let secondHintID = setTimeout(function () {
-                io.emit("HINT_RECEIVED", {attribute:"Takım", value: currentQuestion["team"]})
+                io.emit("THIRD_HINT_RECEIVED", {attribute:"Takım", value: currentQuestion["team"]})
                 let thirdHintID = setTimeout(function () {
-                    io.emit("HINT_RECEIVED", {attribute:"Yaş", value: currentQuestion["age"]})
+                    io.emit("FOURTH_HINT_RECEIVED", {attribute:"Yaş", value: currentQuestion["age"]})
                     let fourthHintID = setTimeout(function () {
-                        io.emit("HINT_RECEIVED", {attribute:"Numara", value: currentQuestion["num"]})
+                        io.emit("FIFTH_HINT_RECEIVED", {attribute:"Numara", value: currentQuestion["num"]})
                         let fifthHintID = setTimeout(function () {
                             onTimeout(currentQuestion["name"])
                             currentQuestionTimeoutIDs = []
                             startGameLoop(function (answer) {
                                 io.emit("QUESTION_COULD_NOT_GUESSED", answer)
                             })
-                        }, 2000)
+                        }, 10000)
                         currentQuestionTimeoutIDs.push(fifthHintID)
-                    }, 2000);
+                    }, 10000);
                     currentQuestionTimeoutIDs.push(fourthHintID)
-                }, 2000);
+                }, 10000);
                 currentQuestionTimeoutIDs.push(thirdHintID)
-            }, 2000);
+            }, 10000);
             currentQuestionTimeoutIDs.push(secondHintID)
-        }, 2000);
+        }, 10000);
         currentQuestionTimeoutIDs.push(firstHintID)
     })
 }

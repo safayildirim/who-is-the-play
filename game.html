@@ -16,22 +16,40 @@
             display: flex;
         }
 
-        .player-screen {
+        .main-container{
             width: 75%;
-            height: 500px;
-            border: 1px solid black;
             float: left;
+        }
+
+        .timer-wrapper{
+            margin: 0;
+            padding: 0;
+            background-color: #AD8B73;
+        }
+
+        .timer-text{
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 48px;
+            color: white;
+            margin: 0;
+        }
+
+        .player-screen {
+            height: 500px;
+            background-color: #FFFBE9;
         }
 
         .scoreboard-wrapper {
             width: 25%;
-            height: 500px;
-            background-color: gainsboro;
+            height: 558px;
+            background-color: #AD8B73;
         }
 
         .scoreboard-title {
             text-align: center;
             text-transform: uppercase;
+            color: white;
         }
 
         .user-hint-input-div {
@@ -56,11 +74,11 @@
             }
         }
 
-        .red-border{
+        .red-border {
             border: 3px solid red;
         }
 
-        .green-border{
+        .green-border {
             border: 3px solid lawngreen;
         }
 
@@ -69,8 +87,13 @@
 <body>
 <div class="wrapper">
     <div class="flex-container">
-        <div id="player-hints-id" class="player-screen">
+        <div class="main-container">
+            <div class="timer-wrapper">
+                <h1 id="timer-text-id" class="timer-text">10</h1>
+            </div>
+            <div id="player-hints-id" class="player-screen">
 
+            </div>
         </div>
         <div class="scoreboard-wrapper">
             <h2 class="scoreboard-title">Puan Durumu</h2>
@@ -99,10 +122,6 @@
             updateScoreboard(scores)
         });
 
-    socket.on("HINT_RECEIVED", function (hint) {
-        addHint(hint)
-    })
-
     socket.on("QUESTION_GUESSED", function () {
 
     })
@@ -114,11 +133,13 @@
     socket.on("GAME_WILL_START_IN", function (data) {
         let playerHintBox = document.getElementById("player-hints-id")
         playerHintBox.innerHTML = ""
+        playerHintBox.style.display = "flex"
+        playerHintBox.style.justifyContent = "center"
+        playerHintBox.style.alignItems = "center"
         let h3 = document.createElement("h3")
         h3.style.textTransform = "uppercase"
         h3.style.fontFamily = "Tahoma, sans-serif"
         h3.style.textAlign = "center"
-        h3.style.marginTop = "200px"
         h3.textContent = "OYUN BAŞLIYOR"
         let h1 = document.createElement("h1")
         h1.textContent = data
@@ -128,10 +149,52 @@
         playerHintBox.appendChild(h1)
     })
 
-    socket.on("FIRST_HINT_RECEIVED", function () {
+    socket.on("FIRST_HINT_RECEIVED", function (hint) {
         let playerHintBox = document.getElementById("player-hints-id")
         playerHintBox.innerHTML = ""
         document.getElementById("player-guess-button").disabled = false;
+        addHint(hint)
+        countDownFrom(9, function (currentTime){
+            document.getElementById("timer-text-id").innerText = currentTime
+        }, function () {
+
+        })
+    })
+
+    socket.on("SECOND_HINT_RECEIVED", function (hint) {
+        addHint(hint)
+        countDownFrom(9, function (currentTime){
+            document.getElementById("timer-text-id").innerText = currentTime
+        }, function () {
+
+        })
+    })
+
+    socket.on("THIRD_HINT_RECEIVED", function (hint) {
+        addHint(hint)
+        countDownFrom(9, function (currentTime){
+            document.getElementById("timer-text-id").innerText = currentTime
+        }, function () {
+
+        })
+    })
+
+    socket.on("FOURTH_HINT_RECEIVED", function (hint) {
+        addHint(hint)
+        countDownFrom(9, function (currentTime){
+            document.getElementById("timer-text-id").innerText = currentTime
+        }, function () {
+
+        })
+    })
+
+    socket.on("FIFTH_HINT_RECEIVED", function (hint) {
+        addHint(hint)
+        countDownFrom(9, function (currentTime){
+            document.getElementById("timer-text-id").innerText = currentTime
+        }, function () {
+
+        })
     })
 
     socket.on("QUESTION_GUESSED", function (data) {
@@ -224,6 +287,18 @@
         div.style.marginBottom = "0px";
         div.textContent = `${hint["attribute"]}: ${hint["value"]}`
         playerHintsBox.appendChild(div);
+    }
+
+    let countDownFrom = function (from, callingFunction, onComplete){
+        let countdownFrom = from;
+        let countdownID = setInterval(function () {
+            callingFunction(countdownFrom)
+            if (countdownFrom === 0){
+                clearInterval(countdownID)
+                onComplete()
+            }
+            countdownFrom--;
+        }, 1000)
     }
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
