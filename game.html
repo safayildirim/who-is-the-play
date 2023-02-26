@@ -16,18 +16,18 @@
             display: flex;
         }
 
-        .main-container{
+        .main-container {
             width: 75%;
             float: left;
         }
 
-        .timer-wrapper{
+        .timer-wrapper {
             margin: 0;
             padding: 0;
             background-color: #AD8B73;
         }
 
-        .timer-text{
+        .timer-text {
             text-align: center;
             text-transform: uppercase;
             font-size: 48px;
@@ -50,6 +50,8 @@
             text-align: center;
             text-transform: uppercase;
             color: white;
+            height: 57px;
+            margin: 0;
         }
 
         .user-hint-input-div {
@@ -82,6 +84,79 @@
             border: 3px solid lawngreen;
         }
 
+        .hint-boxes {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 40px;
+        }
+
+        .attribute-box {
+            width: 100px;
+            height: 100px;
+            border: 1px solid grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .arrow {
+            width: 30px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .answer-container {
+            width: 205px;
+            height: 205px;
+            border: 3px solid black;
+            margin: 30px auto 0;
+        }
+
+        .answer-image {
+            width: 200px;
+            height: 200px;
+            border: none;
+            outline: none;
+            padding: 15px;
+        }
+
+        .answer-text {
+            text-align: center;
+        }
+
+        .hint-box {
+            max-width: 100%;
+            max-height: 100%;
+            margin: 0 auto;
+        }
+
+        .pos-attribute {
+            font-size: 1.5em;
+        }
+
+        .age-attribute {
+            font-size: 60px;
+        }
+
+        .num-attribute {
+            font-size: 60px;
+        }
+
+        .hint-header-container {
+            text-align: center;
+            border-style: solid;
+            border-color: black;
+            border-width: 1px 1px 0 1px;
+            background-color: #CEAB93;
+            color: white;
+        }
+
+        .correct-guessed-text{
+            text-align: center;
+            height: 50px;
+            padding: 20px;
+        }
     </style>
 </head>
 <body>
@@ -91,15 +166,69 @@
             <div class="timer-wrapper">
                 <h1 id="timer-text-id" class="timer-text">10</h1>
             </div>
+
             <div id="player-hints-id" class="player-screen">
 
             </div>
+            <template id="t1">
+                <h2 id="correct-guessed-text-id" class="correct-guessed-text"></h2>
+                <div class="hint-boxes">
+                    <div>
+                        <div class="hint-header-container">
+                            Uyruk
+                        </div>
+                        <div id="nationality-container" class="attribute-box">
+                            <img id="nationality-img-id" class="hint-box">
+                        </div>
+                    </div>
+                    <img class="arrow" src="/images/line.png" alt="sağ-ok"/>
+                    <div>
+                        <div class="hint-header-container">
+                            Pozisyon
+                        </div>
+                        <div id="pos-container" class="attribute-box pos-attribute">
+
+                        </div>
+                    </div>
+                    <img class="arrow" src="/images/line.png" alt="sağ-ok"/>
+                    <div>
+                        <div class="hint-header-container">
+                            Takım
+                        </div>
+                        <div id="team-container" class="attribute-box">
+                            <img id="team-img-id" class="hint-box">
+                        </div>
+                    </div>
+                    <img class="arrow" src="/images/line.png" alt="sağ-ok"/>
+                    <div>
+                        <div class="hint-header-container">
+                            Yaş
+                        </div>
+                        <div id="age-container" class="attribute-box age-attribute">
+
+                        </div>
+                    </div>
+
+                    <img class="arrow" src="/images/line.png" alt="sağ-ok"/>
+                    <div>
+                        <div class="hint-header-container">
+                            Numara
+                        </div>
+                        <div id="num-container" class="attribute-box num-attribute">
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="answer-container">
+                    <img id="answer-image-id" class="answer-image" src="/images/question-mark.png"/>
+                </div>
+                <h2 id="player-name-id" class="answer-text">--------------</h2>
+            </template>
         </div>
         <div class="scoreboard-wrapper">
             <h2 class="scoreboard-title">Puan Durumu</h2>
-            <ul id="player-list" class="list-group">
-
-            </ul>
+            <ul id="player-list" class="list-group"></ul>
         </div>
     </div>
 
@@ -122,10 +251,6 @@
             updateScoreboard(scores)
         });
 
-    socket.on("QUESTION_GUESSED", function () {
-
-    })
-
     socket.on("SCOREBOARD_UPDATED", function (scores) {
         updateScoreboard(scores)
     })
@@ -136,25 +261,35 @@
         playerHintBox.style.display = "flex"
         playerHintBox.style.justifyContent = "center"
         playerHintBox.style.alignItems = "center"
+        playerHintBox.style.flexDirection = "column"
         let h3 = document.createElement("h3")
         h3.style.textTransform = "uppercase"
-        h3.style.fontFamily = "Tahoma, sans-serif"
         h3.style.textAlign = "center"
         h3.textContent = "OYUN BAŞLIYOR"
         let h1 = document.createElement("h1")
         h1.textContent = data
-        h1.style.fontFamily = "Tahoma, sans-serif"
         h1.style.textAlign = "center"
+        h1.style.fontSize = "4.5rem"
         playerHintBox.appendChild(h3)
         playerHintBox.appendChild(h1)
+        document.getElementById("answer-image-id").style.padding = "15px"
     })
 
     socket.on("FIRST_HINT_RECEIVED", function (hint) {
         let playerHintBox = document.getElementById("player-hints-id")
+        playerHintBox.style.display = "block"
         playerHintBox.innerHTML = ""
+        if ('content' in document.createElement('template')) {
+            const template = document.querySelector('#t1');
+            const clone = template.content.cloneNode(true);
+            playerHintBox.appendChild(clone)
+        } else {
+            alert("Tarayıcı template özelliğini desteklemiyor.")
+            return
+        }
         document.getElementById("player-guess-button").disabled = false;
         addHint(hint)
-        countDownFrom(9, function (currentTime){
+        countDownFrom(9, function (currentTime) {
             document.getElementById("timer-text-id").innerText = currentTime
         }, function () {
 
@@ -163,7 +298,7 @@
 
     socket.on("SECOND_HINT_RECEIVED", function (hint) {
         addHint(hint)
-        countDownFrom(9, function (currentTime){
+        countDownFrom(9, function (currentTime) {
             document.getElementById("timer-text-id").innerText = currentTime
         }, function () {
 
@@ -172,7 +307,7 @@
 
     socket.on("THIRD_HINT_RECEIVED", function (hint) {
         addHint(hint)
-        countDownFrom(9, function (currentTime){
+        countDownFrom(9, function (currentTime) {
             document.getElementById("timer-text-id").innerText = currentTime
         }, function () {
 
@@ -181,7 +316,7 @@
 
     socket.on("FOURTH_HINT_RECEIVED", function (hint) {
         addHint(hint)
-        countDownFrom(9, function (currentTime){
+        countDownFrom(9, function (currentTime) {
             document.getElementById("timer-text-id").innerText = currentTime
         }, function () {
 
@@ -190,7 +325,7 @@
 
     socket.on("FIFTH_HINT_RECEIVED", function (hint) {
         addHint(hint)
-        countDownFrom(9, function (currentTime){
+        countDownFrom(9, function (currentTime) {
             document.getElementById("timer-text-id").innerText = currentTime
         }, function () {
 
@@ -198,16 +333,10 @@
     })
 
     socket.on("QUESTION_GUESSED", function (data) {
-        let playerHintBox = document.getElementById("player-hints-id")
-        playerHintBox.innerHTML = ""
-        let div = document.createElement("div")
-        div.style.margin = "200px auto 0"
-        div.style.backgroundColor = "lawngreen"
-        let h2 = document.createElement("h2")
-        h2.style.textAlign = "center"
-        h2.textContent = `${data["guessedBy"]} doğru tahmin etti!!`
-        div.appendChild(h2)
-        playerHintBox.appendChild(div)
+        document.getElementById("correct-guessed-text-id").innerText = `${data["guessedBy"]} doğru tahmin etti!!`
+        document.getElementById("answer-image-id").style.padding = "0"
+        document.getElementById("answer-image-id").src = data["picture_path"]
+        document.getElementById("player-name-id").innerText = data["name"]
         document.getElementById("player-guess-button").disabled = true;
     })
 
@@ -224,16 +353,10 @@
         }
     })
 
-    socket.on("QUESTION_COULD_NOT_GUESSED", function (answer) {
-        let playerHintBox = document.getElementById("player-hints-id")
-        playerHintBox.innerHTML = ""
-        let h1 = document.createElement("h1")
-        h1.style.textTransform = "uppercase"
-        h1.style.fontFamily = "Tahoma, sans-serif"
-        h1.style.textAlign = "center"
-        h1.style.marginTop = "200px"
-        h1.appendChild(document.createTextNode(answer))
-        playerHintBox.appendChild(h1)
+    socket.on("QUESTION_COULD_NOT_GUESSED", function (data) {
+        document.getElementById("answer-image-id").style.padding = "0"
+        document.getElementById("answer-image-id").src = data["picture_path"]
+        document.getElementById("player-name-id").innerText = data["name"]
         document.getElementById("player-guess-button").disabled = true;
     })
 
@@ -280,20 +403,36 @@
     }
 
     let addHint = function (hint) {
-        let playerHintsBox = document.getElementById("player-hints-id");
-        let div = document.createElement("div");
-        div.classList.add("alert")
-        div.classList.add("alert-success")
-        div.style.marginBottom = "0px";
-        div.textContent = `${hint["attribute"]}: ${hint["value"]}`
-        playerHintsBox.appendChild(div);
+        let container = null
+        switch (hint["attribute"]) {
+            case "nationality":
+                container = document.getElementById("nationality-img-id")
+                container.src = "/images/country-flags/" + hint["value"] + ".png"
+                break
+            case "position":
+                container = document.getElementById("pos-container")
+                container.innerText = hint["value"]
+                break
+            case "team":
+                container = document.getElementById("team-img-id")
+                container.src = "/images/teams/super-lig/" + hint["value"] + ".png"
+                break
+            case "age":
+                container = document.getElementById("age-container")
+                container.innerText = hint["value"]
+                break
+            case "num":
+                container = document.getElementById("num-container")
+                container.innerText = hint["value"]
+                break
+        }
     }
 
-    let countDownFrom = function (from, callingFunction, onComplete){
+    let countDownFrom = function (from, callingFunction, onComplete) {
         let countdownFrom = from;
         let countdownID = setInterval(function () {
             callingFunction(countdownFrom)
-            if (countdownFrom === 0){
+            if (countdownFrom === 0) {
                 clearInterval(countdownID)
                 onComplete()
             }
