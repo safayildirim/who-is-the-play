@@ -251,6 +251,26 @@
             updateScoreboard(scores)
         });
 
+    window.onload = function (event) {
+        console.log("onload called")
+        fetch("/api/game/active").then(response => response.json())
+            .then((response) => {
+                console.log(response)
+                if (response["is_game_active"]){
+                    console.log("game is running")
+                    let playerHintBox = document.getElementById("player-hints-id")
+                    if ('content' in document.createElement('template')) {
+                        const template = document.querySelector('#t1');
+                        const clone = template.content.cloneNode(true);
+                        playerHintBox.appendChild(clone)
+                    } else {
+                        alert("Tarayıcı template özelliğini desteklemiyor.")
+                        return
+                    }
+                }
+            });
+    }
+
     socket.on("SCOREBOARD_UPDATED", function (scores) {
         updateScoreboard(scores)
     })
@@ -272,7 +292,6 @@
         h1.style.fontSize = "4.5rem"
         playerHintBox.appendChild(h3)
         playerHintBox.appendChild(h1)
-        document.getElementById("answer-image-id").style.padding = "15px"
     })
 
     socket.on("FIRST_HINT_RECEIVED", function (hint) {
@@ -283,6 +302,7 @@
             const template = document.querySelector('#t1');
             const clone = template.content.cloneNode(true);
             playerHintBox.appendChild(clone)
+            document.getElementById("answer-image-id").style.padding = "15px"
         } else {
             alert("Tarayıcı template özelliğini desteklemiyor.")
             return

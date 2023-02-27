@@ -115,11 +115,6 @@
     })
 
     socket.on("PLAYER_JOINED", function (player) {
-        if (player["username"] === currentUser){
-            if (player["role"] === "host"){
-
-            }
-        }
         console.log(`PLAYER_JOINED->username: ${player["username"]}->role:${player["role"]}->currentUser: ${currentUser}`)
         addUserToList(player["username"]);
         document.getElementById("user-joined-message").style.display = "block";
@@ -127,6 +122,19 @@
         if (localStorage.getItem("username") === player["username"]){
             localStorage.setItem("role", player["role"])
         }
+    })
+
+    socket.on("PLAYER_DISCONNECTED", function (username) {
+        removeUser(username)
+    })
+
+    socket.on("HOST_DISCONNECTED", function (){
+        let ul = document.getElementById("player-list");
+        ul.innerHTML = ""
+        currentUser = ""
+        localStorage.removeItem("username")
+        localStorage.removeItem("role")
+        isGameCreated = false
     })
 
     socket.on("GAME_STARTED", function (data) {
@@ -139,6 +147,16 @@
         li.classList.add("list-group-item")
         li.appendChild(document.createTextNode(username));
         ul.appendChild(li);
+    }
+
+    let removeUser = function (username){
+        console.log("user in local storage is: ", localStorage.getItem("username"))
+        let lis = document.querySelectorAll(".list-group-item");
+        for (let i = 0; i < lis.length; i++) {
+            if (lis[i].innerText === username){
+                document.getElementById("player-list").removeChild(lis[i])
+            }
+        }
     }
 </script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

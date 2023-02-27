@@ -17,7 +17,7 @@ let data = [
         "num": 25,
         "nationality": "turkey",
         "team": "adanademirspor",
-        "picture_path": ""
+        "picture_path": "/images/players/adanademirspor/ertac-ozbir.png"
     },
     {
         "name": "Goran Karacic",
@@ -26,7 +26,7 @@ let data = [
         "num": 18,
         "nationality": "bosnia-herzegovina",
         "team": "adanademirspor",
-        "picture_path": ""
+        "picture_path": "/images/players/adanademirspor/goran-karacic.png"
     },
     {
         "name": "Vedat Karakuş",
@@ -44,7 +44,7 @@ let data = [
         "num": 45,
         "nationality": "turkey",
         "team": "adanademirspor",
-        "picture_path": ""
+        "picture_path": "/images/players/adanademirspor/mert-cetin.png"
     },
     {
         "name": "Simon Deli",
@@ -71,7 +71,7 @@ let data = [
         "num": 15,
         "nationality": "north-macedonia",
         "team": "adanademirspor",
-        "picture_path": ""
+        "picture_path": "/images/players/adanademirspor/jovan-manev.png"
     },
     {
         "name": "Kévin Rodrigues",
@@ -80,7 +80,7 @@ let data = [
         "num": 77,
         "nationality": "portugal",
         "team": "adanademirspor",
-        "picture_path": ""
+        "picture_path": "/images/players/adanademirspor/kevin-rodrigues.png"
     },
     {
         "name": "Abdurrahim Dursun",
@@ -89,7 +89,7 @@ let data = [
         "num": 3,
         "nationality": "turkey",
         "team": "adanademirspor",
-        "picture_path": ""
+        "picture_path": "/images/players/adanademirspor/abdurrahim-dursun.png"
     },
     {
         "name": "Jonas Svensson",
@@ -116,7 +116,7 @@ let data = [
         "num": -1,
         "nationality": "paraguay",
         "team": "adanademirspor",
-        "picture_path": ""
+        "picture_path": "/images/players/adanademirspor/jorge-morel.png"
     },
     {
         "name": "Benjamin Stambouli",
@@ -143,7 +143,7 @@ let data = [
         "num": 17,
         "nationality": "turkey",
         "team": "adanademirspor",
-        "picture_path": ""
+        "picture_path": "/images/players/adanademirspor/badou-ndiaye.png"
     },
     {
         "name": "Furkan Soyalp",
@@ -152,7 +152,7 @@ let data = [
         "num": -1,
         "nationality": "turkey",
         "team": "adanademirspor",
-        "picture_path": ""
+        "picture_path": "/images/players/adanademirspor/furkan-soyalp.png"
     },
     {
         "name": "Mustafa Kapı",
@@ -164,7 +164,7 @@ let data = [
         "picture_path": "/images/players/adanademirspor/mustafa-kapi.png"
     },
     {
-        "name": "Younès Belhanda",
+        "name": "Younes Belhanda",
         "age": 33,
         "pos": "Ortasaha",
         "num": 10,
@@ -179,7 +179,7 @@ let data = [
         "num": 20,
         "nationality": "turkey",
         "team": "adanademirspor",
-        "picture_path": ""
+        "picture_path": "/images/players/adanademirspor/emre-akbaba.png"
     },
     {
         "name": "Birkir Bjarnason",
@@ -206,7 +206,7 @@ let data = [
         "num": 7,
         "nationality": "england",
         "team": "adanademirspor",
-        "picture_path": ""
+        "picture_path": "/images/players/adanademirspor/henry-onyekuru.png"
     },
     {
         "name": "Yusuf Erdoğan",
@@ -215,7 +215,7 @@ let data = [
         "num": 32,
         "nationality": "turkey",
         "team": "adanademirspor",
-        "picture_path": ""
+        "picture_path": "/images/players/adanademirspor/yusuf-erdogan.png"
     },
     {
         "name": "David Akintola",
@@ -233,16 +233,16 @@ let data = [
         "num": 26,
         "nationality": "turkey",
         "team": "adanademirspor",
-        "picture_path": ""
+        "picture_path": "/images/players/adanademirspor/yusuf-sari.png"
     },
     {
-        "name": "Salih Kavrazli",
+        "name": "Salih Kavrazlı",
         "age": 20,
         "pos": "Ortasaha",
         "num": 28,
         "nationality": "turkey",
         "team": "adanademirspor",
-        "picture_path": ""
+        "picture_path": "/images/players/adanademirspor/salih-kavrazli.png"
     },
     {
         "name": "Samuel Nongoh",
@@ -251,7 +251,7 @@ let data = [
         "num": 46,
         "nationality": "cameroon",
         "team": "adanademirspor",
-        "picture_path": ""
+        "picture_path": "/images/players/adanademirspor/samuel-nongoh.png"
     },
     {
         "name": "Fredrik Gulbrandsen",
@@ -260,7 +260,7 @@ let data = [
         "num": 23,
         "nationality": "norway",
         "team": "adanademirspor",
-        "picture_path": ""
+        "picture_path": "/images/players/adanademirspor/fredrik-gulbrandsen.png"
     },
     {
         "name": "Cherif Ndiaye",
@@ -269,7 +269,7 @@ let data = [
         "num": 29,
         "nationality": "senegal",
         "team": "adanademirspor",
-        "picture_path": ""
+        "picture_path": "/images/players/adanademirspor/cherif-ndiaye.png"
     },
 
 
@@ -308,7 +308,7 @@ let data = [
         "num": -1,
         "nationality": "morocco",
         "team": "alanyaspor",
-        "picture_path": ""
+        "picture_path": "/images/players/alanyaspor/zouhair-feddal.png"
     },
     {
         "name": "Furkan Bayır",
@@ -432,7 +432,7 @@ let data = [
         "age": 26,
         "pos": "Ortasaha",
         "num": 97,
-        "nationality": "congo",
+        "nationality": "congo-dc",
         "team": "alanyaspor",
         "picture_path": "/images/players/alanyaspor/arnaud-lusamba.PNG"
     },
@@ -515,7 +515,7 @@ let data = [
         "num": -1,
         "nationality": "greece",
         "team": "alanyaspor",
-        "picture_path": "g"
+        "picture_path": "/images/players/alanyaspor/efthymios-koulouris.png"
     },
     {
         "name": "Erencan Yardımcı",
@@ -644,7 +644,7 @@ let data = [
         "num": -1,
         "nationality": "turkey",
         "team": "antalyaspor",
-        "picture_path": ""
+        "picture_path": "/images/players/antalyaspor/berat-pinar.png"
     },
     {
         "name": "Bünyamin Balcı",
@@ -782,7 +782,7 @@ let data = [
         "picture_path": "/images/players/antalyaspor/alassane-ndao.png"
     },
     {
-        "name": "Sinan Gümüs",
+        "name": "Sinan Gümüş",
         "age": 29,
         "pos": "Ortasaha",
         "num": 77,
@@ -817,6 +817,7 @@ let data = [
         "team": "antalyaspor",
         "picture_path": "/images/players/antalyaspor/bertug-ozgur-yildirim.png"
     },
+
     //Beşiktaş
     {
         "name": "Ersin Destanoğlu",
@@ -864,7 +865,7 @@ let data = [
         "picture_path": "/images/players/besiktas/romain-saiss.png"
     },
     {
-        "name": "Tayyip Talha Sanuc",
+        "name": "Tayyip Talha Sanuç",
         "age": 23,
         "pos": "Defans",
         "num": 3,
@@ -895,12 +896,12 @@ let data = [
         "age": 29,
         "pos": "Defans",
         "num": 25,
-        "nationality": "congo",
+        "nationality": "congo-dc",
         "team": "besiktas",
         "picture_path": "/images/players/besiktas/arthur-masuaku.png"
     },
     {
-        "name": "Umut Meras",
+        "name": "Umut Meraş",
         "age": 27,
         "pos": "Defans",
         "num": 77,
@@ -924,7 +925,7 @@ let data = [
         "num": 4,
         "nationality": "turkey",
         "team": "besiktas",
-        "picture_path": ""
+        "picture_path": "/images/players/besiktas/onur-bulut.png"
     },
     {
         "name": "Tayfur Bingöl",
@@ -972,7 +973,7 @@ let data = [
         "picture_path": "/images/players/besiktas/gedson-carvalho-fernandes.png"
     },
     {
-        "name": "Salih Ucan",
+        "name": "Salih Uçan",
         "age": 29,
         "pos": "Ortasaha",
         "num": 8,
@@ -1005,7 +1006,7 @@ let data = [
         "num": -1,
         "nationality": "romania",
         "team": "besiktas",
-        "picture_path": ""
+        "picture_path": "/images/players/besiktas/alexandru-maxim.png"
     },
     {
         "name": "Nathan Redmond",
@@ -1017,7 +1018,7 @@ let data = [
         "picture_path": "/images/players/besiktas/nathan-redmond.png"
     },
     {
-        "name": "Georges-Kevin N'Koudou",
+        "name": "Georges-Kevin NKoudou",
         "age": 28,
         "pos": "Ortasaha",
         "num": 7,
@@ -1039,7 +1040,7 @@ let data = [
         "age": 23,
         "pos": "Ortasaha",
         "num": 40,
-        "nationality": "congo",
+        "nationality": "congo-dc",
         "team": "besiktas",
         "picture_path": "/images/players/besiktas/jackson-muleka.png"
     },
@@ -1061,6 +1062,7 @@ let data = [
         "team": "besiktas",
         "picture_path": "/images/players/besiktas/cenk-tosun.png"
     },
+
     //Fatih Karagümrük
     {
         "name": "Emiliano Viviano",
@@ -1072,7 +1074,7 @@ let data = [
         "picture_path": "/images/players/fatihkaragumruk/emiliano-viviano.png"
     },
     {
-        "name": "Batuhan Sen",
+        "name": "Batuhan Şen",
         "age": 24,
         "pos": "Kaleci",
         "num": 1,
@@ -1126,7 +1128,7 @@ let data = [
         "picture_path": "/images/players/fatihkaragumruk/rayyan-baniya.png"
     },
     {
-        "name": "Emir Tintis",
+        "name": "Emir Tintiş",
         "age": 19,
         "pos": "Defans",
         "num": 3,
@@ -1144,7 +1146,7 @@ let data = [
         "picture_path": "/images/players/fatihkaragumruk/salih-dursun.png"
     },
     {
-        "name": "Efecan Mizrakci",
+        "name": "Efecan Mızrakçı",
         "age": 19,
         "pos": "Defans",
         "num": 37,
@@ -1175,7 +1177,7 @@ let data = [
         "age": 26,
         "pos": "Ortasaha",
         "num": 29,
-        "nationality": "ozbekistan",
+        "nationality": "uzbekistan",
         "team": "fatihkaragumruk",
         "picture_path": "/images/players/fatihkaragumruk/otabek-shukurov.png"
     },
@@ -1267,7 +1269,7 @@ let data = [
         "num": 16,
         "nationality": "italy",
         "team": "fatihkaragumruk",
-        "picture_path": "/images/players/fatihkaragumruk/shoya-nakajima.png"
+        "picture_path": "/images/players/fatihkaragumruk/fabio-borini.png"
     },
     {
         "name": "Kerim Frei",
@@ -1395,7 +1397,7 @@ let data = [
         "num": 3,
         "nationality": "turkey",
         "team": "fenerbahce",
-        "picture_path": ""
+        "picture_path": "/images/players/fenerbahce/samed-akaydin.png"
     },
     {
         "name": "Serdar Aziz",
@@ -1422,7 +1424,7 @@ let data = [
         "num": 24,
         "nationality": "netherlands",
         "team": "fenerbahce",
-        "picture_path": ""
+        "picture_path": "/images/players/fenerbahce/jayden-oosterwolde.png"
     },
     {
         "name": "Ferdi Kadıoğlu",
@@ -1598,7 +1600,12 @@ let data = [
         "picture_path": "/images/players/galatasaray/okan-kocuk.png"
     },
     {
-        "name": "Jankat Yilmaz", "age": 18, "pos": "Kaleci", "num": 50, "nationality": "turkey", "team": "galatasaray",
+        "name": "Jankat Yilmaz",
+        "age": 18,
+        "pos": "Kaleci",
+        "num": 50,
+        "nationality": "turkey",
+        "team": "galatasaray",
         "picture_path": "/images/players/galatasaray/jankat-yilmaz.png"
     },
     {
@@ -1611,8 +1618,13 @@ let data = [
         "picture_path": "/images/players/galatasaray/victor-enok-nelsson.png"
     },
     {
-        "name": "Kaan Ayhan", "age": 28, "pos": "Defans", "num": 23, "nationality": "turkey", "team": "galatasaray",
-        "picture_path": ""
+        "name": "Kaan Ayhan",
+        "age": 28,
+        "pos": "Defans",
+        "num": 23,
+        "nationality": "turkey",
+        "team": "galatasaray",
+        "picture_path": "/images/players/galatasaray/kaan-ayhan.png"
     },
     {
         "name": "Abdülkerim Bardakçı",
@@ -1624,16 +1636,31 @@ let data = [
         "picture_path": "/images/players/galatasaray/abdülkerim-bardakci.png"
     },
     {
-        "name": "Mathias Ross", "age": 22, "pos": "Defans", "num": 4, "nationality": "denmark", "team": "galatasaray",
+        "name": "Mathias Ross",
+        "age": 22,
+        "pos": "Defans",
+        "num": 4,
+        "nationality": "denmark",
+        "team": "galatasaray",
         "picture_path": "/images/players/galatasaray/mathias-ross-jensen.png"
     },
     {
-        "name": "Emin Bayram", "age": 19, "pos": "Defans", "num": 40, "nationality": "turkey", "team": "galatasaray",
+        "name": "Emin Bayram",
+        "age": 19,
+        "pos": "Defans",
+        "num": 40,
+        "nationality": "turkey",
+        "team": "galatasaray",
         "picture_path": "/images/players/galatasaray/emin-bayram.png"
     },
     {
-        "name": "Sam Adekugbe", "age": 28, "pos": "Defans", "num": 32, "nationality": "canada", "team": "galatasaray",
-        "picture_path": ""
+        "name": "Sam Adekugbe",
+        "age": 28,
+        "pos": "Defans",
+        "num": 32,
+        "nationality": "canada",
+        "team": "galatasaray",
+        "picture_path": "/images/players/galatasaray/sam-adekugbe.png"
     },
     {
         "name": "Kazımcan Karataş",
@@ -1645,15 +1672,30 @@ let data = [
         "picture_path": "/images/players/galatasaray/kazımcan-karatas.png"
     },
     {
-        "name": "Emre Taşdemir", "age": 27, "pos": "Defans", "num": 13, "nationality": "turkey", "team": "galatasaray",
+        "name": "Emre Taşdemir",
+        "age": 27,
+        "pos": "Defans",
+        "num": 13,
+        "nationality": "turkey",
+        "team": "galatasaray",
         "picture_path": "/images/players/galatasaray/emre-tasdemir.png"
     },
     {
-        "name": "Sacha Boey", "age": 22, "pos": "Defans", "num": 93, "nationality": "france", "team": "galatasaray",
+        "name": "Sacha Boey",
+        "age": 22,
+        "pos": "Defans",
+        "num": 93,
+        "nationality": "france",
+        "team": "galatasaray",
         "picture_path": "/images/players/galatasaray/sacha-boey.png"
     },
     {
-        "name": "Léo Dubois", "age": 28, "pos": "Defans", "num": 2, "nationality": "france", "team": "galatasaray",
+        "name": "Leo Dubois",
+        "age": 28,
+        "pos": "Defans",
+        "num": 2,
+        "nationality": "france",
+        "team": "galatasaray",
         "picture_path": "/images/players/galatasaray/leo-dubois.png"
     },
     {
@@ -1675,7 +1717,7 @@ let data = [
         "picture_path": "/images/players/galatasaray/fredrik-midtsjo.png"
     },
     {
-        "name": "Sérgio Oliveira",
+        "name": "Sergio Oliveira",
         "age": 30,
         "pos": "Ortasaha",
         "num": 27,
@@ -1693,20 +1735,30 @@ let data = [
         "picture_path": "/images/players/galatasaray/berkan-kutlu.png"
     },
     {
-        "name": "Hamza Akman", "age": 18, "pos": "Ortasaha", "num": 81, "nationality": "turkey", "team": "galatasaray",
+        "name": "Hamza Yiğit Akman",
+        "age": 18,
+        "pos": "Ortasaha",
+        "num": 81,
+        "nationality": "turkey",
+        "team": "galatasaray",
         "picture_path": "/images/players/galatasaray/hamza-yigit-akman.png"
     },
     {
-        "name": "Nicolò Zaniolo",
+        "name": "Nicolo Zaniolo",
         "age": 23,
         "pos": "Ortasaha",
         "num": 17,
         "nationality": "turkey",
         "team": "galatasaray",
-        "picture_path": ""
+        "picture_path": "/images/players/galatasaray/nicolo-zaniolo.png"
     },
     {
-        "name": "Juan Mata", "age": 34, "pos": "Ortasaha", "num": 64, "nationality": "spain", "team": "galatasaray",
+        "name": "Juan Mata",
+        "age": 34,
+        "pos": "Ortasaha",
+        "num": 64,
+        "nationality": "spain",
+        "team": "galatasaray",
         "picture_path": "/images/players/galatasaray/juan-mata.png"
     },
     {
@@ -1764,11 +1816,16 @@ let data = [
         "picture_path": "/images/players/galatasaray/dries-mertens.png"
     },
     {
-        "name": "Mauro Icardi", "age": 30, "pos": "Forvet", "num": 99, "nationality": "uruguay", "team": "galatasaray",
+        "name": "Mauro Icardi",
+        "age": 30,
+        "pos": "Forvet",
+        "num": 99,
+        "nationality": "uruguay",
+        "team": "galatasaray",
         "picture_path": "/images/players/galatasaray/mauro-icardi.png"
     },
     {
-        "name": "Bafétimbi Gomis",
+        "name": "Bafetimbi Gomis",
         "age": 37,
         "pos": "Forvet",
         "num": 18,
@@ -1806,15 +1863,6 @@ let data = [
         "picture_path": "/images/players/gaziantepfk/matej-hanousek.png"
     },
     {
-        "name": "Attila Szalai",
-        "age": 25,
-        "pos": "Defans",
-        "num": 41,
-        "nationality": "hungary",
-        "team": "gaziantepfk",
-        "picture_path": "/images/players/gaziantepfk/attila-szalai.png"
-    },
-    {
         "name": "Stelios Kitsiou",
         "age": 29,
         "pos": "Defans",
@@ -1842,7 +1890,7 @@ let data = [
         "picture_path": "/images/players/gaziantepfk/marko-jevtovic.png"
     },
     {
-        "name": "Bahadir Gölgeli",
+        "name": "Bahadır Gölgeli",
         "age": 19,
         "pos": "Ortasaha",
         "num": 91,
@@ -1855,12 +1903,12 @@ let data = [
         "age": 31,
         "pos": "Ortasaha",
         "num": 52,
-        "nationality": "kazakhistan",
+        "nationality": "kazakhstan",
         "team": "gaziantepfk",
         "picture_path": "/images/players/gaziantepfk/alexander-merkel.png"
     },
     {
-        "name": "Onurhan Babuscu",
+        "name": "Onurhan Babuşçu",
         "age": 19,
         "pos": "Ortasaha",
         "num": 30,
@@ -1935,7 +1983,7 @@ let data = [
         "picture_path": "/images/players/giresunspor/alexis-perez.png"
     },
     {
-        "name": "Ramón Arias",
+        "name": "Ramon Arias",
         "age": 30,
         "pos": "Defans",
         "num": 21,
@@ -2034,7 +2082,7 @@ let data = [
         "picture_path": "/images/players/giresunspor/vukan-savicevic.png"
     },
     {
-        "name": "Murat Cem Akpinar",
+        "name": "Murat Cem Akpınar",
         "age": 24,
         "pos": "Ortasaha",
         "num": 22,
@@ -2052,7 +2100,7 @@ let data = [
         "picture_path": "/images/players/giresunspor/rahmetullah-berisbek.png"
     },
     {
-        "name": "Dogan Can Davas",
+        "name": "Doğan Can Davas",
         "age": 25,
         "pos": "Ortasaha",
         "num": 17,
@@ -2117,7 +2165,7 @@ let data = [
 
     //Hatayspor
     {
-        "name": "Erce Kardesler",
+        "name": "Erce Kardeşler",
         "age": 28,
         "pos": "Kaleci",
         "num": 1,
@@ -2126,7 +2174,7 @@ let data = [
         "picture_path": "/images/players/hatayspor/erce-kardeşler.png"
     },
     {
-        "name": "Yavuz Bugra Boyar",
+        "name": "Yavuz Buğra Boyar",
         "age": 24,
         "pos": "Kaleci",
         "num": 33,
@@ -2533,7 +2581,7 @@ let data = [
         "picture_path": "/images/players/istanbulbasaksehirfk/patryk-szysz.jpg"
     },
     {
-        "name": "João Figueiredo",
+        "name": "Joao Figueiredo",
         "age": 26,
         "pos": "Forvet",
         "num": 25,
@@ -2613,7 +2661,7 @@ let data = [
         "num": 67,
         "nationality": "turkey",
         "team": "kasimpasa",
-        "picture_path": ""
+        "picture_path": "/images/players/kasimpasa/enes-sari.png"
     },
     {
         "name": "Daniel Graovac",
@@ -2631,7 +2679,7 @@ let data = [
         "num": -1,
         "nationality": "senegal",
         "team": "kasimpasa",
-        "picture_path": ""
+        "picture_path": "/images/players/kasimpasa/papy-djilobodji.png"
     },
     {
         "name": "Leonardo Duarte",
@@ -2652,7 +2700,7 @@ let data = [
         "picture_path": "/images/players/kasimpasa/tarkan-serbest.png"
     },
     {
-        "name": "Sadik Çiftpınar",
+        "name": "Sadık Çiftpınar",
         "age": 30,
         "pos": "Defans",
         "num": 18,
@@ -2677,15 +2725,6 @@ let data = [
         "nationality": "surinam",
         "team": "kasimpasa",
         "picture_path": "/images/players/kasimpasa/ryan-donk.png"
-    },
-    {
-        "name": "Caner Erkin",
-        "age": 34,
-        "pos": "Defans",
-        "num": 88,
-        "nationality": "turkey",
-        "team": "kasimpasa",
-        "picture_path": "/images/players/kasimpasa/caner-erkin.jpg"
     },
     {
         "name": "Yasin Özcan",
@@ -2758,15 +2797,6 @@ let data = [
         "nationality": "turkey",
         "team": "kasimpasa",
         "picture_path": "/images/players/kasimpasa/turgay-gemicibasi.png"
-    },
-    {
-        "name": "Danijel Aleksic",
-        "age": 31,
-        "pos": "Ortasaha",
-        "num": 8,
-        "nationality": "serbia",
-        "team": "kasimpasa",
-        "picture_path": "/images/players/kasimpasa/danijel-aleksic.jpg"
     },
     {
         "name": "Mickael Tırpan",
@@ -2916,7 +2946,7 @@ let data = [
         "picture_path": "/images/players/kayserispor/cenk-gonen.png"
     },
     {
-        "name": "Abdulkadir Tasdan",
+        "name": "Abdulkadir Taşdan",
         "age": 19,
         "pos": "Kaleci",
         "num": 12,
@@ -3457,7 +3487,7 @@ let data = [
         "num": -1,
         "nationality": "turkey",
         "team": "mke-ankaragucu",
-        "picture_path": ""
+        "picture_path": "/images/players/mke-ankaragucu/arda-kizildag.png"
     },
     {
         "name": "Marlon Xavier",
@@ -3493,7 +3523,7 @@ let data = [
         "num": -1,
         "nationality": "turkey",
         "team": "mke-ankaragucu",
-        "picture_path": ""
+        "picture_path": "/images/players/mke-ankaragucu/enock-kwateng.png"
     },
     {
         "name": "Kevin Malcuit",
@@ -3529,7 +3559,7 @@ let data = [
         "num": 16,
         "nationality": "bosnia-herzegovina",
         "team": "mke-ankaragucu",
-        "picture_path": ""
+        "picture_path": "/images/players/mke-ankaragucu/andrej-djokanovic.png"
     },
     {
         "name": "Taylan Antalyalı",
@@ -3556,7 +3586,7 @@ let data = [
         "num": -1,
         "nationality": "turkey",
         "team": "mke-ankaragucu",
-        "picture_path": ""
+        "picture_path": "/images/players/mke-ankaragucu/ender-aygoren.png"
     },
     {
         "name": "Ghayas Zahid",
@@ -3574,7 +3604,7 @@ let data = [
         "num": -1,
         "nationality": "angola",
         "team": "mke-ankaragucu",
-        "picture_path": ""
+        "picture_path": "/images/players/mke-ankaragucu/milson.png"
     },
     {
         "name": "Giorgi Beridze",
@@ -3619,7 +3649,7 @@ let data = [
         "num": -1,
         "nationality": "senegal",
         "team": "mke-ankaragucu",
-        "picture_path": ""
+        "picture_path": "/images/players/mke-ankaragucu/muhammed-yasir-karabay.png"
     },
     {
         "name": "Ali Sowe",
@@ -3637,16 +3667,16 @@ let data = [
         "num": 29,
         "nationality": "congo",
         "team": "mke-ankaragucu",
-        "picture_path": ""
+        "picture_path": "/images/players/mke-ankaragucu/bevic-moussiti-oko.png"
     },
     {
-        "name": "Sitki Ferdi Imdat",
+        "name": "Sıtkı Ferdi İmdat",
         "age": 21,
         "pos": "Forvet",
         "num": 80,
         "nationality": "turkey",
         "team": "mke-ankaragucu",
-        "picture_path": ""
+        "picture_path": "/images/players/mke-ankaragucu/sitki-ferdi-imdat.png"
     },
 
     //Sivasspor
@@ -3675,7 +3705,7 @@ let data = [
         "num": 16,
         "nationality": "turkey",
         "team": "sivasspor",
-        "picture_path": ""
+        "picture_path": "/images/players/sivasspor/baver-kuckar.png"
     },
     {
         "name": "Emre Satılmış",
@@ -4255,7 +4285,7 @@ let data = [
         "num": 72,
         "nationality": "turkey",
         "team": "trabzonspor",
-        "picture_path": ""
+        "picture_path": "/images/players/trabzonspor/arif-bosluk.png"
     },
     {
         "name": "Jens Stryger Larsen",
@@ -4336,7 +4366,7 @@ let data = [
         "num": -1,
         "nationality": "turkey",
         "team": "trabzonspor",
-        "picture_path": ""
+        "picture_path": "/images/players/trabzonspor/abdulkadir-parmak.png"
     },
     {
         "name": "Yusuf Yazıcı",
@@ -4408,7 +4438,7 @@ let data = [
         "num": 50,
         "nationality": "netherlands",
         "team": "trabzonspor",
-        "picture_path": ""
+        "picture_path": "/images/players/trabzonspor/lazar-markovic.png"
     },
     {
         "name": "Montasser Lahtimi",
@@ -4452,6 +4482,19 @@ app.get('/game', (req, res) => {
     res.sendFile(__dirname + '/game.html');
 });
 
+app.get('/api/game/active', (req, res) => {
+    if(currentQuestion != null || currentQuestion !== undefined){
+        res.json({"is_game_active":true})
+    } else {
+        res.send({"is_game_active":false})
+    }
+});
+
+app.delete('/game', (req, res) => {
+    resetGame()
+    res.sendStatus(204)
+});
+
 app.get("/players", (req, res) => {
     let playerUsernames = playerList.map(value => {
             return {"username": value["username"], "role": value["role"]}
@@ -4462,14 +4505,15 @@ app.get("/players", (req, res) => {
 })
 
 app.get("/scores", (req, res) => {
+    console.log("get scores called. Current table is: ", scores)
     res.json(scores)
 })
 
 
 io.on('connection', (socket) => {
-    console.log('a user connected');
+    console.log(`a user connected. socket_id: ${socket.id}`);
     socket.on('disconnect', () => {
-        console.log('user disconnected');
+        console.log(`user disconnected. socket_id: ${socket.id}`);
     });
 
     socket.on("PLAYER_JOIN_REQUEST_RECEIVED", function (username) {
@@ -4479,7 +4523,7 @@ io.on('connection', (socket) => {
         else {
             io.emit("GAME_CREATED", username)
         }
-        playerList.push({"socket": socket, "username": username, "role": role})
+        playerList.push({"socket_id":socket.id, "socket": socket, "username": username, "role": role})
         scores[username] = 0
         io.emit("PLAYER_JOINED", {"username": username, "role": role})
     })
@@ -4510,10 +4554,7 @@ io.on('connection', (socket) => {
                 "name": currentQuestion["name"],
                 "picture_path": currentQuestion["picture_path"]
             })
-            for (let timeout of currentQuestionTimeoutIDs) {
-                clearTimeout(timeout)
-            }
-            currentQuestionTimeoutIDs = []
+            clearTimeouts()
             setTimeout(function () {
                 startGameLoop(function (answer, picturePath) {
                     io.emit("QUESTION_COULD_NOT_GUESSED", {"name": answer, "picture_path": picturePath})
@@ -4531,6 +4572,30 @@ const port = parseInt(process.env.PORT) || 8080;
 server.listen(port, () => {
     console.log(`listening on *:${port}`);
 });
+
+function getPlayerBySocketID(socketID){
+    for (let player of playerList){
+        if (player["socket_id"] === socketID){
+            return player
+        }
+    }
+    return null
+}
+
+function resetGame(){
+    playerList = []
+    scores = {}
+    currentQuestion = null
+    isQuestionGuessed = false
+    clearTimeouts()
+}
+
+function clearTimeouts(){
+    for (let timeout of currentQuestionTimeoutIDs) {
+        clearTimeout(timeout)
+    }
+    currentQuestionTimeoutIDs = []
+}
 
 function normalizeAnswer(answer) {
     return normalizeGuess(answer).split(" ")
