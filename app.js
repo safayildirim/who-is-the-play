@@ -4526,8 +4526,10 @@ io.on('connection', (socket) => {
     })
 });
 
-server.listen(3000, () => {
-    console.log('listening on *:3000');
+const port = parseInt(process.env.PORT) || 8080;
+
+server.listen(port, () => {
+    console.log(`listening on *:${port}`);
 });
 
 function normalizeAnswer(answer) {
