@@ -4,9 +4,6 @@ console.log(currentUser)
 
 let currentTimeoutIDs= []
 
-
-
-
 window.onload = function (event) {
     console.log("onload called")
     fetch("/scores").then(response => response.json())
@@ -116,10 +113,30 @@ socket.on("FIFTH_HINT_RECEIVED", function (hint) {
 
 socket.on("QUESTION_GUESSED", function (data) {
     clearTimeouts()
-    document.getElementById("correct-guessed-text-id").innerText = `${data["guessedBy"]} doğru tahmin etti!!`
-    document.getElementById("answer-image-id").style.padding = "0"
-    document.getElementById("answer-image-id").src = data["picture_path"]
-    document.getElementById("player-name-id").innerText = data["name"]
+    let playerHintsDiv = document.getElementById("player-hints-id")
+    playerHintsDiv.innerHTML = ""
+    let outerDiv = document.createElement("div")
+    outerDiv.style.display = "flex"
+    outerDiv.style.flexDirection = "column"
+    outerDiv.style.justifyContent ="center"
+    outerDiv.style.alignItems = "center"
+    let h2 = document.createElement("h2")
+    h2.style.textTransform = "uppercase"
+    h2.appendChild(document.createTextNode(`${data["guessedBy"]} doğru tahmin etti!!`))
+    let div = document.createElement("div")
+    let img = document.createElement("img")
+    img.style.display = "block"
+    img.style.width = "100px"
+    img.style.height = "100px"
+    img.style.margin = "0 auto"
+    img.src = data["picture_path"]
+    let h3 = document.createElement("h3")
+    h2.appendChild(document.createTextNode(data["name"]))
+    div.appendChild(img)
+    div.appendChild(h3)
+    outerDiv.appendChild(h2)
+    outerDiv.appendChild(div)
+    playerHintsDiv.appendChild(outerDiv)
     document.getElementById("player-guess-button").disabled = true;
 })
 
