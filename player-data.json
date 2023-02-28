@@ -330,7 +330,7 @@
     "num": 29,
     "nationality": "slovenia",
     "team": "alanyaspor",
-    "picture_path": "/images/players/alanyaspor/welinton-souza-silva.png"
+    "picture_path": "/images/players/alanyaspor/jure-balkovec.PNG"
   },
   {
     "name": "Yusuf Özdemir",
@@ -2644,15 +2644,6 @@
     "nationality": "senegal",
     "team": "kasimpasa",
     "picture_path": "/images/players/kasimpasa/papy-djilobodji.png"
-  },
-  {
-    "name": "Leonardo Duarte",
-    "age": 26,
-    "pos": "Defans",
-    "num": 5,
-    "nationality": "brazil",
-    "team": "kasimpasa",
-    "picture_path": "/images/players/kasimpasa/leonardo-duarte.jpg"
   },
   {
     "name": "Tarkan Serbest",
