@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        .wrapper {
+            width: 1080px;
+            margin: 0 auto;
+            padding: 25px;
+        }
+
+        .flex-container {
+            display: flex;
+        }
+
+        .main-container {
+            width: 100%;
+            float: left;
+        }
+
+        .timer-wrapper {
+            margin: 0;
+            padding: 0;
+            background-color: #AD8B73;
+        }
+
+        .timer-text {
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 48px;
+            color: white;
+            margin: 0;
+        }
+
+        .player-screen {
+            background-color: #FFFBE9;
+        }
+
+        .scoreboard-wrapper {
+            width: 100%;
+            height: 70px;
+            background-color: #AD8B73;
+            border-bottom: 1px solid #FFFBE9;
+        }
+
+        .scoreboard-ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: 0 auto;
+            height: 100%;
+        }
+
+        .scoreboard-li {
+            float: left;
+            list-style-type: none;
+            margin-right: 10px;
+        }
+
+        .player-username-header {
+            color: white;
+            text-align: center;
+            border-bottom: 1px solid #FFFBE9;
+        }
+
+        .player-score-text {
+            color: white;
+            text-align: center;
+        }
+
+        .user-hint-input-div {
+            width: 100%;
+        }
+
+        .shake {
+            animation-name: shake;
+            animation-duration: 0.5s;
+            animation-fill-mode: both;
+        }
+
+        @keyframes shake {
+            0%, 100% {
+                transform: translateX(0);
+            }
+            10%, 30%, 50%, 70%, 90% {
+                transform: translateX(-5px);
+            }
+            20%, 40%, 60%, 80% {
+                transform: translateX(5px);
+            }
+        }
+
+        .red-border {
+            border: 3px solid red;
+        }
+
+        .green-border {
+            border: 3px solid lawngreen;
+        }
+
+        .hint-boxes {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .attribute-box {
+            width: 80px;
+            height: 80px;
+            border: 1px solid grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .arrow {
+            width: 30px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .answer-container {
+            width: 100px;
+            height: 100px;
+            border: 3px solid black;
+            margin-bottom: 60px;
+        }
+
+        .answer-image {
+            width: 100px;
+            height: 100px;
+            border: none;
+            outline: none;
+            padding: 15px;
+        }
+
+        .answer-text {
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .hint-box {
+            max-width: 100%;
+            max-height: 100%;
+            margin: 0 auto;
+        }
+
+        .pos-attribute {
+            font-size: 1em;
+        }
+
+        .age-attribute {
+            font-size: 60px;
+        }
+
+        .num-attribute {
+            font-size: 60px;
+        }
+
+        .hint-header-container {
+            text-align: center;
+            border-style: solid;
+            border-color: black;
+            border-width: 1px 1px 0 1px;
+            background-color: #CEAB93;
+            color: white;
+        }
+
+        .correct-guessed-text {
+            text-align: center;
+            height: 50px;
+            padding: 20px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="flex-container">
+        <div class="main-container">
+            <div class="scoreboard-wrapper">
+                <ul id="player-list" class="list-group scoreboard-ul"></ul>
+            </div>
+
+            <div class="timer-wrapper">
+                <h1 id="timer-text-id" class="timer-text">10</h1>
+            </div>
+
+            <div id="player-hints-id" class="player-screen">
+            </div>
+            <template id="t1">
+                <div class="hint-boxes">
+                    <div class="row">
+                        <div>
+                            <div class="hint-header-container">
+                                Uyruk
+                            </div>
+                            <div id="nationality-container" class="attribute-box">
+                                <img id="nationality-img-id" class="hint-box">
+                            </div>
+                        </div>
+                        <img class="arrow" src="/images/line.png" alt="sağ-ok"/>
+                        <div>
+                            <div class="hint-header-container">
+                                Pozisyon
+                            </div>
+                            <div id="pos-container" class="attribute-box pos-attribute">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3 mt-3">
+                        <div class="col">
+                            <div class="hint-header-container c">
+                                Takım
+                            </div>
+                            <div id="team-container" class="attribute-box">
+                                <img id="team-img-id" class="hint-box">
+                            </div>
+                        </div>
+                        <div class="answer-container" style="margin-right: 10px; margin-left: 10px">
+                            <img id="answer-image-id" class="answer-image" src="/images/question-mark.png"/>
+                            <h2 id="player-name-id" class="answer-text">------</h2>
+                        </div>
+                        <div class="col">
+                            <div class="hint-header-container">
+                                Takım
+                            </div>
+                            <div id="team2-container" class="attribute-box">
+                                <img id="team2-img-id" class="hint-box">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <div class="hint-header-container">
+                                Yaş
+                            </div>
+                            <div id="age-container" class="attribute-box age-attribute">
+
+                            </div>
+                        </div>
+
+                        <img class="arrow" src="/images/line.png" alt="sağ-ok"/>
+                        <div>
+                            <div class="hint-header-container">
+                                Numara
+                            </div>
+                            <div id="num-container" class="attribute-box num-attribute">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </template>
+        </div>
+
+    </div>
+
+    <div class="input-group mb-3 user-hint-input-div">
+        <input id="user-guess-input" type="text" class="form-control" placeholder="Tahminin..."
+               aria-label="Recipient's username" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+            <button id="player-guess-button" class="btn btn-primary" type="button" disabled>Gönder</button>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+<script src="/scripts/client.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+</html>

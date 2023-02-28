@@ -21,7 +21,12 @@ app.get('/', (req, res) => {
 });
 
 app.get('/game', (req, res) => {
-    res.sendFile(__dirname + '/game.html');
+    console.log("Device: ", req.header('user-agent'))
+    if (req.header('user-agent').indexOf('Mobile') !== -1) {
+        res.sendFile(__dirname + '/game-mobile.html');
+    } else {
+        res.sendFile(__dirname + '/game.html');
+    }
 });
 
 app.get('/api/game/active', (req, res) => {
