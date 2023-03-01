@@ -173,9 +173,71 @@
         }
 
         .correct-guessed-text {
+            text-transform: uppercase;
+        }
+
+        .correct-guessed-answer-img{
+            display: block;
+            width: 200px;
+            height: 200px;
+            margin: 0 auto;
+        }
+
+        .correct-guessed-answer-text{
             text-align: center;
-            height: 50px;
-            padding: 20px;
+        }
+
+        @media screen and (max-width: 360px) {
+            .attribute-box {
+                width: 70px;
+                height: 70px;
+            }
+
+            .hint-header-container {
+                font-size: 0.8em;
+            }
+
+            .arrow {
+                width: 20px;
+            }
+
+            .correct-guessed-text{
+                font-size: 20px;
+            }
+
+            .correct-guessed-answer-text{
+                font-size: 18px;
+                text-align: center;
+            }
+        }
+
+        @media screen and (max-width: 320px) {
+            .attribute-box {
+                width: 60px;
+                height: 60px;
+            }
+
+            .hint-header-container {
+                font-size: 0.8em;
+            }
+
+            .arrow {
+                width: 20px;
+            }
+
+            .correct-guessed-text{
+                font-size: 18px;
+            }
+
+            .correct-guessed-answer-text{
+                font-size: 16px;
+                text-align: center;
+            }
+
+            .correct-guessed-answer-img{
+                width: 150px;
+                height: 150px;
+            }
         }
 
     </style>
@@ -194,6 +256,7 @@
 
             <div id="player-hints-id" class="player-screen">
             </div>
+
             <template id="t1">
                 <div class="hint-boxes">
                     <div class="row">
@@ -217,29 +280,24 @@
                     </div>
 
                     <div class="row mb-3 mt-3">
-                        <div class="col">
-                            <div class="hint-header-container c">
+
+                        <div class="answer-container">
+                            <img id="answer-image-id" class="answer-image" src="/images/question-mark.png"/>
+                            <h2 id="player-name-id" class="answer-text">------</h2>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <div class="hint-header-container">
                                 Takım
                             </div>
                             <div id="team-container" class="attribute-box">
                                 <img id="team-img-id" class="hint-box">
                             </div>
                         </div>
-                        <div class="answer-container" style="margin-right: 10px; margin-left: 10px">
-                            <img id="answer-image-id" class="answer-image" src="/images/question-mark.png"/>
-                            <h2 id="player-name-id" class="answer-text">------</h2>
-                        </div>
-                        <div class="col">
-                            <div class="hint-header-container">
-                                Takım
-                            </div>
-                            <div id="team2-container" class="attribute-box">
-                                <img id="team2-img-id" class="hint-box">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
+                        <img class="arrow" src="/images/line.png" alt="sağ-ok"/>
                         <div>
                             <div class="hint-header-container">
                                 Yaş
@@ -248,7 +306,6 @@
 
                             </div>
                         </div>
-
                         <img class="arrow" src="/images/line.png" alt="sağ-ok"/>
                         <div>
                             <div class="hint-header-container">
@@ -261,6 +318,7 @@
                     </div>
                 </div>
             </template>
+
         </div>
 
     </div>

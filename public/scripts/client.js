@@ -120,21 +120,19 @@ socket.on("QUESTION_GUESSED", function (data) {
     outerDiv.style.flexDirection = "column"
     outerDiv.style.justifyContent ="center"
     outerDiv.style.alignItems = "center"
-    let h2 = document.createElement("h2")
-    h2.style.textTransform = "uppercase"
-    h2.appendChild(document.createTextNode(`${data["guessedBy"]} doğru tahmin etti!!`))
+    let h4 = document.createElement("h4")
+    h4.classList.add("correct-guessed-text")
+    h4.appendChild(document.createTextNode(`${data["guessedBy"]} doğru tahmin etti!!`))
     let div = document.createElement("div")
     let img = document.createElement("img")
-    img.style.display = "block"
-    img.style.width = "100px"
-    img.style.height = "100px"
-    img.style.margin = "0 auto"
+    img.classList.add("correct-guessed-answer-img")
     img.src = data["picture_path"]
-    let h3 = document.createElement("h3")
-    h2.appendChild(document.createTextNode(data["name"]))
+    let h5 = document.createElement("h5")
+    h5.classList.add("correct-guessed-answer-text")
+    h5.appendChild(document.createTextNode(data["name"]))
     div.appendChild(img)
-    div.appendChild(h3)
-    outerDiv.appendChild(h2)
+    div.appendChild(h5)
+    outerDiv.appendChild(h4)
     outerDiv.appendChild(div)
     playerHintsDiv.appendChild(outerDiv)
     document.getElementById("player-guess-button").disabled = true;
