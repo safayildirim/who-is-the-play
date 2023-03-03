@@ -81,6 +81,7 @@ socket.on("FIRST_HINT_RECEIVED", function (hint) {
 
 socket.on("SECOND_HINT_RECEIVED", function (hint) {
     addHint(hint)
+    clearTimeouts()
     countDownFrom(4, function (currentTime) {
         document.getElementById("timer-text-id").innerText = currentTime
     }, function () {
@@ -90,6 +91,7 @@ socket.on("SECOND_HINT_RECEIVED", function (hint) {
 
 socket.on("THIRD_HINT_RECEIVED", function (hint) {
     addHint(hint)
+    clearTimeouts()
     countDownFrom(4, function (currentTime) {
         document.getElementById("timer-text-id").innerText = currentTime
     }, function () {
@@ -99,6 +101,7 @@ socket.on("THIRD_HINT_RECEIVED", function (hint) {
 
 socket.on("FOURTH_HINT_RECEIVED", function (hint) {
     addHint(hint)
+    clearTimeouts()
     countDownFrom(4, function (currentTime) {
         document.getElementById("timer-text-id").innerText = currentTime
     }, function () {
@@ -108,7 +111,8 @@ socket.on("FOURTH_HINT_RECEIVED", function (hint) {
 
 socket.on("FIFTH_HINT_RECEIVED", function (hint) {
     addHint(hint)
-    countDownFrom(4, function (currentTime) {
+    clearTimeouts()
+    countDownFrom(9, function (currentTime) {
         document.getElementById("timer-text-id").innerText = currentTime
     }, function () {
 
@@ -159,10 +163,10 @@ socket.on("WRONG_GUESS_RECEIVED", function (username) {
 socket.on("QUESTION_COULD_NOT_GUESSED", function (data) {
     clearTimeouts()
     remainingGuess = 3
+    document.getElementById("player-guess-button").disabled = true;
     document.getElementById("answer-image-id").style.padding = "0"
     document.getElementById("answer-image-id").src = data["picture_path"]
     document.getElementById("player-name-id").innerText = data["name"]
-    document.getElementById("player-guess-button").disabled = true;
 })
 
 document.getElementById("player-guess-button").addEventListener("click", function () {
@@ -243,7 +247,8 @@ let countDownFrom = function (from, callingFunction, onComplete) {
     let countdownFrom = from;
     let countdownID = setInterval(function () {
         callingFunction(countdownFrom)
-        if (countdownFrom === 0) {
+        console.log(countdownFrom)
+        if (countdownFrom < 0) {
             clearInterval(countdownID)
             onComplete()
         }

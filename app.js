@@ -196,7 +196,7 @@ function countDownFrom(from, callingFunction, onComplete) {
 }
 
 function startGameLoop(onTimeout) {
-    countDownFrom(5, function (countdown) {
+    countDownFrom(3, function (countdown) {
         io.emit("GAME_WILL_START_IN", countdown)
     }, function () {
         isQuestionGuessed = false;
@@ -220,15 +220,15 @@ function startGameLoop(onTimeout) {
                             setTimeout(function () {
                                 startGameLoop(onTimeout)
                             }, 5000)
-                        }, 5000)
+                        }, 11000)
                         currentQuestionTimeoutIDs.push(fifthHintID)
-                    }, 5000);
+                    }, 6000);
                     currentQuestionTimeoutIDs.push(fourthHintID)
-                }, 5000);
+                }, 6000);
                 currentQuestionTimeoutIDs.push(thirdHintID)
-            }, 5000);
+            }, 6000);
             currentQuestionTimeoutIDs.push(secondHintID)
-        }, 5000);
+        }, 6000);
         currentQuestionTimeoutIDs.push(firstHintID)
     })
 }
