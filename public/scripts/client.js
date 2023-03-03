@@ -247,7 +247,6 @@ let countDownFrom = function (from, callingFunction, onComplete) {
     let countdownFrom = from;
     let countdownID = setInterval(function () {
         callingFunction(countdownFrom)
-        console.log(countdownFrom)
         if (countdownFrom < 0) {
             clearInterval(countdownID)
             onComplete()
