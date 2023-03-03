@@ -200,6 +200,9 @@ function startGameLoop(onTimeout) {
         io.emit("GAME_WILL_START_IN", countdown)
     }, function () {
         isQuestionGuessed = false;
+        for(const key in playerRemainingGuesses){
+           playerRemainingGuesses[key] = 3;
+        }
         currentQuestion = getRandomQuestion()
         io.emit("FIRST_HINT_RECEIVED", {attribute: "nationality", value: currentQuestion["nationality"]})
         let firstHintID = setTimeout(function () {
