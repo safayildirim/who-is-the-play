@@ -8,6 +8,7 @@ const server = http.createServer(app);
 const {Server} = require("socket.io");
 const io = new Server(server);
 let currentQuestionTimeoutIDs = []
+let alreadyAskedQuestionIndexes = []
 
 let data = require('./player-data.json');
 
@@ -15,6 +16,7 @@ let playerList = []
 let scores = {}
 let currentQuestion
 let isQuestionGuessed = false;
+let playerRemainingGuesses = {}
 
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html');
@@ -72,6 +74,7 @@ io.on('connection', (socket) => {
         }
         playerList.push({"socket_id":socket.id, "socket": socket, "username": username, "role": role})
         scores[username] = 0
+        playerRemainingGuesses[username] = 3
         io.emit("PLAYER_JOINED", {"username": username, "role": role})
     })
 
@@ -86,7 +89,7 @@ io.on('connection', (socket) => {
         console.log("GUESS_RECEIVED arrived with data: ", JSON.stringify(data))
         let guessByUser = data["username"]
         let guess = data["guess"]
-        if (normalizeAnswer(currentQuestion["name"]).includes(normalizeGuess(guess))) {
+        if (playerRemainingGuesses[guessByUser] > 0 && isGuessCorrect(guess, currentQuestion)) {
             if (scores.hasOwnProperty(guessByUser)) {
                 console.log(`player ${guessByUser} found on scores object. Current score: ${scores[guessByUser]}`)
                 scores[guessByUser]++;
@@ -106,9 +109,10 @@ io.on('connection', (socket) => {
                 startGameLoop(function (answer, picturePath) {
                     io.emit("QUESTION_COULD_NOT_GUESSED", {"name": answer, "picture_path": picturePath})
                 })
-            }, 5000)
+            }, 3000)
         } else {
             io.emit("WRONG_GUESS_RECEIVED", guessByUser)
+            playerRemainingGuesses[guessByUser]--;
             console.log("wrong answer")
         }
     })
@@ -144,6 +148,14 @@ function clearTimeouts(){
     currentQuestionTimeoutIDs = []
 }
 
+function isGuessCorrect(guess, currentQuestion) {
+    if (currentQuestion["nationality"] === "turkey"){
+        return normalizeGuess(guess) === normalizeGuess(currentQuestion["name"])
+    } else {
+        return normalizeAnswer(currentQuestion["name"]).includes(normalizeGuess(guess))
+    }
+}
+
 function normalizeAnswer(answer) {
     return normalizeGuess(answer).split(" ")
 }
@@ -160,7 +172,15 @@ function normalizeGuess(guess) {
 
 function getRandomQuestion() {
     let randomIdx = Math.floor(Math.random() * data.length);
+    while (isQuestionAskedBefore()){
+        randomIdx = Math.floor(Math.random() * data.length);
+    }
+    alreadyAskedQuestionIndexes.push(randomIdx)
     return data[randomIdx]
+}
+
+function isQuestionAskedBefore(idx) {
+    return alreadyAskedQuestionIndexes.includes(idx)
 }
 
 function countDownFrom(from, callingFunction, onComplete) {
@@ -176,7 +196,7 @@ function countDownFrom(from, callingFunction, onComplete) {
 }
 
 function startGameLoop(onTimeout) {
-    countDownFrom(10, function (countdown) {
+    countDownFrom(5, function (countdown) {
         io.emit("GAME_WILL_START_IN", countdown)
     }, function () {
         isQuestionGuessed = false;
@@ -197,15 +217,15 @@ function startGameLoop(onTimeout) {
                             setTimeout(function () {
                                 startGameLoop(onTimeout)
                             }, 5000)
-                        }, 10000)
+                        }, 5000)
                         currentQuestionTimeoutIDs.push(fifthHintID)
-                    }, 10000);
+                    }, 5000);
                     currentQuestionTimeoutIDs.push(fourthHintID)
-                }, 10000);
+                }, 5000);
                 currentQuestionTimeoutIDs.push(thirdHintID)
-            }, 10000);
+            }, 5000);
             currentQuestionTimeoutIDs.push(secondHintID)
-        }, 10000);
+        }, 5000);
         currentQuestionTimeoutIDs.push(firstHintID)
     })
 }

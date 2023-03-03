@@ -3,6 +3,7 @@ let currentUser = localStorage.getItem("username")
 console.log(currentUser)
 
 let currentTimeoutIDs= []
+let remainingGuess = 3
 
 window.onload = function (event) {
     console.log("onload called")
@@ -54,6 +55,9 @@ socket.on("GAME_WILL_START_IN", function (data) {
 })
 
 socket.on("FIRST_HINT_RECEIVED", function (hint) {
+    remainingGuess = 3
+    document.getElementById("remaining-guess-text-id").textContent = remainingGuess
+    document.getElementById("user-guess-input").value = ""
     let playerHintBox = document.getElementById("player-hints-id")
     playerHintBox.style.display = "block"
     playerHintBox.innerHTML = ""
@@ -68,7 +72,7 @@ socket.on("FIRST_HINT_RECEIVED", function (hint) {
     }
     document.getElementById("player-guess-button").disabled = false;
     addHint(hint)
-    countDownFrom(9, function (currentTime) {
+    countDownFrom(4, function (currentTime) {
         document.getElementById("timer-text-id").innerText = currentTime
     }, function () {
 
@@ -77,7 +81,7 @@ socket.on("FIRST_HINT_RECEIVED", function (hint) {
 
 socket.on("SECOND_HINT_RECEIVED", function (hint) {
     addHint(hint)
-    countDownFrom(9, function (currentTime) {
+    countDownFrom(4, function (currentTime) {
         document.getElementById("timer-text-id").innerText = currentTime
     }, function () {
 
@@ -86,7 +90,7 @@ socket.on("SECOND_HINT_RECEIVED", function (hint) {
 
 socket.on("THIRD_HINT_RECEIVED", function (hint) {
     addHint(hint)
-    countDownFrom(9, function (currentTime) {
+    countDownFrom(4, function (currentTime) {
         document.getElementById("timer-text-id").innerText = currentTime
     }, function () {
 
@@ -95,7 +99,7 @@ socket.on("THIRD_HINT_RECEIVED", function (hint) {
 
 socket.on("FOURTH_HINT_RECEIVED", function (hint) {
     addHint(hint)
-    countDownFrom(9, function (currentTime) {
+    countDownFrom(4, function (currentTime) {
         document.getElementById("timer-text-id").innerText = currentTime
     }, function () {
 
@@ -104,7 +108,7 @@ socket.on("FOURTH_HINT_RECEIVED", function (hint) {
 
 socket.on("FIFTH_HINT_RECEIVED", function (hint) {
     addHint(hint)
-    countDownFrom(9, function (currentTime) {
+    countDownFrom(4, function (currentTime) {
         document.getElementById("timer-text-id").innerText = currentTime
     }, function () {
 
@@ -113,6 +117,7 @@ socket.on("FIFTH_HINT_RECEIVED", function (hint) {
 
 socket.on("QUESTION_GUESSED", function (data) {
     clearTimeouts()
+    remainingGuess = 3
     let playerHintsDiv = document.getElementById("player-hints-id")
     playerHintsDiv.innerHTML = ""
     let outerDiv = document.createElement("div")
@@ -153,6 +158,7 @@ socket.on("WRONG_GUESS_RECEIVED", function (username) {
 
 socket.on("QUESTION_COULD_NOT_GUESSED", function (data) {
     clearTimeouts()
+    remainingGuess = 3
     document.getElementById("answer-image-id").style.padding = "0"
     document.getElementById("answer-image-id").src = data["picture_path"]
     document.getElementById("player-name-id").innerText = data["name"]
@@ -162,7 +168,12 @@ socket.on("QUESTION_COULD_NOT_GUESSED", function (data) {
 document.getElementById("player-guess-button").addEventListener("click", function () {
     let guess = document.getElementById("user-guess-input").value
     document.getElementById("user-guess-input").value = ""
+    remainingGuess--
+    document.getElementById("remaining-guess-text-id").textContent = remainingGuess
     socket.emit("GUESS_RECEIVED", {"username": currentUser, "guess": guess})
+    if (remainingGuess <= 0){
+        document.getElementById("player-guess-button").disabled = true
+    }
 })
 
 let updateScoreboard = function (scores) {
