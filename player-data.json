@@ -6,7 +6,7 @@
     "num": 25,
     "nationality": "turkey",
     "team": "adanademirspor",
-    "picture_path": "/images/players/adanademirspor/ertac-ozbir.png"
+    "picture_path": "/images/players/turkey/ertac-ozbir.png"
   },
   {
     "name": "Goran Karacic",
@@ -15,7 +15,7 @@
     "num": 18,
     "nationality": "bosnia-herzegovina",
     "team": "adanademirspor",
-    "picture_path": "/images/players/adanademirspor/goran-karacic.png"
+    "picture_path": "/images/players/bosnia-herzegovin/goran-karacic.png"
   },
   {
     "name": "Vedat Karakuş",
@@ -24,7 +24,7 @@
     "num": 39,
     "nationality": "turkey",
     "team": "adanademirspor",
-    "picture_path": "/images/players/adanademirspor/vedat-karakus.jpg"
+    "picture_path": "/images/players/turkey/vedat-karakus.jpg"
   },
   {
     "name": "Mert Çetin",
@@ -33,7 +33,7 @@
     "num": 45,
     "nationality": "turkey",
     "team": "adanademirspor",
-    "picture_path": "/images/players/adanademirspor/mert-cetin.png"
+    "picture_path": "/images/players/turkey/mert-cetin.png"
   },
   {
     "name": "Simon Deli",
@@ -42,7 +42,7 @@
     "num": 19,
     "nationality": "ivoire",
     "team": "adanademirspor",
-    "picture_path": "/images/players/adanademirspor/simon-deli.png"
+    "picture_path": "/images/players/ivoire/simon-deli.png"
   },
   {
     "name": "Semih Güler",
@@ -51,7 +51,7 @@
     "num": 4,
     "nationality": "turkey",
     "team": "adanademirspor",
-    "picture_path": "/images/players/adanademirspor/semih-güler.jpg"
+    "picture_path": "/images/players/turkey/semih-güler.jpg"
   },
   {
     "name": "Jovan Manev",
@@ -60,7 +60,7 @@
     "num": 15,
     "nationality": "north-macedonia",
     "team": "adanademirspor",
-    "picture_path": "/images/players/adanademirspor/jovan-manev.png"
+    "picture_path": "/images/players/north-macedonia/jovan-manev.png"
   },
   {
     "name": "Kévin Rodrigues",
@@ -69,7 +69,7 @@
     "num": 77,
     "nationality": "portugal",
     "team": "adanademirspor",
-    "picture_path": "/images/players/adanademirspor/kevin-rodrigues.png"
+    "picture_path": "/images/players/portugal/kevin-rodrigues.png"
   },
   {
     "name": "Abdurrahim Dursun",
@@ -78,7 +78,7 @@
     "num": 3,
     "nationality": "turkey",
     "team": "adanademirspor",
-    "picture_path": "/images/players/adanademirspor/abdurrahim-dursun.png"
+    "picture_path": "/images/players/turkey/abdurrahim-dursun.png"
   },
   {
     "name": "Jonas Svensson",
@@ -87,16 +87,16 @@
     "num": 22,
     "nationality": "norway",
     "team": "adanademirspor",
-    "picture_path": "/images/players/adanademirspor/svensson.jpg"
+    "picture_path": "/images/players/norway/svensson.jpg"
   },
   {
     "name": "Ismail Çokçalış",
     "age": 22,
     "pos": "Defans",
     "num": 16,
-    "nationality": "france",
+    "nationality": "turkey",
     "team": "adanademirspor",
-    "picture_path": "/images/players/adanademirspor/ismail-cokcalis.png"
+    "picture_path": "/images/players/turkey/ismail-cokcalis.png"
   },
   {
     "name": "Jorge Morel",
@@ -105,7 +105,7 @@
     "num": -1,
     "nationality": "paraguay",
     "team": "adanademirspor",
-    "picture_path": "/images/players/adanademirspor/jorge-morel.png"
+    "picture_path": "/images/players/paraguay/jorge-morel.png"
   },
   {
     "name": "Benjamin Stambouli",
@@ -114,7 +114,7 @@
     "num": 90,
     "nationality": "france",
     "team": "adanademirspor",
-    "picture_path": "/images/players/adanademirspor/stambouli.jpg"
+    "picture_path": "/images/players/france/stambouli.jpg"
   },
   {
     "name": "Gökhan İnler",
@@ -123,16 +123,16 @@
     "num": 88,
     "nationality": "switzerland",
     "team": "adanademirspor",
-    "picture_path": "/images/players/adanademirspor/gokhan-inler.jpg"
+    "picture_path": "/images/players/switzerland/gokhan-inler.jpg"
   },
   {
     "name": "Badou Ndiaye",
     "age": 32,
     "pos": "Ortasaha",
     "num": 17,
-    "nationality": "turkey",
+    "nationality": "senegal",
     "team": "adanademirspor",
-    "picture_path": "/images/players/adanademirspor/badou-ndiaye.png"
+    "picture_path": "/images/players/senegal/badou-ndiaye.png"
   },
   {
     "name": "Furkan Soyalp",
@@ -141,7 +141,7 @@
     "num": -1,
     "nationality": "turkey",
     "team": "adanademirspor",
-    "picture_path": "/images/players/adanademirspor/furkan-soyalp.png"
+    "picture_path": "/images/players/turkey/furkan-soyalp.png"
   },
   {
     "name": "Mustafa Kapı",
@@ -150,7 +150,7 @@
     "num": 6,
     "nationality": "turkey",
     "team": "adanademirspor",
-    "picture_path": "/images/players/adanademirspor/mustafa-kapi.png"
+    "picture_path": "/images/players/turkey/mustafa-kapi.png"
   },
   {
     "name": "Younes Belhanda",
@@ -159,7 +159,7 @@
     "num": 10,
     "nationality": "morocco",
     "team": "adanademirspor",
-    "picture_path": "/images/players/adanademirspor/belhanda.jpg"
+    "picture_path": "/images/players/morocco/belhanda.jpg"
   },
   {
     "name": "Emre Akbaba",
@@ -168,7 +168,7 @@
     "num": 20,
     "nationality": "turkey",
     "team": "adanademirspor",
-    "picture_path": "/images/players/adanademirspor/emre-akbaba.png"
+    "picture_path": "/images/players/turkey/emre-akbaba.png"
   },
   {
     "name": "Birkir Bjarnason",
@@ -177,7 +177,7 @@
     "num": 8,
     "nationality": "iceland",
     "team": "adanademirspor",
-    "picture_path": "/images/players/adanademirspor/bjarnason.png"
+    "picture_path": "/images/players/iceland/bjarnason.png"
   },
   {
     "name": "Erhun Öztümer",
@@ -186,16 +186,16 @@
     "num": 50,
     "nationality": "turkey",
     "team": "adanademirspor",
-    "picture_path": "/images/players/adanademirspor/erhun-oztumer.png"
+    "picture_path": "/images/players/turkey/erhun-oztumer.png"
   },
   {
     "name": "Henry Onyekuru",
     "age": 25,
     "pos": "Ortasaha",
     "num": 7,
-    "nationality": "england",
+    "nationality": "nigeria",
     "team": "adanademirspor",
-    "picture_path": "/images/players/adanademirspor/henry-onyekuru.png"
+    "picture_path": "/images/players/nigeria/henry-onyekuru.png"
   },
   {
     "name": "Yusuf Erdoğan",
@@ -204,7 +204,7 @@
     "num": 32,
     "nationality": "turkey",
     "team": "adanademirspor",
-    "picture_path": "/images/players/adanademirspor/yusuf-erdogan.png"
+    "picture_path": "/images/players/turkey/yusuf-erdogan.png"
   },
   {
     "name": "David Akintola",
@@ -213,7 +213,7 @@
     "num": 11,
     "nationality": "nigeria",
     "team": "adanademirspor",
-    "picture_path": "/images/players/adanademirspor/akintola.jpg"
+    "picture_path": "/images/players/nigeria/akintola.jpg"
   },
   {
     "name": "Yusuf Sarı",
@@ -222,7 +222,7 @@
     "num": 26,
     "nationality": "turkey",
     "team": "adanademirspor",
-    "picture_path": "/images/players/adanademirspor/yusuf-sari.png"
+    "picture_path": "/images/players/turkey/yusuf-sari.png"
   },
   {
     "name": "Salih Kavrazlı",
@@ -231,7 +231,7 @@
     "num": 28,
     "nationality": "turkey",
     "team": "adanademirspor",
-    "picture_path": "/images/players/adanademirspor/salih-kavrazli.png"
+    "picture_path": "/images/players/turkey/salih-kavrazli.png"
   },
   {
     "name": "Samuel Nongoh",
@@ -240,7 +240,7 @@
     "num": 46,
     "nationality": "cameroon",
     "team": "adanademirspor",
-    "picture_path": "/images/players/adanademirspor/samuel-nongoh.png"
+    "picture_path": "/images/players/cameroon/samuel-nongoh.png"
   },
   {
     "name": "Fredrik Gulbrandsen",
@@ -249,7 +249,7 @@
     "num": 23,
     "nationality": "norway",
     "team": "adanademirspor",
-    "picture_path": "/images/players/adanademirspor/fredrik-gulbrandsen.png"
+    "picture_path": "/images/players/norway/fredrik-gulbrandsen.png"
   },
   {
     "name": "Cherif Ndiaye",
@@ -258,7 +258,7 @@
     "num": 29,
     "nationality": "senegal",
     "team": "adanademirspor",
-    "picture_path": "/images/players/adanademirspor/cherif-ndiaye.png"
+    "picture_path": "/images/players/senegal/cherif-ndiaye.png"
   },
   {
     "name": "Runar Alex Runarsson",
@@ -267,7 +267,7 @@
     "num": 13,
     "nationality": "iceland",
     "team": "alanyaspor",
-    "picture_path": "/images/players/alanyaspor/runar-alex-runarsson.png"
+    "picture_path": "/images/players/iceland/runar-alex-runarsson.png"
   },
   {
     "name": "Yusuf Karagöz",
@@ -276,7 +276,25 @@
     "num": 99,
     "nationality": "turkey",
     "team": "alanyaspor",
-    "picture_path": "/images/players/alanyaspor/yusuf-karagoz.PNG"
+    "picture_path": "/images/players/turkey/yusuf-karagoz.PNG"
+  },
+  {
+    "name": "İsmail Ünal",
+    "age": 25,
+    "pos": "Kaleci",
+    "num": -1,
+    "nationality": "turkey",
+    "team": "alanyaspor",
+    "picture_path": "/images/players/turkey/ismail-unal.png"
+  },
+  {
+    "name": "Yavuz Aygün",
+    "age": 26,
+    "pos": "Kaleci",
+    "num": 96,
+    "nationality": "turkey",
+    "team": "alanyaspor",
+    "picture_path": "/images/players/turkey/yavuz-aygun.png"
   },
   {
     "name": "Fatih Aksoy",
@@ -285,7 +303,7 @@
     "num": 14,
     "nationality": "turkey",
     "team": "alanyaspor",
-    "picture_path": "/images/players/alanyaspor/fatih-aksoy.PNG"
+    "picture_path": "/images/players/turkey/fatih-aksoy.PNG"
   },
   {
     "name": "Zouhair Feddal",
@@ -294,7 +312,7 @@
     "num": -1,
     "nationality": "morocco",
     "team": "alanyaspor",
-    "picture_path": "/images/players/alanyaspor/zouhair-feddal.png"
+    "picture_path": "/images/players/morocco/zouhair-feddal.png"
   },
   {
     "name": "Furkan Bayır",
@@ -303,7 +321,7 @@
     "num": 4,
     "nationality": "turkey",
     "team": "alanyaspor",
-    "picture_path": "/images/players/alanyaspor/furkan-bayır.PNG"
+    "picture_path": "/images/players/turkey/furkan-bayır.PNG"
   },
   {
     "name": "Khadim Rassoul",
@@ -312,7 +330,7 @@
     "num": 23,
     "nationality": "senegal",
     "team": "alanyaspor",
-    "picture_path": "/images/players/alanyaspor/khadim-rassoul.png"
+    "picture_path": "/images/players/senegal/khadim-rassoul.png"
   },
   {
     "name": "Ümit Akdağ",
@@ -321,7 +339,7 @@
     "num": 5,
     "nationality": "turkey",
     "team": "alanyaspor",
-    "picture_path": "/images/players/alanyaspor/umit-akdag.png"
+    "picture_path": "/images/players/turkey/umit-akdag.png"
   },
   {
     "name": "Jure Balkovec",
@@ -330,7 +348,7 @@
     "num": 29,
     "nationality": "slovenia",
     "team": "alanyaspor",
-    "picture_path": "/images/players/alanyaspor/jure-balkovec.PNG"
+    "picture_path": "/images/players/slovenia/jure-balkovec.PNG"
   },
   {
     "name": "Yusuf Özdemir",
@@ -339,7 +357,7 @@
     "num": 88,
     "nationality": "turkey",
     "team": "alanyaspor",
-    "picture_path": "/images/players/alanyaspor/yusuf-ozdemir.png"
+    "picture_path": "/images/players/turkey/yusuf-ozdemir.png"
   },
   {
     "name": "Ahmet Gülay",
@@ -348,7 +366,7 @@
     "num": 3,
     "nationality": "turkey",
     "team": "alanyaspor",
-    "picture_path": "/images/players/alanyaspor/ahmet-gulay.png"
+    "picture_path": "/images/players/turkey/ahmet-gulay.png"
   },
   {
     "name": "Pedro Pereira",
@@ -357,7 +375,7 @@
     "num": 27,
     "nationality": "portugal",
     "team": "alanyaspor",
-    "picture_path": "/images/players/alanyaspor/pedro-pereira.png"
+    "picture_path": "/images/players/portugal/pedro-pereira.png"
   },
   {
     "name": "Yunus Bahadır",
@@ -366,7 +384,7 @@
     "num": 42,
     "nationality": "turkey",
     "team": "alanyaspor",
-    "picture_path": "/images/players/alanyaspor/yunus-bahadır.png"
+    "picture_path": "/images/players/turkey/yunus-bahadır.png"
   },
   {
     "name": "Çağan Kayra Erciyas",
@@ -375,7 +393,7 @@
     "num": 39,
     "nationality": "turkey",
     "team": "alanyaspor",
-    "picture_path": "/images/players/alanyaspor/cagan-kayra-erciyas.PNG"
+    "picture_path": "/images/players/turkey/cagan-kayra-erciyas.PNG"
   },
   {
     "name": "Idrissa Doumbia",
@@ -384,34 +402,34 @@
     "num": 98,
     "nationality": "ivoire",
     "team": "alanyaspor",
-    "picture_path": "/images/players/alanyaspor/idrissa-doumbia.PNG"
+    "picture_path": "/images/players/ivoire/idrissa-doumbia.PNG"
   },
   {
     "name": "Leroy Fer",
     "age": 33,
     "pos": "Ortasaha",
     "num": 8,
-    "nationality": "turkey",
+    "nationality": "netherlands",
     "team": "alanyaspor",
-    "picture_path": "/images/players/alanyaspor/leroy-fer.png"
+    "picture_path": "/images/players/netherlands/leroy-fer.png"
   },
   {
     "name": "Umut Güneş",
     "age": 22,
     "pos": "Ortasaha",
     "num": 6,
-    "nationality": "canada",
+    "nationality": "germany",
     "team": "alanyaspor",
-    "picture_path": "/images/players/alanyaspor/umut-gunes.png"
+    "picture_path": "/images/players/germany/umut-gunes.png"
   },
   {
     "name": "Efkan Bekiroğlu",
     "age": 27,
     "pos": "Ortasaha",
     "num": 11,
-    "nationality": "portugal",
+    "nationality": "turkey",
     "team": "alanyaspor",
-    "picture_path": "/images/players/alanyaspor/efkan-bekiroglu.PNG"
+    "picture_path": "/images/players/turkey/efkan-bekiroglu.PNG"
   },
   {
     "name": "Arnaud Lusamba",
@@ -420,7 +438,7 @@
     "num": 97,
     "nationality": "congo-dc",
     "team": "alanyaspor",
-    "picture_path": "/images/players/alanyaspor/arnaud-lusamba.PNG"
+    "picture_path": "/images/players/congo-dc/arnaud-lusamba.PNG"
   },
   {
     "name": "Mert Yusuf Torlak",
@@ -429,7 +447,7 @@
     "num": 37,
     "nationality": "turkey",
     "team": "alanyaspor",
-    "picture_path": "/images/players/alanyaspor/mert-yusuf-torlak.png"
+    "picture_path": "/images/players/turkey/mert-yusuf-torlak.png"
   },
   {
     "name": "Ivan Cavaleiro",
@@ -438,7 +456,7 @@
     "num": 19,
     "nationality": "portugal",
     "team": "alanyaspor",
-    "picture_path": "/images/players/alanyaspor/ivan-cavaleiro.png"
+    "picture_path": "/images/players/portugal/ivan-cavaleiro.png"
   },
   {
     "name": "Oğuz Aydın",
@@ -447,7 +465,7 @@
     "num": 70,
     "nationality": "turkey",
     "team": "alanyaspor",
-    "picture_path": "/images/players/alanyaspor/oguz-aydin.png"
+    "picture_path": "/images/players/turkey/oguz-aydin.png"
   },
   {
     "name": "Wilson Eduardo",
@@ -456,7 +474,7 @@
     "num": 17,
     "nationality": "angola",
     "team": "alanyaspor",
-    "picture_path": "/images/players/alanyaspor/wilson-eduardo.png"
+    "picture_path": "/images/players/angola/wilson-eduardo.png"
   },
   {
     "name": "Zinedine Ferhat",
@@ -465,7 +483,7 @@
     "num": 10,
     "nationality": "algeria",
     "team": "alanyaspor",
-    "picture_path": "/images/players/alanyaspor/zinedine-ferhat.png"
+    "picture_path": "/images/players/algeria/zinedine-ferhat.png"
   },
   {
     "name": "Efecan Karaca",
@@ -474,7 +492,7 @@
     "num": 7,
     "nationality": "turkey",
     "team": "alanyaspor",
-    "picture_path": "/images/players/alanyaspor/efecan-karaca.PNG"
+    "picture_path": "/images/players/turkey/efecan-karaca.PNG"
   },
   {
     "name": "Daniel Candeias",
@@ -483,7 +501,7 @@
     "num": 21,
     "nationality": "portugal",
     "team": "alanyaspor",
-    "picture_path": "/images/players/alanyaspor/daniel-candeias.PNG"
+    "picture_path": "/images/players/portugal/daniel-candeias.PNG"
   },
   {
     "name": "Ahmed Hassan",
@@ -492,16 +510,16 @@
     "num": 93,
     "nationality": "egypt",
     "team": "alanyaspor",
-    "picture_path": "/images/players/alanyaspor/ahmed-hassan.png"
+    "picture_path": "/images/players/egypt/ahmed-hassan.png"
   },
   {
     "name": "Efthymios Koulouris",
     "age": 26,
     "pos": "Forvet",
-    "num": -1,
+    "num": 24,
     "nationality": "greece",
     "team": "alanyaspor",
-    "picture_path": "/images/players/alanyaspor/efthymios-koulouris.png"
+    "picture_path": "/images/players/greece/efthymios-koulouris.png"
   },
   {
     "name": "Erencan Yardımcı",
@@ -519,7 +537,7 @@
     "num": 90,
     "nationality": "brazil",
     "team": "antalyaspor",
-    "picture_path": "/images/players/antalyaspor/helton-leite.png"
+    "picture_path": "/images/players/brazil/helton-leite.png"
   },
   {
     "name": "Alperen Uysal",
@@ -528,7 +546,7 @@
     "num": 1,
     "nationality": "turkey",
     "team": "antalyaspor",
-    "picture_path": "/images/players/antalyaspor/alperen-uysal.png"
+    "picture_path": "/images/players/turkey/alperen-uysal.png"
   },
   {
     "name": "Ataberk Dadakdeniz",
@@ -537,7 +555,7 @@
     "num": 35,
     "nationality": "turkey",
     "team": "antalyaspor",
-    "picture_path": "/images/players/antalyaspor/ataberk-dadakdeniz.png"
+    "picture_path": "/images/players/turkey/ataberk-dadakdeniz.png"
   },
   {
     "name": "Emrecan Uzunhan",
@@ -546,16 +564,16 @@
     "num": -1,
     "nationality": "turkey",
     "team": "antalyaspor",
-    "picture_path": "/images/players/antalyaspor/emrecan-uzunhan.png"
+    "picture_path": "/images/players/turkey/emrecan-uzunhan.png"
   },
   {
     "name": "Christian Luyindama",
     "age": 29,
     "pos": "Defans",
     "num": 28,
-    "nationality": "turkey",
+    "nationality": "congo-dc",
     "team": "antalyaspor",
-    "picture_path": "/images/players/antalyaspor/christian-luyindama.png"
+    "picture_path": "/images/players/congo-dc/christian-luyindama.png"
   },
   {
     "name": "Mark Mampassi",
@@ -564,7 +582,7 @@
     "num": 26,
     "nationality": "russia",
     "team": "antalyaspor",
-    "picture_path": "/images/players/antalyaspor/mark-mampassi.png"
+    "picture_path": "/images/players/russia/mark-mampassi.png"
   },
   {
     "name": "Ömer Toprak",
@@ -573,16 +591,16 @@
     "num": 21,
     "nationality": "turkey",
     "team": "antalyaspor",
-    "picture_path": "/images/players/antalyaspor/omer-toprak.png"
+    "picture_path": "/images/players/turkey/omer-toprak.png"
   },
   {
     "name": "Veysel Sarı",
     "age": 34,
     "pos": "Defans",
     "num": 89,
-    "nationality": "slovenia",
+    "nationality": "turkey",
     "team": "antalyaspor",
-    "picture_path": "/images/players/antalyaspor/veysel-sari.png"
+    "picture_path": "/images/players/turkey/veysel-sari.png"
   },
   {
     "name": "Fedor Kudryashov",
@@ -591,7 +609,7 @@
     "num": 13,
     "nationality": "russia",
     "team": "antalyaspor",
-    "picture_path": "/images/players/antalyaspor/fedor-kudriashov.png"
+    "picture_path": "/images/players/russia/fedor-kudriashov.png"
   },
   {
     "name": "Amar Gerxhaliu",
@@ -600,7 +618,7 @@
     "num": 4,
     "nationality": "kosovo",
     "team": "antalyaspor",
-    "picture_path": "/images/players/antalyaspor/amar-gerxhaliu.png"
+    "picture_path": "/images/players/kosovo/amar-gerxhaliu.png"
   },
   {
     "name": "Cemali Sertel",
@@ -609,7 +627,7 @@
     "num": 3,
     "nationality": "turkey",
     "team": "antalyaspor",
-    "picture_path": "/images/players/antalyaspor/cemali-sertel.png"
+    "picture_path": "/images/players/turkey/cemali-sertel.png"
   },
   {
     "name": "Güray Vural",
@@ -618,7 +636,7 @@
     "num": 11,
     "nationality": "turkey",
     "team": "antalyaspor",
-    "picture_path": "/images/players/antalyaspor/guray-vural.png"
+    "picture_path": "/images/players/turkey/guray-vural.png"
   },
   {
     "name": "Berat Pınar",
@@ -627,7 +645,7 @@
     "num": -1,
     "nationality": "turkey",
     "team": "antalyaspor",
-    "picture_path": "/images/players/antalyaspor/berat-pinar.png"
+    "picture_path": "/images/players/turkey/berat-pinar.png"
   },
   {
     "name": "Bünyamin Balcı",
@@ -636,7 +654,7 @@
     "num": 7,
     "nationality": "turkey",
     "team": "antalyaspor",
-    "picture_path": "/images/players/antalyaspor/bunyamin-balci.png"
+    "picture_path": "/images/players/turkey/bunyamin-balci.png"
   },
   {
     "name": "Sherel Floranus",
@@ -645,7 +663,7 @@
     "num": 2,
     "nationality": "netherlands",
     "team": "antalyaspor",
-    "picture_path": "/images/players/antalyaspor/sherel-floranus.png"
+    "picture_path": "/images/players/netherlands/sherel-floranus.png"
   },
   {
     "name": "Fernando Martins",
@@ -654,7 +672,7 @@
     "num": 8,
     "nationality": "brazil",
     "team": "antalyaspor",
-    "picture_path": "/images/players/antalyaspor/fernando-martins.png"
+    "picture_path": "/images/players/brazil/fernando-martins.png"
   },
   {
     "name": "Ufuk Akyol",
@@ -663,7 +681,7 @@
     "num": 19,
     "nationality": "turkey",
     "team": "antalyaspor",
-    "picture_path": "/images/players/antalyaspor/ufuk-akyol.png"
+    "picture_path": "/images/players/turkey/ufuk-akyol.png"
   },
   {
     "name": "Fredy Riberio",
@@ -672,25 +690,16 @@
     "num": 16,
     "nationality": "angola",
     "team": "antalyaspor",
-    "picture_path": "/images/players/antalyaspor/fredy-riberio.png"
+    "picture_path": "/images/players/angola/fredy-riberio.png"
   },
   {
     "name": "Erdal Rakip",
     "age": 27,
     "pos": "Ortasaha",
     "num": 6,
-    "nationality": "turkey",
+    "nationality": "north-macedonia",
     "team": "antalyaspor",
-    "picture_path": "/images/players/antalyaspor/erdal-rakip.png"
-  },
-  {
-    "name": "Ivan Cavaleiro",
-    "age": 29,
-    "pos": "Ortasaha",
-    "num": 19,
-    "nationality": "portugal",
-    "team": "antalyaspor",
-    "picture_path": "/images/players/antalyaspor/ivan-cavaleiro.png"
+    "picture_path": "/images/players/north-macedonia/erdal-rakip.png"
   },
   {
     "name": "Mustafa Erdilman",
@@ -699,7 +708,7 @@
     "num": 30,
     "nationality": "turkey",
     "team": "antalyaspor",
-    "picture_path": "/images/players/antalyaspor/mustafa-erdilman.png"
+    "picture_path": "/images/players/turkey/mustafa-erdilman.png"
   },
   {
     "name": "Mevlüthan Ekelik",
@@ -708,7 +717,7 @@
     "num": 23,
     "nationality": "turkey",
     "team": "antalyaspor",
-    "picture_path": "/images/players/antalyaspor/mevlüthan-ekelik.png"
+    "picture_path": "/images/players/turkey/mevlüthan-ekelik.png"
   },
   {
     "name": "Shoya Nakajima",
@@ -717,7 +726,7 @@
     "num": 22,
     "nationality": "japan",
     "team": "antalyaspor",
-    "picture_path": "/images/players/antalyaspor/shoya-nakajima.png"
+    "picture_path": "/images/players/japan/shoya-nakajima.png"
   },
   {
     "name": "Balint Szabo",
@@ -726,7 +735,7 @@
     "num": -1,
     "nationality": "hungary",
     "team": "antalyaspor",
-    "picture_path": "/images/players/antalyaspor/balint-szabo.png"
+    "picture_path": "/images/players/hungary/balint-szabo.png"
   },
   {
     "name": "Doğukan Sinik",
@@ -735,16 +744,16 @@
     "num": 70,
     "nationality": "turkey",
     "team": "antalyaspor",
-    "picture_path": "/images/players/antalyaspor/dogukhan-sinik.png"
+    "picture_path": "/images/players/turkey/dogukhan-sinik.png"
   },
   {
     "name": "Sam Larsson",
     "age": 29,
     "pos": "Ortasaha",
     "num": 20,
-    "nationality": "norway",
+    "nationality": "sweden",
     "team": "antalyaspor",
-    "picture_path": "/images/players/antalyaspor/sam-larsson.png"
+    "picture_path": "/images/players/sweden/sam-larsson.png"
   },
   {
     "name": "Houssam Ghacha",
@@ -753,7 +762,7 @@
     "num": 27,
     "nationality": "algeria",
     "team": "antalyaspor",
-    "picture_path": "/images/players/antalyaspor/houssam-chacha.png"
+    "picture_path": "/images/players/algeria/houssam-chacha.png"
   },
   {
     "name": "Alassane Ndao",
@@ -762,7 +771,7 @@
     "num": 18,
     "nationality": "senegal",
     "team": "antalyaspor",
-    "picture_path": "/images/players/antalyaspor/alassane-ndao.png"
+    "picture_path": "/images/players/senegal/alassane-ndao.png"
   },
   {
     "name": "Sinan Gümüş",
@@ -771,7 +780,7 @@
     "num": 77,
     "nationality": "turkey",
     "team": "antalyaspor",
-    "picture_path": "/images/players/antalyaspor/sinan-gumus.png"
+    "picture_path": "/images/players/turkey/sinan-gumus.png"
   },
   {
     "name": "Admir Mehmedi",
@@ -780,7 +789,7 @@
     "num": 14,
     "nationality": "switzerland",
     "team": "antalyaspor",
-    "picture_path": "/images/players/antalyaspor/admir-mehmedi.png"
+    "picture_path": "/images/players/switzerland/admir-mehmedi.png"
   },
   {
     "name": "Haji Wright",
@@ -789,7 +798,7 @@
     "num": 9,
     "nationality": "usa",
     "team": "antalyaspor",
-    "picture_path": "/images/players/antalyaspor/haji-wright.png"
+    "picture_path": "/images/players/usa/haji-wright.png"
   },
   {
     "name": "Bertuğ Özgür Yıldırım",
@@ -798,7 +807,7 @@
     "num": 17,
     "nationality": "turkey",
     "team": "antalyaspor",
-    "picture_path": "/images/players/antalyaspor/bertug-ozgur-yildirim.png"
+    "picture_path": "/images/players/turkey/bertug-ozgur-yildirim.png"
   },
   {
     "name": "Ersin Destanoğlu",
@@ -807,7 +816,7 @@
     "num": 1,
     "nationality": "turkey",
     "team": "besiktas",
-    "picture_path": "/images/players/besiktas/ersin-destanoglu.png"
+    "picture_path": "/images/players/turkey/ersin-destanoglu.png"
   },
   {
     "name": "Mert Günok",
@@ -816,7 +825,7 @@
     "num": 34,
     "nationality": "turkey",
     "team": "besiktas",
-    "picture_path": "/images/players/besiktas/mert-gunok.png"
+    "picture_path": "/images/players/turkey/mert-gunok.png"
   },
   {
     "name": "Emre Bilgin",
@@ -825,7 +834,7 @@
     "num": 99,
     "nationality": "turkey",
     "team": "besiktas",
-    "picture_path": "/images/players/besiktas/emre-bilgin.png"
+    "picture_path": "/images/players/turkey/emre-bilgin.png"
   },
   {
     "name": "Utku Yuvakuran",
@@ -834,7 +843,7 @@
     "num": 97,
     "nationality": "turkey",
     "team": "besiktas",
-    "picture_path": "/images/players/besiktas/utku-yuvakuran.png"
+    "picture_path": "/images/players/turkey/utku-yuvakuran.png"
   },
   {
     "name": "Romain Saïss",
@@ -843,7 +852,7 @@
     "num": 26,
     "nationality": "morocco",
     "team": "besiktas",
-    "picture_path": "/images/players/besiktas/romain-saiss.png"
+    "picture_path": "/images/players/morocco/romain-saiss.png"
   },
   {
     "name": "Tayyip Talha Sanuç",
@@ -852,7 +861,7 @@
     "num": 3,
     "nationality": "turkey",
     "team": "besiktas",
-    "picture_path": "/images/players/besiktas/tayyip-talha-sanuc.jpg"
+    "picture_path": "/images/players/turkey/tayyip-talha-sanuc.jpg"
   },
   {
     "name": "Necip Uysal",
@@ -861,7 +870,7 @@
     "num": 20,
     "nationality": "turkey",
     "team": "besiktas",
-    "picture_path": "/images/players/besiktas/necip-uysal.png"
+    "picture_path": "/images/players/turkey/necip-uysal.png"
   },
   {
     "name": "Welinton",
@@ -870,7 +879,7 @@
     "num": 23,
     "nationality": "brazil",
     "team": "besiktas",
-    "picture_path": "/images/players/besiktas/welinton-souza-silva.png"
+    "picture_path": "/images/players/brazil/welinton-souza-silva.png"
   },
   {
     "name": "Arthur Masuaku",
@@ -879,7 +888,7 @@
     "num": 25,
     "nationality": "congo-dc",
     "team": "besiktas",
-    "picture_path": "/images/players/besiktas/arthur-masuaku.png"
+    "picture_path": "/images/players/congo-dc/arthur-masuaku.png"
   },
   {
     "name": "Umut Meraş",
@@ -888,7 +897,7 @@
     "num": 77,
     "nationality": "turkey",
     "team": "besiktas",
-    "picture_path": "/images/players/besiktas/umut-meras.png"
+    "picture_path": "/images/players/turkey/umut-meras.png"
   },
   {
     "name": "Valentin Rosier",
@@ -897,7 +906,7 @@
     "num": 2,
     "nationality": "france",
     "team": "besiktas",
-    "picture_path": "/images/players/besiktas/valentin-rosier.png"
+    "picture_path": "/images/players/france/valentin-rosier.png"
   },
   {
     "name": "Onur Bulut",
@@ -906,7 +915,7 @@
     "num": 4,
     "nationality": "turkey",
     "team": "besiktas",
-    "picture_path": "/images/players/besiktas/onur-bulut.png"
+    "picture_path": "/images/players/turkey/onur-bulut.png"
   },
   {
     "name": "Tayfur Bingöl",
@@ -915,7 +924,7 @@
     "num": 88,
     "nationality": "turkey",
     "team": "besiktas",
-    "picture_path": "/images/players/besiktas/tayfur-bingol.jpg"
+    "picture_path": "/images/players/turkey/tayfur-bingol.jpg"
   },
   {
     "name": "Amir Hadziahmetovic",
@@ -924,7 +933,7 @@
     "num": 19,
     "nationality": "bosnia-herzegovina",
     "team": "besiktas",
-    "picture_path": "/images/players/besiktas/amir-hadziahmetovic.png"
+    "picture_path": "/images/players/bosnia-herzegovina/amir-hadziahmetovic.png"
   },
   {
     "name": "Berkay Vardar",
@@ -933,7 +942,7 @@
     "num": 22,
     "nationality": "turkey",
     "team": "besiktas",
-    "picture_path": "/images/players/besiktas/berkay-vardar.jpg"
+    "picture_path": "/images/players/turkey/berkay-vardar.jpg"
   },
   {
     "name": "Atiba Hutchinson",
@@ -942,7 +951,7 @@
     "num": 13,
     "nationality": "canada",
     "team": "besiktas",
-    "picture_path": "/images/players/besiktas/atiba-hutchinson.png"
+    "picture_path": "/images/players/canada/atiba-hutchinson.png"
   },
   {
     "name": "Gedson Fernandes",
@@ -951,7 +960,7 @@
     "num": 83,
     "nationality": "portugal",
     "team": "besiktas",
-    "picture_path": "/images/players/besiktas/gedson-carvalho-fernandes.png"
+    "picture_path": "/images/players/portugal/gedson-carvalho-fernandes.png"
   },
   {
     "name": "Salih Uçan",
@@ -960,7 +969,7 @@
     "num": 8,
     "nationality": "turkey",
     "team": "besiktas",
-    "picture_path": "/images/players/besiktas/salih-ucan.png"
+    "picture_path": "/images/players/turkey/salih-ucan.png"
   },
   {
     "name": "Kerem Atakan Kesgin",
@@ -969,7 +978,7 @@
     "num": 17,
     "nationality": "turkey",
     "team": "besiktas",
-    "picture_path": "/images/players/besiktas/kerem-atakan-kesgin.jpg"
+    "picture_path": "/images/players/turkey/kerem-atakan-kesgin.jpg"
   },
   {
     "name": "Dele Alli",
@@ -978,7 +987,7 @@
     "num": 11,
     "nationality": "england",
     "team": "besiktas",
-    "picture_path": "/images/players/besiktas/dele-alli.jpg"
+    "picture_path": "/images/players/england/dele-alli.jpg"
   },
   {
     "name": "Alexandru Maxim",
@@ -987,7 +996,7 @@
     "num": -1,
     "nationality": "romania",
     "team": "besiktas",
-    "picture_path": "/images/players/besiktas/alexandru-maxim.png"
+    "picture_path": "/images/players/romania/alexandru-maxim.png"
   },
   {
     "name": "Nathan Redmond",
@@ -996,7 +1005,7 @@
     "num": 15,
     "nationality": "england",
     "team": "besiktas",
-    "picture_path": "/images/players/besiktas/nathan-redmond.png"
+    "picture_path": "/images/players/england/nathan-redmond.png"
   },
   {
     "name": "Georges-Kevin NKoudou",
@@ -1005,7 +1014,7 @@
     "num": 7,
     "nationality": "france",
     "team": "besiktas",
-    "picture_path": "/images/players/besiktas/georges-kevin-nkoudou.png"
+    "picture_path": "/images/players/france/georges-kevin-nkoudou.png"
   },
   {
     "name": "Rachid Ghezzal",
@@ -1014,7 +1023,7 @@
     "num": 18,
     "nationality": "algeria",
     "team": "besiktas",
-    "picture_path": "/images/players/besiktas/rachid-ghezzal.png"
+    "picture_path": "/images/players/algeria/rachid-ghezzal.png"
   },
   {
     "name": "Jackson Muleka",
@@ -1023,7 +1032,7 @@
     "num": 40,
     "nationality": "congo-dc",
     "team": "besiktas",
-    "picture_path": "/images/players/besiktas/jackson-muleka.png"
+    "picture_path": "/images/players/congo-dc/jackson-muleka.png"
   },
   {
     "name": "Vincent Aboubakar",
@@ -1032,7 +1041,7 @@
     "num": 10,
     "nationality": "cameroon",
     "team": "besiktas",
-    "picture_path": "/images/players/besiktas/vincent-aboubakar.png"
+    "picture_path": "/images/players/cameroon/vincent-aboubakar.png"
   },
   {
     "name": "Cenk Tosun",
@@ -1041,7 +1050,7 @@
     "num": 9,
     "nationality": "turkey",
     "team": "besiktas",
-    "picture_path": "/images/players/besiktas/cenk-tosun.png"
+    "picture_path": "/images/players/turkey/cenk-tosun.png"
   },
   {
     "name": "Emiliano Viviano",
@@ -1050,7 +1059,7 @@
     "num": 2,
     "nationality": "italy",
     "team": "fatihkaragumruk",
-    "picture_path": "/images/players/fatihkaragumruk/emiliano-viviano.png"
+    "picture_path": "/images/players/italy/emiliano-viviano.png"
   },
   {
     "name": "Batuhan Şen",
@@ -1059,7 +1068,7 @@
     "num": 1,
     "nationality": "turkey",
     "team": "fatihkaragumruk",
-    "picture_path": "/images/players/fatihkaragumruk/batuhan-sen.png"
+    "picture_path": "/images/players/turkey/batuhan-sen.png"
   },
   {
     "name": "Cem Kablan",
@@ -1068,7 +1077,7 @@
     "num": 23,
     "nationality": "turkey",
     "team": "fatihkaragumruk",
-    "picture_path": "/images/players/fatihkaragumruk/cem-kablan.png"
+    "picture_path": "/images/players/turkey/cem-kablan.png"
   },
   {
     "name": "Bruno Rodrigues",
@@ -1077,7 +1086,7 @@
     "num": 6,
     "nationality": "portugal",
     "team": "fatihkaragumruk",
-    "picture_path": "/images/players/fatihkaragumruk/bruno-rodrigues.png"
+    "picture_path": "/images/players/portugal/bruno-rodrigues.png"
   },
   {
     "name": "Davide Biraschi",
@@ -1086,25 +1095,34 @@
     "num": 4,
     "nationality": "italy",
     "team": "fatihkaragumruk",
-    "picture_path": "/images/players/fatihkaragumruk/davide-biraschi.png"
+    "picture_path": "/images/players/italy/davide-biraschi.png"
   },
   {
     "name": "Ibrahim Dresevic",
     "age": 26,
     "pos": "Defans",
     "num": 5,
-    "nationality": "russia",
+    "nationality": "kosovo",
     "team": "fatihkaragumruk",
-    "picture_path": "/images/players/fatihkaragumruk/ibrahim-dresevic.png"
+    "picture_path": "/images/players/kosovo/ibrahim-dresevic.png"
   },
   {
     "name": "Rayyan Baniya",
     "age": 24,
     "pos": "Defans",
     "num": 99,
+    "nationality": "italy",
+    "team": "fatihkaragumruk",
+    "picture_path": "/images/players/italy/rayyan-baniya.png"
+  },
+  {
+    "name": "Levent Mercan",
+    "age": 22,
+    "pos": "Defans",
+    "num": 18,
     "nationality": "turkey",
     "team": "fatihkaragumruk",
-    "picture_path": "/images/players/fatihkaragumruk/rayyan-baniya.png"
+    "picture_path": "/images/players/turkey/levent-mercan.png"
   },
   {
     "name": "Emir Tintiş",
@@ -1113,7 +1131,7 @@
     "num": 3,
     "nationality": "turkey",
     "team": "fatihkaragumruk",
-    "picture_path": "/images/players/fatihkaragumruk/emir-tintis.png"
+    "picture_path": "/images/players/turkey/emir-tintis.png"
   },
   {
     "name": "Salih Dursun",
@@ -1122,7 +1140,7 @@
     "num": 54,
     "nationality": "turkey",
     "team": "fatihkaragumruk",
-    "picture_path": "/images/players/fatihkaragumruk/salih-dursun.png"
+    "picture_path": "/images/players/turkey/salih-dursun.png"
   },
   {
     "name": "Efecan Mızrakçı",
@@ -1131,7 +1149,7 @@
     "num": 37,
     "nationality": "turkey",
     "team": "fatihkaragumruk",
-    "picture_path": "/images/players/fatihkaragumruk/efecan-mizrakci.png"
+    "picture_path": "/images/players/turkey/efecan-mizrakci.png"
   },
   {
     "name": "Matteo Ricci",
@@ -1140,7 +1158,7 @@
     "num": 8,
     "nationality": "italy",
     "team": "fatihkaragumruk",
-    "picture_path": "/images/players/fatihkaragumruk/matteo-ricci.png"
+    "picture_path": "/images/players/italy/matteo-ricci.png"
   },
   {
     "name": "Magomed Ozdoev",
@@ -1149,7 +1167,7 @@
     "num": 27,
     "nationality": "russia",
     "team": "fatihkaragumruk",
-    "picture_path": "/images/players/fatihkaragumruk/magomed-ozdoev.png"
+    "picture_path": "/images/players/russia/magomed-ozdoev.png"
   },
   {
     "name": "Otabek Shukurov",
@@ -1158,7 +1176,7 @@
     "num": 29,
     "nationality": "uzbekistan",
     "team": "fatihkaragumruk",
-    "picture_path": "/images/players/fatihkaragumruk/otabek-shukurov.png"
+    "picture_path": "/images/players/uzbekistan/otabek-shukurov.png"
   },
   {
     "name": "Andrea Bertolacci",
@@ -1167,16 +1185,7 @@
     "num": 91,
     "nationality": "italy",
     "team": "fatihkaragumruk",
-    "picture_path": "/images/players/fatihkaragumruk/andrea-bertolacci.png"
-  },
-  {
-    "name": "Levent Mercan",
-    "age": 22,
-    "pos": "Ortasaha",
-    "num": 18,
-    "nationality": "turkey",
-    "team": "fatihkaragumruk",
-    "picture_path": "/images/players/fatihkaragumruk/levent-mercan.png"
+    "picture_path": "/images/players/italy/andrea-bertolacci.png"
   },
   {
     "name": "Efe Tatlı",
@@ -1185,16 +1194,16 @@
     "num": 14,
     "nationality": "turkey",
     "team": "fatihkaragumruk",
-    "picture_path": "/images/players/fatihkaragumruk/efe-tatli.jpg"
+    "picture_path": "/images/players/turkey/efe-tatli.jpg"
   },
   {
     "name": "Adnan Uğur",
     "age": 21,
     "pos": "Ortasaha",
     "num": 77,
-    "nationality": "turkey",
+    "nationality": "belgium",
     "team": "fatihkaragumruk",
-    "picture_path": "/images/players/fatihkaragumruk/adnan-ugur.png"
+    "picture_path": "/images/players/belgium/adnan-ugur.png"
   },
   {
     "name": "Lawrence Nicholas",
@@ -1203,7 +1212,7 @@
     "num": 24,
     "nationality": "nigeria",
     "team": "fatihkaragumruk",
-    "picture_path": "/images/players/fatihkaragumruk/lawrence-nicholas.png"
+    "picture_path": "/images/players/nigeria/lawrence-nicholas.png"
   },
   {
     "name": "Fatih Kurnaz",
@@ -1212,7 +1221,7 @@
     "num": 25,
     "nationality": "turkey",
     "team": "fatihkaragumruk",
-    "picture_path": "/images/players/fatihkaragumruk/fatih-kurnaz.png"
+    "picture_path": "/images/players/turkey/fatih-kurnaz.png"
   },
   {
     "name": "Adem Ljajic",
@@ -1221,7 +1230,7 @@
     "num": 33,
     "nationality": "serbia",
     "team": "fatihkaragumruk",
-    "picture_path": "/images/players/fatihkaragumruk/adem-ljajić.png"
+    "picture_path": "/images/players/serbia/adem-ljajić.png"
   },
   {
     "name": "Samed Onur",
@@ -1230,16 +1239,16 @@
     "num": 17,
     "nationality": "turkey",
     "team": "fatihkaragumruk",
-    "picture_path": "/images/players/fatihkaragumruk/samed-onur.png"
+    "picture_path": "/images/players/turkey/samed-onur.png"
   },
   {
     "name": "Saba Lobzhanidze",
     "age": 28,
     "pos": "Ortasaha",
-    "num": -1,
+    "num": 7,
     "nationality": "georgia",
     "team": "fatihkaragumruk",
-    "picture_path": "/images/players/fatihkaragumruk/saba-lobzhanidze.png"
+    "picture_path": "/images/players/georgia/saba-lobzhanidze.png"
   },
   {
     "name": "Fabio Borini",
@@ -1248,7 +1257,7 @@
     "num": 16,
     "nationality": "italy",
     "team": "fatihkaragumruk",
-    "picture_path": "/images/players/fatihkaragumruk/fabio-borini.png"
+    "picture_path": "/images/players/italy/fabio-borini.png"
   },
   {
     "name": "Kerim Frei",
@@ -1257,7 +1266,7 @@
     "num": 11,
     "nationality": "turkey",
     "team": "fatihkaragumruk",
-    "picture_path": "/images/players/fatihkaragumruk/kerim-frei.png"
+    "picture_path": "/images/players/turkey/kerim-frei.png"
   },
   {
     "name": "Brahim Darri",
@@ -1266,7 +1275,7 @@
     "num": -1,
     "nationality": "netherlands",
     "team": "fatihkaragumruk",
-    "picture_path": "/images/players/fatihkaragumruk/brahim-darri.jpg"
+    "picture_path": "/images/players/netherlands/brahim-darri.jpg"
   },
   {
     "name": "Ebrima Colley",
@@ -1275,7 +1284,7 @@
     "num": 19,
     "nationality": "gambia",
     "team": "fatihkaragumruk",
-    "picture_path": "/images/players/fatihkaragumruk/ebrima-colley.png"
+    "picture_path": "/images/players/gambia/ebrima-colley.png"
   },
   {
     "name": "Burak Kapacak",
@@ -1284,7 +1293,7 @@
     "num": 22,
     "nationality": "turkey",
     "team": "fatihkaragumruk",
-    "picture_path": "/images/players/fatihkaragumruk/burak-kapacak.png"
+    "picture_path": "/images/players/turkey/burak-kapacak.png"
   },
   {
     "name": "Sofiane Feghouli",
@@ -1293,7 +1302,7 @@
     "num": 89,
     "nationality": "algeria",
     "team": "fatihkaragumruk",
-    "picture_path": "/images/players/fatihkaragumruk/sofiane-feghouli.png"
+    "picture_path": "/images/players/algeria/sofiane-feghouli.png"
   },
   {
     "name": "Mbaye Diagne",
@@ -1302,7 +1311,7 @@
     "num": 9,
     "nationality": "senegal",
     "team": "fatihkaragumruk",
-    "picture_path": "/images/players/fatihkaragumruk/mbaye-diagne.png"
+    "picture_path": "/images/players/senegal/mbaye-diagne.png"
   },
   {
     "name": "Colin Kazim-Richards",
@@ -1311,7 +1320,7 @@
     "num": 13,
     "nationality": "turkey",
     "team": "fatihkaragumruk",
-    "picture_path": "/images/players/fatihkaragumruk/colin-kazim-richards.png"
+    "picture_path": "/images/players/turkey/colin-kazim-richards.png"
   },
   {
     "name": "Altay Bayındır",
@@ -1320,7 +1329,7 @@
     "num": 1,
     "nationality": "turkey",
     "team": "fenerbahce",
-    "picture_path": "/images/players/fenerbahce/altay-bayindir.png"
+    "picture_path": "/images/players/turkey/altay-bayindir.png"
   },
   {
     "name": "İrfan Can Eğribayat",
@@ -1329,7 +1338,7 @@
     "num": 70,
     "nationality": "turkey",
     "team": "fenerbahce",
-    "picture_path": "/images/players/fenerbahce/irfancan-egribayat.png"
+    "picture_path": "/images/players/turkey/irfancan-egribayat.png"
   },
   {
     "name": "Ertuğrul Çetin",
@@ -1338,7 +1347,7 @@
     "num": 54,
     "nationality": "turkey",
     "team": "fenerbahce",
-    "picture_path": "/images/players/fenerbahce/ertugrul-cetin.png"
+    "picture_path": "/images/players/turkey/ertugrul-cetin.png"
   },
   {
     "name": "Attila Szalai",
@@ -1347,7 +1356,7 @@
     "num": 41,
     "nationality": "hungary",
     "team": "fenerbahce",
-    "picture_path": "/images/players/fenerbahce/attila-szalai.png"
+    "picture_path": "/images/players/hungary/attila-szalai.png"
   },
   {
     "name": "Luan Peres",
@@ -1356,7 +1365,7 @@
     "num": 28,
     "nationality": "brazil",
     "team": "fenerbahce",
-    "picture_path": "/images/players/fenerbahce/luan-peres.png"
+    "picture_path": "/images/players/brazil/luan-peres.png"
   },
   {
     "name": "Gustavo Henrique",
@@ -1365,7 +1374,7 @@
     "num": 2,
     "nationality": "brazil",
     "team": "fenerbahce",
-    "picture_path": "/images/players/fenerbahce/gustavo-henrique.png"
+    "picture_path": "/images/players/brazil/gustavo-henrique.png"
   },
   {
     "name": "Samet Akaydın",
@@ -1374,7 +1383,7 @@
     "num": 3,
     "nationality": "turkey",
     "team": "fenerbahce",
-    "picture_path": "/images/players/fenerbahce/samed-akaydin.png"
+    "picture_path": "/images/players/turkey/samed-akaydin.png"
   },
   {
     "name": "Serdar Aziz",
@@ -1383,7 +1392,7 @@
     "num": 4,
     "nationality": "turkey",
     "team": "fenerbahce",
-    "picture_path": "/images/players/fenerbahce/serdar-aziz.png"
+    "picture_path": "/images/players/turkey/serdar-aziz.png"
   },
   {
     "name": "Ezgjan Alioski",
@@ -1392,7 +1401,7 @@
     "num": 6,
     "nationality": "north-macedonia",
     "team": "fenerbahce",
-    "picture_path": "/images/players/fenerbahce/ezgjan-alioski.png"
+    "picture_path": "/images/players/north-macedonia/ezgjan-alioski.png"
   },
   {
     "name": "Jayden Oosterwolde",
@@ -1401,16 +1410,16 @@
     "num": 24,
     "nationality": "netherlands",
     "team": "fenerbahce",
-    "picture_path": "/images/players/fenerbahce/jayden-oosterwolde.png"
+    "picture_path": "/images/players/netherlands/jayden-oosterwolde.png"
   },
   {
     "name": "Ferdi Kadıoğlu",
     "age": 23,
     "pos": "Defans",
     "num": 7,
-    "nationality": "italy",
+    "nationality": "turkey",
     "team": "fenerbahce",
-    "picture_path": "/images/players/fenerbahce/ferdi-kadioglu.png"
+    "picture_path": "/images/players/turkey/ferdi-kadioglu.png"
   },
   {
     "name": "Bright Osayi-Samuel",
@@ -1419,7 +1428,7 @@
     "num": 21,
     "nationality": "nigeria",
     "team": "fenerbahce",
-    "picture_path": "/images/players/fenerbahce/nazim-sangare.png"
+    "picture_path": "/images/players/nigeria/nazim-sangare.png"
   },
   {
     "name": "Willian Arao",
@@ -1428,7 +1437,7 @@
     "num": 5,
     "nationality": "brazil",
     "team": "fenerbahce",
-    "picture_path": "/images/players/fenerbahce/willian-arao.png"
+    "picture_path": "/images/players/brazil/willian-arao.png"
   },
   {
     "name": "Miguel Crespo",
@@ -1437,7 +1446,7 @@
     "num": 27,
     "nationality": "portugal",
     "team": "fenerbahce",
-    "picture_path": "/images/players/fenerbahce/miguel-crespo.png"
+    "picture_path": "/images/players/portugal/miguel-crespo.png"
   },
   {
     "name": "Miha Zajc",
@@ -1446,7 +1455,7 @@
     "num": 26,
     "nationality": "slovenia",
     "team": "fenerbahce",
-    "picture_path": "/images/players/fenerbahce/miha-zajc.png"
+    "picture_path": "/images/players/slovenia/miha-zajc.png"
   },
   {
     "name": "İsmail Yüksek",
@@ -1455,7 +1464,7 @@
     "num": 80,
     "nationality": "turkey",
     "team": "fenerbahce",
-    "picture_path": "/images/players/fenerbahce/ismail-yuksek.png"
+    "picture_path": "/images/players/turkey/ismail-yuksek.png"
   },
   {
     "name": "Mert Hakan Yandaş",
@@ -1464,7 +1473,7 @@
     "num": 8,
     "nationality": "turkey",
     "team": "fenerbahce",
-    "picture_path": "/images/players/fenerbahce/mert-hakan-yandas.png"
+    "picture_path": "/images/players/turkey/mert-hakan-yandas.png"
   },
   {
     "name": "Arda Güler",
@@ -1473,7 +1482,7 @@
     "num": 10,
     "nationality": "turkey",
     "team": "fenerbahce",
-    "picture_path": "/images/players/fenerbahce/arda-guler.png"
+    "picture_path": "/images/players/turkey/arda-guler.png"
   },
   {
     "name": "Lincoln",
@@ -1482,7 +1491,7 @@
     "num": 18,
     "nationality": "brazil",
     "team": "fenerbahce",
-    "picture_path": "/images/players/fenerbahce/lincoln.png"
+    "picture_path": "/images/players/brazil/lincoln.png"
   },
   {
     "name": "Diego Rossi",
@@ -1491,7 +1500,7 @@
     "num": 9,
     "nationality": "uruguay",
     "team": "fenerbahce",
-    "picture_path": "/images/players/fenerbahce/diego-rossi.png"
+    "picture_path": "/images/players/uruguay/diego-rossi.png"
   },
   {
     "name": "İrfan Can Kahveci",
@@ -1500,7 +1509,7 @@
     "num": 17,
     "nationality": "turkey",
     "team": "fenerbahce",
-    "picture_path": "/images/players/fenerbahce/irfancan-kahveci.png"
+    "picture_path": "/images/players/turkey/irfancan-kahveci.png"
   },
   {
     "name": "Emre Mor",
@@ -1509,7 +1518,7 @@
     "num": 99,
     "nationality": "turkey",
     "team": "fenerbahce",
-    "picture_path": "/images/players/fenerbahce/emre-mor.png"
+    "picture_path": "/images/players/turkey/emre-mor.png"
   },
   {
     "name": "Michy Batshuayi",
@@ -1518,7 +1527,7 @@
     "num": 23,
     "nationality": "belgium",
     "team": "fenerbahce",
-    "picture_path": "/images/players/fenerbahce/michy-batshuayi.png"
+    "picture_path": "/images/players/belgium/michy-batshuayi.png"
   },
   {
     "name": "Joao Pedro",
@@ -1527,7 +1536,7 @@
     "num": 20,
     "nationality": "italy",
     "team": "fenerbahce",
-    "picture_path": "/images/players/fenerbahce/joao-pedro.png"
+    "picture_path": "/images/players/italy/joao-pedro.png"
   },
   {
     "name": "Joshua King",
@@ -1536,7 +1545,7 @@
     "num": 15,
     "nationality": "norway",
     "team": "fenerbahce",
-    "picture_path": "/images/players/fenerbahce/joshua-king.png"
+    "picture_path": "/images/players/norway/joshua-king.png"
   },
   {
     "name": "Enner Valencia",
@@ -1545,7 +1554,7 @@
     "num": 13,
     "nationality": "ecuador",
     "team": "fenerbahce",
-    "picture_path": "/images/players/fenerbahce/enner-valencia.png"
+    "picture_path": "/images/players/ecuador/enner-valencia.png"
   },
   {
     "name": "Serdar Dursun",
@@ -1554,7 +1563,7 @@
     "num": 19,
     "nationality": "turkey",
     "team": "fenerbahce",
-    "picture_path": "/images/players/fenerbahce/serdar-dursun.png"
+    "picture_path": "/images/players/turkey/serdar-dursun.png"
   },
   {
     "name": "Fernando Muslera",
@@ -1563,7 +1572,7 @@
     "num": 1,
     "nationality": "uruguay",
     "team": "galatasaray",
-    "picture_path": "/images/players/galatasaray/fernando-muslera.png"
+    "picture_path": "/images/players/uruguay/fernando-muslera.png"
   },
   {
     "name": "Okan Koçuk",
@@ -1572,7 +1581,7 @@
     "num": 34,
     "nationality": "turkey",
     "team": "galatasaray",
-    "picture_path": "/images/players/galatasaray/okan-kocuk.png"
+    "picture_path": "/images/players/turkey/okan-kocuk.png"
   },
   {
     "name": "Jankat Yilmaz",
@@ -1581,7 +1590,7 @@
     "num": 50,
     "nationality": "turkey",
     "team": "galatasaray",
-    "picture_path": "/images/players/galatasaray/jankat-yilmaz.png"
+    "picture_path": "/images/players/turkey/jankat-yilmaz.png"
   },
   {
     "name": "Victor Nelsson",
@@ -1590,7 +1599,7 @@
     "num": 25,
     "nationality": "denmark",
     "team": "galatasaray",
-    "picture_path": "/images/players/galatasaray/victor-enok-nelsson.png"
+    "picture_path": "/images/players/denmark/victor-enok-nelsson.png"
   },
   {
     "name": "Kaan Ayhan",
@@ -1599,7 +1608,7 @@
     "num": 23,
     "nationality": "turkey",
     "team": "galatasaray",
-    "picture_path": "/images/players/galatasaray/kaan-ayhan.png"
+    "picture_path": "/images/players/turkey/kaan-ayhan.png"
   },
   {
     "name": "Abdülkerim Bardakçı",
@@ -1608,7 +1617,7 @@
     "num": 42,
     "nationality": "turkey",
     "team": "galatasaray",
-    "picture_path": "/images/players/galatasaray/abdülkerim-bardakci.png"
+    "picture_path": "/images/players/turkey/abdülkerim-bardakci.png"
   },
   {
     "name": "Mathias Ross",
@@ -1617,7 +1626,7 @@
     "num": 4,
     "nationality": "denmark",
     "team": "galatasaray",
-    "picture_path": "/images/players/galatasaray/mathias-ross-jensen.png"
+    "picture_path": "/images/players/denmark/mathias-ross-jensen.png"
   },
   {
     "name": "Emin Bayram",
@@ -1626,7 +1635,7 @@
     "num": 40,
     "nationality": "turkey",
     "team": "galatasaray",
-    "picture_path": "/images/players/galatasaray/emin-bayram.png"
+    "picture_path": "/images/players/turkey/emin-bayram.png"
   },
   {
     "name": "Sam Adekugbe",
@@ -1635,7 +1644,7 @@
     "num": 32,
     "nationality": "canada",
     "team": "galatasaray",
-    "picture_path": "/images/players/galatasaray/sam-adekugbe.png"
+    "picture_path": "/images/players/canada/sam-adekugbe.png"
   },
   {
     "name": "Kazımcan Karataş",
@@ -1644,7 +1653,7 @@
     "num": 88,
     "nationality": "turkey",
     "team": "galatasaray",
-    "picture_path": "/images/players/galatasaray/kazımcan-karatas.png"
+    "picture_path": "/images/players/turkey/kazımcan-karatas.png"
   },
   {
     "name": "Emre Taşdemir",
@@ -1653,7 +1662,7 @@
     "num": 13,
     "nationality": "turkey",
     "team": "galatasaray",
-    "picture_path": "/images/players/galatasaray/emre-tasdemir.png"
+    "picture_path": "/images/players/turkey/emre-tasdemir.png"
   },
   {
     "name": "Sacha Boey",
@@ -1662,7 +1671,7 @@
     "num": 93,
     "nationality": "france",
     "team": "galatasaray",
-    "picture_path": "/images/players/galatasaray/sacha-boey.png"
+    "picture_path": "/images/players/france/sacha-boey.png"
   },
   {
     "name": "Leo Dubois",
@@ -1671,7 +1680,7 @@
     "num": 2,
     "nationality": "france",
     "team": "galatasaray",
-    "picture_path": "/images/players/galatasaray/leo-dubois.png"
+    "picture_path": "/images/players/france/leo-dubois.png"
   },
   {
     "name": "Lucas Torreira",
@@ -1680,7 +1689,16 @@
     "num": 5,
     "nationality": "uruguay",
     "team": "galatasaray",
-    "picture_path": "/images/players/galatasaray/lucas-torreira.png"
+    "picture_path": "/images/players/uruguay/lucas-torreira.png"
+  },
+  {
+    "name": "Baran Aksaka",
+    "age": 20,
+    "pos": "Ortasaha",
+    "num": 63,
+    "nationality": "turkey",
+    "team": "galatasaray",
+    "picture_path": "/images/players/turkey/baran-aksaka.png"
   },
   {
     "name": "Fredrik Midtsjö",
@@ -1689,7 +1707,7 @@
     "num": 6,
     "nationality": "norway",
     "team": "galatasaray",
-    "picture_path": "/images/players/galatasaray/fredrik-midtsjo.png"
+    "picture_path": "/images/players/norway/fredrik-midtsjo.png"
   },
   {
     "name": "Sergio Oliveira",
@@ -1698,7 +1716,7 @@
     "num": 27,
     "nationality": "portugal",
     "team": "galatasaray",
-    "picture_path": "/images/players/galatasaray/sergio-oliveira.png"
+    "picture_path": "/images/players/portugal/sergio-oliveira.png"
   },
   {
     "name": "Berkan Kutlu",
@@ -1707,7 +1725,7 @@
     "num": 22,
     "nationality": "turkey",
     "team": "galatasaray",
-    "picture_path": "/images/players/galatasaray/berkan-kutlu.png"
+    "picture_path": "/images/players/turkey/berkan-kutlu.png"
   },
   {
     "name": "Hamza Yiğit Akman",
@@ -1716,16 +1734,16 @@
     "num": 81,
     "nationality": "turkey",
     "team": "galatasaray",
-    "picture_path": "/images/players/galatasaray/hamza-yigit-akman.png"
+    "picture_path": "/images/players/turkey/hamza-yigit-akman.png"
   },
   {
     "name": "Nicolo Zaniolo",
     "age": 23,
     "pos": "Ortasaha",
     "num": 17,
-    "nationality": "turkey",
+    "nationality": "italy",
     "team": "galatasaray",
-    "picture_path": "/images/players/galatasaray/nicolo-zaniolo.png"
+    "picture_path": "/images/players/italy/nicolo-zaniolo.png"
   },
   {
     "name": "Juan Mata",
@@ -1734,7 +1752,7 @@
     "num": 64,
     "nationality": "spain",
     "team": "galatasaray",
-    "picture_path": "/images/players/galatasaray/juan-mata.png"
+    "picture_path": "/images/players/spain/juan-mata.png"
   },
   {
     "name": "Kerem Aktürkoğlu",
@@ -1743,7 +1761,7 @@
     "num": 7,
     "nationality": "turkey",
     "team": "galatasaray",
-    "picture_path": "/images/players/galatasaray/muhammed-kerem-akturkoglu.png"
+    "picture_path": "/images/players/turkey/muhammed-kerem-akturkoglu.png"
   },
   {
     "name": "Barış Alper Yılmaz",
@@ -1752,7 +1770,7 @@
     "num": 53,
     "nationality": "turkey",
     "team": "galatasaray",
-    "picture_path": "/images/players/galatasaray/baris-alper-yilmaz.png"
+    "picture_path": "/images/players/turkey/baris-alper-yilmaz.png"
   },
   {
     "name": "Yunus Akgün",
@@ -1761,7 +1779,7 @@
     "num": 11,
     "nationality": "turkey",
     "team": "galatasaray",
-    "picture_path": "/images/players/galatasaray/yunus-akgun.png"
+    "picture_path": "/images/players/turkey/yunus-akgun.png"
   },
   {
     "name": "Yusuf Demir",
@@ -1770,7 +1788,7 @@
     "num": 30,
     "nationality": "austria",
     "team": "galatasaray",
-    "picture_path": "/images/players/galatasaray/yusuf-demir.png"
+    "picture_path": "/images/players/austria/yusuf-demir.png"
   },
   {
     "name": "Milot Rashica",
@@ -1779,7 +1797,7 @@
     "num": 26,
     "nationality": "kosovo",
     "team": "galatasaray",
-    "picture_path": "/images/players/galatasaray/milot-rashica.png"
+    "picture_path": "/images/players/kosovo/milot-rashica.png"
   },
   {
     "name": "Dries Mertens",
@@ -1788,16 +1806,16 @@
     "num": 10,
     "nationality": "belgium",
     "team": "galatasaray",
-    "picture_path": "/images/players/galatasaray/dries-mertens.png"
+    "picture_path": "/images/players/belgium/dries-mertens.png"
   },
   {
     "name": "Mauro Icardi",
     "age": 30,
     "pos": "Forvet",
     "num": 99,
-    "nationality": "uruguay",
+    "nationality": "argentina",
     "team": "galatasaray",
-    "picture_path": "/images/players/galatasaray/mauro-icardi.png"
+    "picture_path": "/images/players/argentina/mauro-icardi.png"
   },
   {
     "name": "Bafetimbi Gomis",
@@ -1806,7 +1824,7 @@
     "num": 18,
     "nationality": "france",
     "team": "galatasaray",
-    "picture_path": "/images/players/galatasaray/bafetimbi-gomis.png"
+    "picture_path": "/images/players/france/bafetimbi-gomis.png"
   },
   {
     "name": "Erten Ersu",
@@ -1815,7 +1833,7 @@
     "num": 54,
     "nationality": "turkey",
     "team": "gaziantepfk",
-    "picture_path": "/images/players/gaziantepfk/erten-ersu.png"
+    "picture_path": "/images/players/turkey/erten-ersu.png"
   },
   {
     "name": "Ertuğrul Ersoy",
@@ -1824,7 +1842,7 @@
     "num": 15,
     "nationality": "turkey",
     "team": "gaziantepfk",
-    "picture_path": "/images/players/gaziantepfk/ertugrul-ersoy.png"
+    "picture_path": "/images/players/turkey/ertugrul-ersoy.png"
   },
   {
     "name": "Matej Hanousek",
@@ -1833,25 +1851,7 @@
     "num": 16,
     "nationality": "czech-republic",
     "team": "gaziantepfk",
-    "picture_path": "/images/players/gaziantepfk/matej-hanousek.png"
-  },
-  {
-    "name": "Stelios Kitsiou",
-    "age": 29,
-    "pos": "Defans",
-    "num": 70,
-    "nationality": "greece",
-    "team": "gaziantepfk",
-    "picture_path": "/images/players/gaziantepfk/stelios-kitsiou.png"
-  },
-  {
-    "name": "Berkan Küpelikılınç",
-    "age": 20,
-    "pos": "Defans",
-    "num": 2,
-    "nationality": "turkey",
-    "team": "gaziantepfk",
-    "picture_path": "/images/players/gaziantepfk/berkan-kupelikilinc.png"
+    "picture_path": "/images/players/czech-republic/matej-hanousek.png"
   },
   {
     "name": "Marko Jevtovic",
@@ -1860,7 +1860,7 @@
     "num": 8,
     "nationality": "serbia",
     "team": "gaziantepfk",
-    "picture_path": "/images/players/gaziantepfk/marko-jevtovic.png"
+    "picture_path": "/images/players/serbia/marko-jevtovic.png"
   },
   {
     "name": "Bahadır Gölgeli",
@@ -1869,7 +1869,7 @@
     "num": 91,
     "nationality": "turkey",
     "team": "gaziantepfk",
-    "picture_path": "/images/players/gaziantepfk/bahadir-golgeli.png"
+    "picture_path": "/images/players/turkey/bahadir-golgeli.png"
   },
   {
     "name": "Alexander Merkel",
@@ -1878,7 +1878,7 @@
     "num": 52,
     "nationality": "kazakhstan",
     "team": "gaziantepfk",
-    "picture_path": "/images/players/gaziantepfk/alexander-merkel.png"
+    "picture_path": "/images/players/kazakhstan/alexander-merkel.png"
   },
   {
     "name": "Onurhan Babuşçu",
@@ -1887,7 +1887,7 @@
     "num": 30,
     "nationality": "austria",
     "team": "gaziantepfk",
-    "picture_path": "/images/players/gaziantepfk/onurhan-babuscu.png"
+    "picture_path": "/images/players/austria/onurhan-babuscu.png"
   },
   {
     "name": "Angelo Sagal",
@@ -1896,7 +1896,7 @@
     "num": 28,
     "nationality": "chile",
     "team": "gaziantepfk",
-    "picture_path": "/images/players/gaziantepfk/angelo-sagal.png"
+    "picture_path": "/images/players/chile/angelo-sagal.png"
   },
   {
     "name": "Abdulkerim Çakar",
@@ -1905,7 +1905,7 @@
     "num": 23,
     "nationality": "turkey",
     "team": "gaziantepfk",
-    "picture_path": "/images/players/gaziantepfk/abdulkerim-cakar.png"
+    "picture_path": "/images/players/turkey/abdulkerim-cakar.png"
   },
   {
     "name": "Onurcan Piri",
@@ -1914,7 +1914,7 @@
     "num": 1,
     "nationality": "turkey",
     "team": "giresunspor",
-    "picture_path": "/images/players/giresunspor/onurcan-piri.png"
+    "picture_path": "/images/players/turkey/onurcan-piri.png"
   },
   {
     "name": "Ferhat Kaplan",
@@ -1923,7 +1923,7 @@
     "num": 35,
     "nationality": "turkey",
     "team": "giresunspor",
-    "picture_path": "/images/players/giresunspor/ferhat-kaplan.png"
+    "picture_path": "/images/players/turkey/ferhat-kaplan.png"
   },
   {
     "name": "Doğaç Çifçi",
@@ -1932,7 +1932,7 @@
     "num": 37,
     "nationality": "turkey",
     "team": "giresunspor",
-    "picture_path": "/images/players/giresunspor/dogan-ciftci.png"
+    "picture_path": "/images/players/turkey/dogan-ciftci.png"
   },
   {
     "name": "Erkan Anapa",
@@ -1941,7 +1941,7 @@
     "num": 74,
     "nationality": "turkey",
     "team": "giresunspor",
-    "picture_path": "/images/players/giresunspor/erkan-anapa.png"
+    "picture_path": "/images/players/turkey/erkan-anapa.png"
   },
   {
     "name": "Alexis Perez",
@@ -1950,7 +1950,7 @@
     "num": 25,
     "nationality": "colombia",
     "team": "giresunspor",
-    "picture_path": "/images/players/giresunspor/alexis-perez.png"
+    "picture_path": "/images/players/colombia/alexis-perez.png"
   },
   {
     "name": "Ramon Arias",
@@ -1959,7 +1959,7 @@
     "num": 21,
     "nationality": "uruguay",
     "team": "giresunspor",
-    "picture_path": "/images/players/giresunspor/ramon-arias.png"
+    "picture_path": "/images/players/uruguay/ramon-arias.png"
   },
   {
     "name": "Faustin Senghor",
@@ -1968,7 +1968,7 @@
     "num": 5,
     "nationality": "senegal",
     "team": "giresunspor",
-    "picture_path": "/images/players/giresunspor/faustin-senghor.png"
+    "picture_path": "/images/players/senegal/faustin-senghor.png"
   },
   {
     "name": "Kadir Seven",
@@ -1977,7 +1977,7 @@
     "num": 50,
     "nationality": "turkey",
     "team": "giresunspor",
-    "picture_path": "/images/players/giresunspor/kadir-seven.png"
+    "picture_path": "/images/players/turkey/kadir-seven.png"
   },
   {
     "name": "Arda Kılıç",
@@ -1986,7 +1986,7 @@
     "num": 3,
     "nationality": "turkey",
     "team": "giresunspor",
-    "picture_path": "/images/players/giresunspor/arda-kilic.png"
+    "picture_path": "/images/players/turkey/arda-kilic.png"
   },
   {
     "name": "Alper Uludağ",
@@ -1995,7 +1995,7 @@
     "num": 6,
     "nationality": "turkey",
     "team": "giresunspor",
-    "picture_path": "/images/players/giresunspor/alper-uludag.png"
+    "picture_path": "/images/players/turkey/alper-uludag.png"
   },
   {
     "name": "Faruk Can Genç",
@@ -2004,7 +2004,7 @@
     "num": 99,
     "nationality": "turkey",
     "team": "giresunspor",
-    "picture_path": "/images/players/giresunspor/faruk-can-genc.png"
+    "picture_path": "/images/players/turkey/faruk-can-genc.png"
   },
   {
     "name": "Hayrullah Bilazer",
@@ -2013,7 +2013,7 @@
     "num": 77,
     "nationality": "turkey",
     "team": "giresunspor",
-    "picture_path": "/images/players/giresunspor/hayrullah-bilazer.png"
+    "picture_path": "/images/players/turkey/hayrullah-bilazer.png"
   },
   {
     "name": "Talha Ülvan",
@@ -2022,7 +2022,7 @@
     "num": 2,
     "nationality": "turkey",
     "team": "giresunspor",
-    "picture_path": "/images/players/giresunspor/talha-ulvan.png"
+    "picture_path": "/images/players/turkey/talha-ulvan.png"
   },
   {
     "name": "Jorman Campuzano",
@@ -2031,7 +2031,7 @@
     "num": 30,
     "nationality": "colombia",
     "team": "giresunspor",
-    "picture_path": "/images/players/giresunspor/jorman-campuzano.png"
+    "picture_path": "/images/players/colombia/jorman-campuzano.png"
   },
   {
     "name": "Robert Mejía",
@@ -2040,7 +2040,7 @@
     "num": 14,
     "nationality": "colombia",
     "team": "giresunspor",
-    "picture_path": "/images/players/giresunspor/robert-mejia.png"
+    "picture_path": "/images/players/colombia/robert-mejia.png"
   },
   {
     "name": "Vukan Savicevic",
@@ -2049,7 +2049,7 @@
     "num": 26,
     "nationality": "montenegro",
     "team": "giresunspor",
-    "picture_path": "/images/players/giresunspor/vukan-savicevic.png"
+    "picture_path": "/images/players/montenegro/vukan-savicevic.png"
   },
   {
     "name": "Murat Cem Akpınar",
@@ -2058,7 +2058,7 @@
     "num": 22,
     "nationality": "turkey",
     "team": "giresunspor",
-    "picture_path": "/images/players/giresunspor/murat-cem-akpinar.png"
+    "picture_path": "/images/players/turkey/murat-cem-akpinar.png"
   },
   {
     "name": "Rahmetullah Berisbek",
@@ -2067,7 +2067,7 @@
     "num": 19,
     "nationality": "turkey",
     "team": "giresunspor",
-    "picture_path": "/images/players/giresunspor/rahmetullah-berisbek.png"
+    "picture_path": "/images/players/turkey/rahmetullah-berisbek.png"
   },
   {
     "name": "Doğan Can Davas",
@@ -2076,7 +2076,7 @@
     "num": 17,
     "nationality": "turkey",
     "team": "giresunspor",
-    "picture_path": "/images/players/giresunspor/dogan-can-davas.png"
+    "picture_path": "/images/players/turkey/dogan-can-davas.png"
   },
   {
     "name": "Görkem Sağlam",
@@ -2085,7 +2085,7 @@
     "num": 23,
     "nationality": "turkey",
     "team": "giresunspor",
-    "picture_path": "/images/players/giresunspor/gorkem-saglam.png"
+    "picture_path": "/images/players/turkey/gorkem-saglam.png"
   },
   {
     "name": "Borja Sainz",
@@ -2094,7 +2094,7 @@
     "num": 7,
     "nationality": "spain",
     "team": "giresunspor",
-    "picture_path": "/images/players/giresunspor/borja-sainz.png"
+    "picture_path": "/images/players/spain/borja-sainz.png"
   },
   {
     "name": "Sergio",
@@ -2103,7 +2103,7 @@
     "num": 10,
     "nationality": "brazil",
     "team": "giresunspor",
-    "picture_path": "/images/players/giresunspor/sergio.png"
+    "picture_path": "/images/players/brazil/sergio.png"
   },
   {
     "name": "Brandley Kuwas",
@@ -2112,7 +2112,7 @@
     "num": 11,
     "nationality": "curacao",
     "team": "giresunspor",
-    "picture_path": "/images/players/giresunspor/brandley-kuwas.png"
+    "picture_path": "/images/players/curacao/brandley-kuwas.png"
   },
   {
     "name": "Riad Bajic",
@@ -2121,7 +2121,7 @@
     "num": 9,
     "nationality": "bosnia-herzegovina",
     "team": "giresunspor",
-    "picture_path": "/images/players/giresunspor/riad-bajic.png"
+    "picture_path": "/images/players/bosnia-herzegovina/riad-bajic.png"
   },
   {
     "name": "Mert Kurt",
@@ -2130,7 +2130,7 @@
     "num": 75,
     "nationality": "turkey",
     "team": "giresunspor",
-    "picture_path": "/images/players/giresunspor/mert-kurt.png"
+    "picture_path": "/images/players/turkey/mert-kurt.png"
   },
   {
     "name": "Erce Kardeşler",
@@ -2139,7 +2139,7 @@
     "num": 1,
     "nationality": "turkey",
     "team": "hatayspor",
-    "picture_path": "/images/players/hatayspor/erce-kardeşler.png"
+    "picture_path": "/images/players/turkey/erce-kardeşler.png"
   },
   {
     "name": "Yavuz Buğra Boyar",
@@ -2148,16 +2148,7 @@
     "num": 33,
     "nationality": "turkey",
     "team": "hatayspor",
-    "picture_path": "/images/players/hatayspor/yavuz-bugra-boyar.png"
-  },
-  {
-    "name": "Burak Öksüz",
-    "age": 27,
-    "pos": "Defans",
-    "num": 53,
-    "nationality": "turkey",
-    "team": "hatayspor",
-    "picture_path": "/images/players/hatayspor/burak-oksuz.png"
+    "picture_path": "/images/players/turkey/yavuz-bugra-boyar.png"
   },
   {
     "name": "Ognjen Vranjes",
@@ -2166,7 +2157,7 @@
     "num": 5,
     "nationality": "bosnia-herzegovina",
     "team": "hatayspor",
-    "picture_path": "/images/players/hatayspor/ognjen-vranjes.png"
+    "picture_path": "/images/players/bosnia-herzegovina/ognjen-vranjes.png"
   },
   {
     "name": "Burak Bekaroğlu",
@@ -2175,7 +2166,7 @@
     "num": 86,
     "nationality": "turkey",
     "team": "hatayspor",
-    "picture_path": "/images/players/hatayspor/burak-bekaroglu.png"
+    "picture_path": "/images/players/turkey/burak-bekaroglu.png"
   },
   {
     "name": "Burak Yılmaz",
@@ -2184,7 +2175,7 @@
     "num": 15,
     "nationality": "turkey",
     "team": "hatayspor",
-    "picture_path": "/images/players/hatayspor/burak-yilmaz.png"
+    "picture_path": "/images/players/turkey/burak-yilmaz.png"
   },
   {
     "name": "Simon Falette",
@@ -2193,16 +2184,7 @@
     "num": 3,
     "nationality": "guinea",
     "team": "hatayspor",
-    "picture_path": "/images/players/hatayspor/simon-falette.png"
-  },
-  {
-    "name": "Engin Can Aksoy",
-    "age": 19,
-    "pos": "Defans",
-    "num": 57,
-    "nationality": "turkey",
-    "team": "hatayspor",
-    "picture_path": "/images/players/hatayspor/engin-can-aksoy.png"
+    "picture_path": "/images/players/guinea/simon-falette.png"
   },
   {
     "name": "Kamil Ahmet Çörekçi",
@@ -2211,7 +2193,7 @@
     "num": 12,
     "nationality": "turkey",
     "team": "hatayspor",
-    "picture_path": "/images/players/hatayspor/kamil-ahmet-corekci.png"
+    "picture_path": "/images/players/turkey/kamil-ahmet-corekci.png"
   },
   {
     "name": "Kerim Alıcı",
@@ -2220,7 +2202,7 @@
     "num": 22,
     "nationality": "turkey",
     "team": "hatayspor",
-    "picture_path": "/images/players/hatayspor/kerim-alici.png"
+    "picture_path": "/images/players/turkey/kerim-alici.png"
   },
   {
     "name": "Onur Ergün",
@@ -2229,7 +2211,7 @@
     "num": 4,
     "nationality": "turkey",
     "team": "hatayspor",
-    "picture_path": "/images/players/hatayspor/onur-ergun.png"
+    "picture_path": "/images/players/turkey/onur-ergun.png"
   },
   {
     "name": "Rayane Aabid",
@@ -2238,16 +2220,7 @@
     "num": 10,
     "nationality": "morocco",
     "team": "hatayspor",
-    "picture_path": "/images/players/hatayspor/rayane-aabid.png"
-  },
-  {
-    "name": "Musa Çağıran",
-    "age": 30,
-    "pos": "Ortasaha",
-    "num": 6,
-    "nationality": "turkey",
-    "team": "hatayspor",
-    "picture_path": "/images/players/hatayspor/musa-cagiran.png"
+    "picture_path": "/images/players/morocco/rayane-aabid.png"
   },
   {
     "name": "Ruben Ribeiro",
@@ -2256,25 +2229,16 @@
     "num": 7,
     "nationality": "portugal",
     "team": "hatayspor",
-    "picture_path": "/images/players/hatayspor/ruben-riberio.png"
-  },
-  {
-    "name": "Muhammed Mert",
-    "age": 28,
-    "pos": "Ortasaha",
-    "num": 19,
-    "nationality": "turkey",
-    "team": "hatayspor",
-    "picture_path": "/images/players/hatayspor/muhammed-mert.png"
+    "picture_path": "/images/players/portugal/ruben-riberio.png"
   },
   {
     "name": "Jeremy Dudziak",
     "age": 27,
     "pos": "Ortasaha",
     "num": 71,
-    "nationality": "tunisia",
+    "nationality": "germany",
     "team": "hatayspor",
-    "picture_path": "/images/players/hatayspor/jeremy-dudziak.png"
+    "picture_path": "/images/players/germany/jeremy-dudziak.png"
   },
   {
     "name": "Dylan Saint-Louis",
@@ -2283,25 +2247,7 @@
     "num": 9,
     "nationality": "congo",
     "team": "hatayspor",
-    "picture_path": "/images/players/hatayspor/dylan-saint-louis.png"
-  },
-  {
-    "name": "Ayoub El Kaabi",
-    "age": 29,
-    "pos": "Ortasaha",
-    "num": 25,
-    "nationality": "morocco",
-    "team": "hatayspor",
-    "picture_path": "/images/players/hatayspor/ayoub-el-kaabi.png"
-  },
-  {
-    "name": "Sadık Baş",
-    "age": 28,
-    "pos": "Ortasaha",
-    "num": 77,
-    "nationality": "turkey",
-    "team": "hatayspor",
-    "picture_path": "/images/players/hatayspor/sadik-bas.png"
+    "picture_path": "/images/players/congo/dylan-saint-louis.png"
   },
   {
     "name": "Ze Luís",
@@ -2310,16 +2256,7 @@
     "num": 29,
     "nationality": "cape-verde",
     "team": "hatayspor",
-    "picture_path": "/images/players/hatayspor/ze-luis.png"
-  },
-  {
-    "name": "Kevin Soni",
-    "age": 24,
-    "pos": "Forvet",
-    "num": 93,
-    "nationality": "cameroon",
-    "team": "hatayspor",
-    "picture_path": "/images/players/hatayspor/kevin-soni.png"
+    "picture_path": "/images/players/cape-verde/ze-luis.png"
   },
   {
     "name": "Muhammed Şengezer",
@@ -2328,7 +2265,7 @@
     "num": 16,
     "nationality": "turkey",
     "team": "istanbulbasaksehirfk",
-    "picture_path": "/images/players/istanbulbasaksehirfk/muhammed-sengezer.jpg"
+    "picture_path": "/images/players/turkey/muhammed-sengezer.jpg"
   },
   {
     "name": "Volkan Babacan",
@@ -2337,7 +2274,7 @@
     "num": 1,
     "nationality": "turkey",
     "team": "istanbulbasaksehirfk",
-    "picture_path": "/images/players/istanbulbasaksehirfk/volkan-babacan.jpg"
+    "picture_path": "/images/players/turkey/volkan-babacan.jpg"
   },
   {
     "name": "Yağız Efe Erataman",
@@ -2346,16 +2283,7 @@
     "num": 78,
     "nationality": "turkey",
     "team": "istanbulbasaksehirfk",
-    "picture_path": "/images/players/istanbulbasaksehirfk/yagiz-efe-erataman.jpg"
-  },
-  {
-    "name": "Ognjen Vranjes",
-    "age": 33,
-    "pos": "Defans",
-    "num": 5,
-    "nationality": "bosnia-herzegovina",
-    "team": "istanbulbasaksehirfk",
-    "picture_path": "/images/players/istanbulbasaksehirfk/ognjen-vranjes.png"
+    "picture_path": "/images/players/turkey/yagiz-efe-erataman.jpg"
   },
   {
     "name": "Deniz Dilmen",
@@ -2364,7 +2292,7 @@
     "num": 98,
     "nationality": "turkey",
     "team": "istanbulbasaksehirfk",
-    "picture_path": "/images/players/istanbulbasaksehirfk/deniz-dilmen.jpg"
+    "picture_path": "/images/players/turkey/deniz-dilmen.jpg"
   },
   {
     "name": "Edgar Le",
@@ -2373,7 +2301,7 @@
     "num": 51,
     "nationality": "portugal",
     "team": "istanbulbasaksehirfk",
-    "picture_path": "/images/players/istanbulbasaksehirfk/edgar-le.jpg"
+    "picture_path": "/images/players/portugal/edgar-le.jpg"
   },
   {
     "name": "Leonardo Duarte",
@@ -2382,7 +2310,7 @@
     "num": 5,
     "nationality": "brazil",
     "team": "istanbulbasaksehirfk",
-    "picture_path": "/images/players/istanbulbasaksehirfk/leonardo-duarte.jpg"
+    "picture_path": "/images/players/brazil/leonardo-duarte.jpg"
   },
   {
     "name": "Ahmed Touba",
@@ -2391,7 +2319,7 @@
     "num": 59,
     "nationality": "algeria",
     "team": "istanbulbasaksehirfk",
-    "picture_path": "/images/players/istanbulbasaksehirfk/ahmed-touba.jpg"
+    "picture_path": "/images/players/algeria/ahmed-touba.jpg"
   },
   {
     "name": "Shaocong Wu",
@@ -2400,7 +2328,7 @@
     "num": 4,
     "nationality": "china",
     "team": "istanbulbasaksehirfk",
-    "picture_path": "/images/players/istanbulbasaksehirfk/shaocong-wu.jpg"
+    "picture_path": "/images/players/china/shaocong-wu.jpg"
   },
   {
     "name": "Efe Arda Koyuncu",
@@ -2409,7 +2337,7 @@
     "num": 41,
     "nationality": "turkey",
     "team": "istanbulbasaksehirfk",
-    "picture_path": "/images/players/istanbulbasaksehirfk/efe-arda-koyuncu.jpg"
+    "picture_path": "/images/players/turkey/efe-arda-koyuncu.jpg"
   },
   {
     "name": "Lucas Lima",
@@ -2418,7 +2346,7 @@
     "num": 60,
     "nationality": "brazil",
     "team": "istanbulbasaksehirfk",
-    "picture_path": "/images/players/istanbulbasaksehirfk/lucal-lima.jpg"
+    "picture_path": "/images/players/brazil/lucal-lima.jpg"
   },
   {
     "name": "Caner Erkin",
@@ -2427,7 +2355,7 @@
     "num": 88,
     "nationality": "turkey",
     "team": "istanbulbasaksehirfk",
-    "picture_path": "/images/players/istanbulbasaksehirfk/caner-erkin.jpg"
+    "picture_path": "/images/players/turkey/caner-erkin.jpg"
   },
   {
     "name": "Ömer Ali Şahiner",
@@ -2436,7 +2364,7 @@
     "num": 42,
     "nationality": "turkey",
     "team": "istanbulbasaksehirfk",
-    "picture_path": "/images/players/istanbulbasaksehirfk/omer-ali-sahiner.jpg"
+    "picture_path": "/images/players/turkey/omer-ali-sahiner.jpg"
   },
   {
     "name": "Ayberk Kaygısız",
@@ -2445,7 +2373,7 @@
     "num": -1,
     "nationality": "turkey",
     "team": "istanbulbasaksehirfk",
-    "picture_path": "/images/players/istanbulbasaksehirfk/ayberk-kaygisiz.jpg"
+    "picture_path": "/images/players/turkey/ayberk-kaygisiz.jpg"
   },
   {
     "name": "Şener Özbayraklı",
@@ -2454,7 +2382,7 @@
     "num": 2,
     "nationality": "turkey",
     "team": "istanbulbasaksehirfk",
-    "picture_path": "/images/players/istanbulbasaksehirfk/sener-ozbayraklı.jpg"
+    "picture_path": "/images/players/turkey/sener-ozbayraklı.jpg"
   },
   {
     "name": "Eden Karzev",
@@ -2463,7 +2391,7 @@
     "num": 72,
     "nationality": "israel",
     "team": "istanbulbasaksehirfk",
-    "picture_path": "/images/players/istanbulbasaksehirfk/eden-karzev.jpg"
+    "picture_path": "/images/players/israel/eden-karzev.jpg"
   },
   {
     "name": "Lucas Biglia",
@@ -2472,7 +2400,7 @@
     "num": 20,
     "nationality": "argentina",
     "team": "istanbulbasaksehirfk",
-    "picture_path": "/images/players/istanbulbasaksehirfk/lucas-biglia.jpg"
+    "picture_path": "/images/players/argentina/lucas-biglia.jpg"
   },
   {
     "name": "Mahmut Tekdemir",
@@ -2481,7 +2409,7 @@
     "num": 21,
     "nationality": "turkey",
     "team": "istanbulbasaksehirfk",
-    "picture_path": "/images/players/istanbulbasaksehirfk/mahmut-tekdemir.jpg"
+    "picture_path": "/images/players/turkey/mahmut-tekdemir.jpg"
   },
   {
     "name": "Berkay Özcan",
@@ -2490,7 +2418,7 @@
     "num": 19,
     "nationality": "turkey",
     "team": "istanbulbasaksehirfk",
-    "picture_path": "/images/players/istanbulbasaksehirfk/berkay-ozcan.jpg"
+    "picture_path": "/images/players/turkey/berkay-ozcan.jpg"
   },
   {
     "name": "Deniz Türüç",
@@ -2499,7 +2427,7 @@
     "num": 23,
     "nationality": "turkey",
     "team": "istanbulbasaksehirfk",
-    "picture_path": "/images/players/istanbulbasaksehirfk/deniz-turuc.jpg"
+    "picture_path": "/images/players/turkey/deniz-turuc.jpg"
   },
   {
     "name": "Danijel Aleksic",
@@ -2508,7 +2436,7 @@
     "num": 8,
     "nationality": "serbia",
     "team": "istanbulbasaksehirfk",
-    "picture_path": "/images/players/istanbulbasaksehirfk/danijel-aleksic.jpg"
+    "picture_path": "/images/players/serbia/danijel-aleksic.jpg"
   },
   {
     "name": "Mesut Özil",
@@ -2517,7 +2445,7 @@
     "num": 10,
     "nationality": "germany",
     "team": "istanbulbasaksehirfk",
-    "picture_path": "/images/players/istanbulbasaksehirfk/mesut-ozil.jpg"
+    "picture_path": "/images/players/germany/mesut-ozil.jpg"
   },
   {
     "name": "Serdar Gürler",
@@ -2526,7 +2454,7 @@
     "num": 7,
     "nationality": "turkey",
     "team": "istanbulbasaksehirfk",
-    "picture_path": "/images/players/istanbulbasaksehirfk/serdar-gurler.jpg"
+    "picture_path": "/images/players/turkey/serdar-gurler.jpg"
   },
   {
     "name": "Adnan Januzaj",
@@ -2535,7 +2463,7 @@
     "num": 11,
     "nationality": "belgium",
     "team": "istanbulbasaksehirfk",
-    "picture_path": "/images/players/istanbulbasaksehirfk/adnan-januzaj.jpg"
+    "picture_path": "/images/players/belgium/adnan-januzaj.jpg"
   },
   {
     "name": "Patryk Szysz",
@@ -2544,7 +2472,7 @@
     "num": 18,
     "nationality": "poland",
     "team": "istanbulbasaksehirfk",
-    "picture_path": "/images/players/istanbulbasaksehirfk/patryk-szysz.jpg"
+    "picture_path": "/images/players/poland/patryk-szysz.jpg"
   },
   {
     "name": "Joao Figueiredo",
@@ -2553,7 +2481,7 @@
     "num": 25,
     "nationality": "brazil",
     "team": "istanbulbasaksehirfk",
-    "picture_path": "/images/players/istanbulbasaksehirfk/joao-figueiredo.jpg"
+    "picture_path": "/images/players/brazil/joao-figueiredo.jpg"
   },
   {
     "name": "Stefano Okaka",
@@ -2562,7 +2490,7 @@
     "num": 77,
     "nationality": "italy",
     "team": "istanbulbasaksehirfk",
-    "picture_path": "/images/players/istanbulbasaksehirfk/stefano-okaka.jpg"
+    "picture_path": "/images/players/italy/stefano-okaka.jpg"
   },
   {
     "name": "Philippe Keny",
@@ -2571,7 +2499,7 @@
     "num": 17,
     "nationality": "senegal",
     "team": "istanbulbasaksehirfk",
-    "picture_path": "/images/players/istanbulbasaksehirfk/philippe-keny.jpg"
+    "picture_path": "/images/players/senegal/philippe-keny.jpg"
   },
   {
     "name": "Muhammet Arslantaş",
@@ -2580,7 +2508,7 @@
     "num": 34,
     "nationality": "turkey",
     "team": "istanbulbasaksehirfk",
-    "picture_path": "/images/players/istanbulbasaksehirfk/muhammet-arslantas.jpg"
+    "picture_path": "/images/players/turkey/muhammet-arslantas.jpg"
   },
   {
     "name": "Batuhan Çelik",
@@ -2589,7 +2517,286 @@
     "num": 15,
     "nationality": "turkey",
     "team": "istanbulbasaksehirfk",
-    "picture_path": "/images/players/istanbulbasaksehirfk/batuhan-celik.jpg"
+    "picture_path": "/images/players/turkey/batuhan-celik.jpg"
+  },
+  {
+    "name": "David Jensen",
+    "age": 30,
+    "pos": "Kaleci",
+    "num": 1,
+    "nationality": "denmark",
+    "team": "istanbulspor",
+    "picture_path": "/images/players/denmark/david-jensen.png"
+  },
+  {
+    "name": "Alp Arda",
+    "age": 27,
+    "pos": "Kaleci",
+    "num": 59,
+    "nationality": "turkey",
+    "team": "istanbulspor",
+    "picture_path": "/images/players/turkey/alp-arda.png"
+  },
+  {
+    "name": "Ahmet Kıvanç",
+    "age": 24,
+    "pos": "Kaleci",
+    "num": -1,
+    "nationality": "turkey",
+    "team": "istanbulspor",
+    "picture_path": "/images/players/turkey/ahmet-kivanc.png"
+  },
+  {
+    "name": "Mücahit Serbest",
+    "age": 18,
+    "pos": "Kaleci",
+    "num": 26,
+    "nationality": "turkey",
+    "team": "istanbulspor",
+    "picture_path": "/images/players/turkey/mucahit-serbest.png"
+  },
+  {
+    "name": "Michael Ologo",
+    "age": 19,
+    "pos": "Defans",
+    "num": 50,
+    "nationality": "nigeria",
+    "team": "istanbulspor",
+    "picture_path": "/images/players/nigeria/michael-ologo-inainfe.png"
+  },
+  {
+    "name": "Mehmet Yeşil",
+    "age": 24,
+    "pos": "Defans",
+    "num": 4,
+    "nationality": "turkey",
+    "team": "istanbulspor",
+    "picture_path": "/images/players/turkey/mehmet-yesil.png"
+  },
+  {
+    "name": "Okan Erdoğan",
+    "age": 24,
+    "pos": "Defans",
+    "num": 23,
+    "nationality": "turkey",
+    "team": "istanbulspor",
+    "picture_path": "/images/players/turkey/okan-erdogan.png"
+  },
+  {
+    "name": "Adi Mehremic",
+    "age": 30,
+    "pos": "Defans",
+    "num": 88,
+    "nationality": "bosnia-herzegovina",
+    "team": "istanbulspor",
+    "picture_path": "/images/players/bosnia-herzegovina/adi-mehremic.png"
+  },
+  {
+    "name": "Ali Yaşar",
+    "age": 27,
+    "pos": "Defans",
+    "num": 66,
+    "nationality": "turkey",
+    "team": "istanbulspor",
+    "picture_path": "/images/players/turkey/ali-yasar-png"
+  },
+  {
+    "name": "Duhan Aksu",
+    "age": 25,
+    "pos": "Defans",
+    "num": 3,
+    "nationality": "turkey",
+    "team": "istanbulspor",
+    "picture_path": "/images/players/turkey/duhan-aksu.png"
+  },
+  {
+    "name": "Denis Kovacevic",
+    "age": 20,
+    "pos": "Defans",
+    "num": 2,
+    "nationality": "turkey",
+    "team": "istanbulspor",
+    "picture_path": "/images/players/bosnia-herzegovina/denis-kovacevic.png"
+  },
+  {
+    "name": "Demeaco Duhaney",
+    "age": 24,
+    "pos": "Defans",
+    "num": 21,
+    "nationality": "england",
+    "team": "istanbulspor",
+    "picture_path": "/images/players/england/demeaco-duhaney.png"
+  },
+  {
+    "name": "Oğuzhan Berber",
+    "age": 30,
+    "pos": "Defans",
+    "num": 13,
+    "nationality": "turkey",
+    "team": "istanbulspor",
+    "picture_path": "/images/players/turkey/oguzhan-berber.png"
+  },
+  {
+    "name": "Florian Loshaj",
+    "age": 26,
+    "pos": "Ortasaha",
+    "num": 34,
+    "nationality": "kosovo",
+    "team": "istanbulspor",
+    "picture_path": "/images/players/kosovo/florian-loshaj.png"
+  },
+  {
+    "name": "Mahamadou Ba",
+    "age": 23,
+    "pos": "Ortasaha",
+    "num": 12,
+    "nationality": "mali",
+    "team": "istanbulspor",
+    "picture_path": "/images/players/mali/mahamadou-ba.png"
+  },
+  {
+    "name": "Eslem Öztürk",
+    "age": 25,
+    "pos": "Ortasaha",
+    "num": 5,
+    "nationality": "turkey",
+    "team": "istanbulspor",
+    "picture_path": "/images/players/turkey/eslem-ozturk.png"
+  },
+  {
+    "name": "Muammer Sarıkaya",
+    "age": 25,
+    "pos": "Ortasaha",
+    "num": 24,
+    "nationality": "turkey",
+    "team": "istanbulspor",
+    "picture_path": "/images/players/turkey/muammer-sarikaya.png"
+  },
+  {
+    "name": "Eduart Rroca",
+    "age": 29,
+    "pos": "Ortasaha",
+    "num": 10,
+    "nationality": "albania",
+    "team": "istanbulspor",
+    "picture_path": "/images/players/albania/eduart-rroca.png"
+  },
+  {
+    "name": "Kerem Şen",
+    "age": 20,
+    "pos": "Ortasaha",
+    "num": -1,
+    "nationality": "turkey",
+    "team": "istanbulspor",
+    "picture_path": "/images/players/turkey/kerem-sen.png"
+  },
+  {
+    "name": "Vefa Temel",
+    "age": 20,
+    "pos": "Ortasaha",
+    "num": 18,
+    "nationality": "turkey",
+    "team": "istanbulspor",
+    "picture_path": "/images/players/turkey/vefa-temel.png"
+  },
+  {
+    "name": "Valon Ethemi",
+    "age": 25,
+    "pos": "Ortasaha",
+    "num": 27,
+    "nationality": "north-macedonia",
+    "team": "istanbulspor",
+    "picture_path": "/images/players/north-macedonia/valon-ethemi.png"
+  },
+  {
+    "name": "Valmir Veliu",
+    "age": 22,
+    "pos": "Ortasaha",
+    "num": -1,
+    "nationality": "kosovo",
+    "team": "istanbulspor",
+    "picture_path": "/images/players/kosovo/valmir-veliu.png"
+  },
+  {
+    "name": "Mirza Cihan",
+    "age": 22,
+    "pos": "Ortasaha",
+    "num": -1,
+    "nationality": "turkey",
+    "team": "istanbulspor",
+    "picture_path": "/images/players/turkey/mirza-cihan.png"
+  },
+  {
+    "name": "Yusuf Özer",
+    "age": 20,
+    "pos": "Ortasaha",
+    "num": -1,
+    "nationality": "turkey",
+    "team": "istanbulspor",
+    "picture_path": "/images/players/turkey/yusuf-ozer.png"
+  },
+  {
+    "name": "Kubilay Köylü",
+    "age": 23,
+    "pos": "Ortasaha",
+    "num": 44,
+    "nationality": "turkey",
+    "team": "istanbulspor",
+    "picture_path": "/images/players/turkey/kubilay-koylu.png"
+  },
+  {
+    "name": "Jetmir Topallı",
+    "age": 25,
+    "pos": "Ortasaha",
+    "num": 98,
+    "nationality": "kosovo",
+    "team": "istanbulspor",
+    "picture_path": "/images/players/kosovo/jetmir-topalli.png"
+  },
+  {
+    "name": "Jason Lokilo",
+    "age": 24,
+    "pos": "Ortasaha",
+    "num": 70,
+    "nationality": "belgium",
+    "team": "istanbulspor",
+    "picture_path": "/images/players/belgium/jason-lokilo.png"
+  },
+  {
+    "name": "Emeka Eze",
+    "age": 26,
+    "pos": "Forvet",
+    "num": 90,
+    "nationality": "nigeria",
+    "team": "istanbulspor",
+    "picture_path": "/images/players/nigeria/emeka-eze.png"
+  },
+  {
+    "name": "Emir Kaan Gültekin",
+    "age": 22,
+    "pos": "Forvet",
+    "num": 19,
+    "nationality": "turkey",
+    "team": "istanbulspor",
+    "picture_path": "/images/players/turkey/emir-kaan-gultekin.png"
+  },
+  {
+    "name": "Raymond Owusu",
+    "age": 20,
+    "pos": "Forvet",
+    "num": 14,
+    "nationality": "ghana",
+    "team": "istanbulspor",
+    "picture_path": "/images/players/ghana/raymond-owusu.png"
+  },
+  {
+    "name": "Sidrit Guri",
+    "age": 29,
+    "pos": "Forvet",
+    "num": 61,
+    "nationality": "albania",
+    "team": "istanbulspor",
+    "picture_path": "/images/players/albania/sidrit-guri.png"
   },
   {
     "name": "Günay Güvenç",
@@ -2598,7 +2805,7 @@
     "num": -1,
     "nationality": "turkey",
     "team": "kasimpasa",
-    "picture_path": "/images/players/kasimpasa/gunay-guvenc.png"
+    "picture_path": "/images/players/turkey/gunay-guvenc.png"
   },
   {
     "name": "Ertuğrul Taşkıran",
@@ -2607,7 +2814,7 @@
     "num": 1,
     "nationality": "turkey",
     "team": "kasimpasa",
-    "picture_path": "/images/players/kasimpasa/ertugrul-taskiran.png"
+    "picture_path": "/images/players/turkey/ertugrul-taskiran.png"
   },
   {
     "name": "Erdem Canpolat",
@@ -2616,7 +2823,7 @@
     "num": 22,
     "nationality": "turkey",
     "team": "kasimpasa",
-    "picture_path": "/images/players/kasimpasa/erdem-canpolat.png"
+    "picture_path": "/images/players/turkey/erdem-canpolat.png"
   },
   {
     "name": "Enes Sarı",
@@ -2625,7 +2832,7 @@
     "num": 67,
     "nationality": "turkey",
     "team": "kasimpasa",
-    "picture_path": "/images/players/kasimpasa/enes-sari.png"
+    "picture_path": "/images/players/turkey/enes-sari.png"
   },
   {
     "name": "Daniel Graovac",
@@ -2634,16 +2841,16 @@
     "num": 6,
     "nationality": "bosnia-herzegovina",
     "team": "kasimpasa",
-    "picture_path": "/images/players/kasimpasa/daniel-graovac.png"
+    "picture_path": "/images/players/bosnia-herzegovina/daniel-graovac.png"
   },
   {
     "name": "Papy Djilobodji",
     "age": 34,
     "pos": "Defans",
-    "num": -1,
+    "num": 3,
     "nationality": "senegal",
     "team": "kasimpasa",
-    "picture_path": "/images/players/kasimpasa/papy-djilobodji.png"
+    "picture_path": "/images/players/senegal/papy-djilobodji.png"
   },
   {
     "name": "Tarkan Serbest",
@@ -2652,7 +2859,7 @@
     "num": 15,
     "nationality": "turkey",
     "team": "kasimpasa",
-    "picture_path": "/images/players/kasimpasa/tarkan-serbest.png"
+    "picture_path": "/images/players/turkey/tarkan-serbest.png"
   },
   {
     "name": "Sadık Çiftpınar",
@@ -2661,7 +2868,7 @@
     "num": 18,
     "nationality": "turkey",
     "team": "kasimpasa",
-    "picture_path": "/images/players/kasimpasa/sadik-ciftpinar.png"
+    "picture_path": "/images/players/turkey/sadik-ciftpinar.png"
   },
   {
     "name": "Gökhan Gül",
@@ -2670,7 +2877,7 @@
     "num": 21,
     "nationality": "turkey",
     "team": "kasimpasa",
-    "picture_path": "/images/players/kasimpasa/gokhan-gul.png"
+    "picture_path": "/images/players/turkey/gokhan-gul.png"
   },
   {
     "name": "Ryan Donk",
@@ -2679,7 +2886,7 @@
     "num": 4,
     "nationality": "surinam",
     "team": "kasimpasa",
-    "picture_path": "/images/players/kasimpasa/ryan-donk.png"
+    "picture_path": "/images/players/surinam/ryan-donk.png"
   },
   {
     "name": "Yasin Özcan",
@@ -2688,7 +2895,7 @@
     "num": 58,
     "nationality": "turkey",
     "team": "kasimpasa",
-    "picture_path": "/images/players/kasimpasa/yasin-ozcan.png"
+    "picture_path": "/images/players/turkey/yasin-ozcan.png"
   },
   {
     "name": "Mortadha Ben Ouanes",
@@ -2697,7 +2904,7 @@
     "num": 12,
     "nationality": "tunisia",
     "team": "kasimpasa",
-    "picture_path": "/images/players/kasimpasa/mortadha-ben-ouanes.png"
+    "picture_path": "/images/players/tunisia/mortadha-ben-ouanes.png"
   },
   {
     "name": "Florent Hadergjonaj",
@@ -2706,7 +2913,7 @@
     "num": 94,
     "nationality": "kosovo",
     "team": "kasimpasa",
-    "picture_path": "/images/players/kasimpasa/florent-hadergjonaj.png"
+    "picture_path": "/images/players/kosovo/florent-hadergjonaj.png"
   },
   {
     "name": "Fabiano Silva",
@@ -2715,7 +2922,7 @@
     "num": 2,
     "nationality": "brazil",
     "team": "kasimpasa",
-    "picture_path": "/images/players/kasimpasa/fabiano-silva.png"
+    "picture_path": "/images/players/brazil/fabiano-silva.png"
   },
   {
     "name": "Feyzi Yıldırım",
@@ -2724,7 +2931,7 @@
     "num": 23,
     "nationality": "turkey",
     "team": "kasimpasa",
-    "picture_path": "/images/players/kasimpasa/mehmet-feyzi-yildirim.png"
+    "picture_path": "/images/players/turkey/mehmet-feyzi-yildirim.png"
   },
   {
     "name": "Mickaël Malsa",
@@ -2733,7 +2940,7 @@
     "num": -1,
     "nationality": "france",
     "team": "kasimpasa",
-    "picture_path": "/images/players/kasimpasa/mickael-malsa.png"
+    "picture_path": "/images/players/france/mickael-malsa.png"
   },
   {
     "name": "Aytaç Kara",
@@ -2742,7 +2949,7 @@
     "num": 35,
     "nationality": "turkey",
     "team": "kasimpasa",
-    "picture_path": "/images/players/kasimpasa/aytac-kara.png"
+    "picture_path": "/images/players/turkey/aytac-kara.png"
   },
   {
     "name": "Turgay Gemicibaşı",
@@ -2751,7 +2958,7 @@
     "num": 81,
     "nationality": "turkey",
     "team": "kasimpasa",
-    "picture_path": "/images/players/kasimpasa/turgay-gemicibasi.png"
+    "picture_path": "/images/players/turkey/turgay-gemicibasi.png"
   },
   {
     "name": "Mickael Tırpan",
@@ -2760,7 +2967,7 @@
     "num": 24,
     "nationality": "belgium",
     "team": "kasimpasa",
-    "picture_path": "/images/players/kasimpasa/mickael-tirpan.png"
+    "picture_path": "/images/players/belgium/mickael-tirpan.png"
   },
   {
     "name": "Haris Hajradinovic",
@@ -2769,7 +2976,7 @@
     "num": 10,
     "nationality": "bosnia-herzegovina",
     "team": "kasimpasa",
-    "picture_path": "/images/players/kasimpasa/haris-hajradinovic.png"
+    "picture_path": "/images/players/bosnia-herzegovina/haris-hajradinovic.png"
   },
   {
     "name": "Valentin Eysseric",
@@ -2778,7 +2985,7 @@
     "num": 13,
     "nationality": "france",
     "team": "kasimpasa",
-    "picture_path": "/images/players/kasimpasa/valentin-eysseric.png"
+    "picture_path": "/images/players/france/valentin-eysseric.png"
   },
   {
     "name": "Yunus Mallı",
@@ -2787,7 +2994,7 @@
     "num": 11,
     "nationality": "turkey",
     "team": "kasimpasa",
-    "picture_path": "/images/players/kasimpasa/yunus-malli.png"
+    "picture_path": "/images/players/turkey/yunus-malli.png"
   },
   {
     "name": "Mounir Chouiar",
@@ -2796,7 +3003,7 @@
     "num": 16,
     "nationality": "morocco",
     "team": "kasimpasa",
-    "picture_path": "/images/players/kasimpasa/mounir-chouiar.png"
+    "picture_path": "/images/players/morocco/mounir-chouiar.png"
   },
   {
     "name": "Ahmet Engin",
@@ -2805,7 +3012,7 @@
     "num": 17,
     "nationality": "turkey",
     "team": "kasimpasa",
-    "picture_path": "/images/players/kasimpasa/ahmet-engin.png"
+    "picture_path": "/images/players/turkey/ahmet-engin.png"
   },
   {
     "name": "Berat Kalkan",
@@ -2814,7 +3021,7 @@
     "num": 41,
     "nationality": "turkey",
     "team": "kasimpasa",
-    "picture_path": "/images/players/kasimpasa/berat-kalkan.png"
+    "picture_path": "/images/players/turkey/berat-kalkan.png"
   },
   {
     "name": "Ali Gholizadeh",
@@ -2823,7 +3030,7 @@
     "num": 88,
     "nationality": "iran",
     "team": "kasimpasa",
-    "picture_path": "/images/players/kasimpasa/ali-gholizadeh.png"
+    "picture_path": "/images/players/iran/ali-gholizadeh.png"
   },
   {
     "name": "Mamadou Fall",
@@ -2832,7 +3039,7 @@
     "num": 7,
     "nationality": "senegal",
     "team": "kasimpasa",
-    "picture_path": "/images/players/kasimpasa/mamadou-fall.png"
+    "picture_path": "/images/players/senegal/mamadou-fall.png"
   },
   {
     "name": "Mustafa Eskihellaç",
@@ -2841,7 +3048,7 @@
     "num": -1,
     "nationality": "turkey",
     "team": "kasimpasa",
-    "picture_path": "/images/players/kasimpasa/mustafa-eskihellac.png"
+    "picture_path": "/images/players/turkey/mustafa-eskihellac.png"
   },
   {
     "name": "Tunay Torun",
@@ -2850,7 +3057,7 @@
     "num": 8,
     "nationality": "turkey",
     "team": "kasimpasa",
-    "picture_path": "/images/players/kasimpasa/tunay-torun.png"
+    "picture_path": "/images/players/turkey/tunay-torun.png"
   },
   {
     "name": "Stéphane Bahoken",
@@ -2859,16 +3066,16 @@
     "num": 19,
     "nationality": "cameroon",
     "team": "kasimpasa",
-    "picture_path": "/images/players/kasimpasa/stephane-bahoken.png"
+    "picture_path": "/images/players/cameroon/stephane-bahoken.png"
   },
   {
     "name": "Fode Koita",
     "age": 32,
     "pos": "Forvet",
     "num": 9,
-    "nationality": "iran",
+    "nationality": "guinea",
     "team": "kasimpasa",
-    "picture_path": "/images/players/kasimpasa/fode-koita.png"
+    "picture_path": "/images/players/guinea/fode-koita.png"
   },
   {
     "name": "Ali Demirel",
@@ -2877,7 +3084,7 @@
     "num": 99,
     "nationality": "turkey",
     "team": "kasimpasa",
-    "picture_path": "/images/players/kasimpasa/ali-demirel.png"
+    "picture_path": "/images/players/turkey/ali-demirel.png"
   },
   {
     "name": "Bilal Bayazit",
@@ -2886,7 +3093,7 @@
     "num": 25,
     "nationality": "turkey",
     "team": "kayserispor",
-    "picture_path": "/images/players/kayserispor/bilal-bayazit.png"
+    "picture_path": "/images/players/turkey/bilal-bayazit.png"
   },
   {
     "name": "Cenk Gönen",
@@ -2895,7 +3102,7 @@
     "num": 1,
     "nationality": "turkey",
     "team": "kayserispor",
-    "picture_path": "/images/players/kayserispor/cenk-gonen.png"
+    "picture_path": "/images/players/turkey/cenk-gonen.png"
   },
   {
     "name": "Abdulkadir Taşdan",
@@ -2904,7 +3111,7 @@
     "num": 12,
     "nationality": "turkey",
     "team": "kayserispor",
-    "picture_path": "/images/players/kayserispor/abdulkadir-tasdan.png"
+    "picture_path": "/images/players/turkey/abdulkadir-tasdan.png"
   },
   {
     "name": "Samil Öztürk",
@@ -2913,7 +3120,7 @@
     "num": 39,
     "nationality": "turkey",
     "team": "kayserispor",
-    "picture_path": "/images/players/kayserispor/samil-ozturk.png"
+    "picture_path": "/images/players/turkey/samil-ozturk.png"
   },
   {
     "name": "Majid Hosseini",
@@ -2922,7 +3129,7 @@
     "num": 5,
     "nationality": "iran",
     "team": "kayserispor",
-    "picture_path": "/images/players/kayserispor/majid-hosseini.png"
+    "picture_path": "/images/players/iran/majid-hosseini.png"
   },
   {
     "name": "Dimitrios Kolovetsios",
@@ -2931,7 +3138,7 @@
     "num": 4,
     "nationality": "greece",
     "team": "kayserispor",
-    "picture_path": "/images/players/kayserispor/dimitrios-kolovetsios.png"
+    "picture_path": "/images/players/greece/dimitrios-kolovetsios.png"
   },
   {
     "name": "Arif Kocaman",
@@ -2940,7 +3147,7 @@
     "num": 54,
     "nationality": "turkey",
     "team": "kayserispor",
-    "picture_path": "/images/players/kayserispor/arif-kocaman.png"
+    "picture_path": "/images/players/turkey/arif-kocaman.png"
   },
   {
     "name": "Lionel Carole",
@@ -2949,7 +3156,7 @@
     "num": 21,
     "nationality": "france",
     "team": "kayserispor",
-    "picture_path": "/images/players/kayserispor/lionel-carole.png"
+    "picture_path": "/images/players/france/lionel-carole.png"
   },
   {
     "name": "Muhammed Eren Arıkan",
@@ -2958,7 +3165,7 @@
     "num": 40,
     "nationality": "turkey",
     "team": "kayserispor",
-    "picture_path": "/images/players/kayserispor/muhammed-eren-arikan.png"
+    "picture_path": "/images/players/turkey/muhammed-eren-arikan.png"
   },
   {
     "name": "Gustavo Campanharo",
@@ -2967,7 +3174,7 @@
     "num": 88,
     "nationality": "brazil",
     "team": "kayserispor",
-    "picture_path": "/images/players/kayserispor/gustavo-campanharo.png"
+    "picture_path": "/images/players/brazil/gustavo-campanharo.png"
   },
   {
     "name": "Joseph Attamah",
@@ -2976,7 +3183,7 @@
     "num": 3,
     "nationality": "ghana",
     "team": "kayserispor",
-    "picture_path": "/images/players/kayserispor/joseph-attamah.png"
+    "picture_path": "/images/players/ghana/joseph-attamah.png"
   },
   {
     "name": "Anthony Uzodimma",
@@ -2985,7 +3192,7 @@
     "num": 80,
     "nationality": "nigeria",
     "team": "kayserispor",
-    "picture_path": "/images/players/kayserispor/anthony-uzodimma.png"
+    "picture_path": "/images/players/nigeria/anthony-uzodimma.png"
   },
   {
     "name": "Olivier Kemen",
@@ -2994,7 +3201,7 @@
     "num": 10,
     "nationality": "cameroon",
     "team": "kayserispor",
-    "picture_path": "/images/players/kayserispor/olivier-kemen.png"
+    "picture_path": "/images/players/cameroon/olivier-kemen.png"
   },
   {
     "name": "Yaw Ackah",
@@ -3003,7 +3210,7 @@
     "num": 89,
     "nationality": "ghana",
     "team": "kayserispor",
-    "picture_path": "/images/players/kayserispor/yaw-ackah.png"
+    "picture_path": "/images/players/ghana/yaw-ackah.png"
   },
   {
     "name": "Ali Karimi",
@@ -3012,7 +3219,7 @@
     "num": 6,
     "nationality": "iran",
     "team": "kayserispor",
-    "picture_path": "/images/players/kayserispor/ali-karimi.png"
+    "picture_path": "/images/players/iran/ali-karimi.png"
   },
   {
     "name": "Bernard Mensah",
@@ -3021,7 +3228,7 @@
     "num": 43,
     "nationality": "ghana",
     "team": "kayserispor",
-    "picture_path": "/images/players/kayserispor/bernard-mensah.png"
+    "picture_path": "/images/players/ghana/bernard-mensah.png"
   },
   {
     "name": "Baran Gezek",
@@ -3030,7 +3237,7 @@
     "num": 26,
     "nationality": "turkey",
     "team": "kayserispor",
-    "picture_path": "/images/players/kayserispor/baran-gezek.png"
+    "picture_path": "/images/players/turkey/baran-gezek.png"
   },
   {
     "name": "Mame Thiam",
@@ -3039,7 +3246,7 @@
     "num": 27,
     "nationality": "senegal",
     "team": "kayserispor",
-    "picture_path": "/images/players/kayserispor/mame-thiam.png"
+    "picture_path": "/images/players/senegal/mame-thiam.png"
   },
   {
     "name": "Gökhan Sazdağı",
@@ -3048,7 +3255,7 @@
     "num": 11,
     "nationality": "turkey",
     "team": "kayserispor",
-    "picture_path": "/images/players/kayserispor/gokhan-sazdagi.png"
+    "picture_path": "/images/players/turkey/gokhan-sazdagi.png"
   },
   {
     "name": "Nurettin Korkmaz",
@@ -3057,7 +3264,7 @@
     "num": 77,
     "nationality": "turkey",
     "team": "kayserispor",
-    "picture_path": "/images/players/kayserispor/nurettin-korkmaz.png"
+    "picture_path": "/images/players/turkey/nurettin-korkmaz.png"
   },
   {
     "name": "Miguel Cardoso",
@@ -3066,7 +3273,7 @@
     "num": 7,
     "nationality": "portugal",
     "team": "kayserispor",
-    "picture_path": "/images/players/kayserispor/miguel-cardoso.png"
+    "picture_path": "/images/players/portugal/miguel-cardoso.png"
   },
   {
     "name": "Carlos Mane",
@@ -3075,7 +3282,7 @@
     "num": 20,
     "nationality": "guinea-bissau",
     "team": "kayserispor",
-    "picture_path": "/images/players/kayserispor/mickael-tirpan.png"
+    "picture_path": "/images/players/guinea-bissau/mickael-tirpan.png"
   },
   {
     "name": "Emrah Başsan",
@@ -3084,7 +3291,7 @@
     "num": 17,
     "nationality": "turkey",
     "team": "kayserispor",
-    "picture_path": "/images/players/kayserispor/emrah-bassan.png"
+    "picture_path": "/images/players/turkey/emrah-bassan.png"
   },
   {
     "name": "Ramazan Civelek",
@@ -3093,7 +3300,7 @@
     "num": 28,
     "nationality": "turkey",
     "team": "kayserispor",
-    "picture_path": "/images/players/kayserispor/ramazan-civelek.png"
+    "picture_path": "/images/players/turkey/ramazan-civelek.png"
   },
   {
     "name": "Mario Gavranovic",
@@ -3102,7 +3309,7 @@
     "num": 19,
     "nationality": "switzerland",
     "team": "kayserispor",
-    "picture_path": "/images/players/kayserispor/mario-gavranovic.png"
+    "picture_path": "/images/players/switzerland/mario-gavranovic.png"
   },
   {
     "name": "İlhan Parlak",
@@ -3111,7 +3318,7 @@
     "num": 23,
     "nationality": "turkey",
     "team": "kayserispor",
-    "picture_path": "/images/players/kayserispor/ilhan-parlak.png"
+    "picture_path": "/images/players/turkey/ilhan-parlak.png"
   },
   {
     "name": "Talha Sariarslan",
@@ -3120,7 +3327,7 @@
     "num": 30,
     "nationality": "turkey",
     "team": "kayserispor",
-    "picture_path": "/images/players/kayserispor/talha-sariarslan.png"
+    "picture_path": "/images/players/turkey/talha-sariarslan.png"
   },
   {
     "name": "İbrahim Sehic",
@@ -3129,7 +3336,7 @@
     "num": 13,
     "nationality": "bosnia-herzegovina",
     "team": "konyaspor",
-    "picture_path": "/images/players/konyaspor/ibrahim-sehic.png"
+    "picture_path": "/images/players/bosnia-herzegovina/ibrahim-sehic.png"
   },
   {
     "name": "Erhan Erentürk",
@@ -3138,7 +3345,7 @@
     "num": 1,
     "nationality": "turkey",
     "team": "konyaspor",
-    "picture_path": "/images/players/konyaspor/erhan-erenturk.png"
+    "picture_path": "/images/players/turkey/erhan-erenturk.png"
   },
   {
     "name": "Mehmet Erdoğan",
@@ -3147,7 +3354,7 @@
     "num": 64,
     "nationality": "turkey",
     "team": "konyaspor",
-    "picture_path": "/images/players/konyaspor/mehmet-erdogan.png"
+    "picture_path": "/images/players/turkey/mehmet-erdogan.png"
   },
   {
     "name": "Adil Demirbağ",
@@ -3156,7 +3363,7 @@
     "num": 4,
     "nationality": "turkey",
     "team": "konyaspor",
-    "picture_path": "/images/players/konyaspor/adil-demirbag.png"
+    "picture_path": "/images/players/turkey/adil-demirbag.png"
   },
   {
     "name": "Francisco Calvo",
@@ -3165,7 +3372,7 @@
     "num": 15,
     "nationality": "costa-rica",
     "team": "konyaspor",
-    "picture_path": "/images/players/konyaspor/francisco-calvo.png"
+    "picture_path": "/images/players/costa-rica/francisco-calvo.png"
   },
   {
     "name": "Ugurcan Yazgılı",
@@ -3174,7 +3381,7 @@
     "num": 5,
     "nationality": "turkey",
     "team": "konyaspor",
-    "picture_path": "/images/players/konyaspor/ugurcan-yazgili.png"
+    "picture_path": "/images/players/turkey/ugurcan-yazgili.png"
   },
   {
     "name": "Metehan Mert",
@@ -3183,7 +3390,7 @@
     "num": -1,
     "nationality": "turkey",
     "team": "konyaspor",
-    "picture_path": "/images/players/konyaspor/metehan-mert.png"
+    "picture_path": "/images/players/turkey/metehan-mert.png"
   },
   {
     "name": "Kahraman Demirtaş",
@@ -3192,16 +3399,16 @@
     "num": 20,
     "nationality": "turkey",
     "team": "konyaspor",
-    "picture_path": "/images/players/konyaspor/kahraman-demirtas.png"
+    "picture_path": "/images/players/turkey/kahraman-demirtas.png"
   },
   {
     "name": "Guilherme",
     "age": 32,
     "pos": "Defans",
     "num": 12,
-    "nationality": "turkey",
+    "nationality": "brazil",
     "team": "konyaspor",
-    "picture_path": "/images/players/konyaspor/guilherme-sitya.png"
+    "picture_path": "/images/players/brazil/guilherme-sitya.png"
   },
   {
     "name": "Yasir Subaşı",
@@ -3210,7 +3417,7 @@
     "num": 3,
     "nationality": "turkey",
     "team": "konyaspor",
-    "picture_path": "/images/players/konyaspor/yasir-subasi.png"
+    "picture_path": "/images/players/turkey/yasir-subasi.png"
   },
   {
     "name": "Ahmet Oğuz",
@@ -3219,7 +3426,7 @@
     "num": 22,
     "nationality": "turkey",
     "team": "konyaspor",
-    "picture_path": "/images/players/konyaspor/ahmet-oguz.png"
+    "picture_path": "/images/players/turkey/ahmet-oguz.png"
   },
   {
     "name": "Cebrail Karayel",
@@ -3228,7 +3435,16 @@
     "num": 90,
     "nationality": "turkey",
     "team": "konyaspor",
-    "picture_path": "/images/players/konyaspor/cebrail-karayel.png"
+    "picture_path": "/images/players/turkey/cebrail-karayel.png"
+  },
+  {
+    "name": "Niko Rak",
+    "age": 19,
+    "pos": "Ortasaha",
+    "num": -1,
+    "nationality": "croatia",
+    "team": "konyaspor",
+    "picture_path": ""
   },
   {
     "name": "Ogulcan Ülgün",
@@ -3237,7 +3453,7 @@
     "num": 35,
     "nationality": "turkey",
     "team": "konyaspor",
-    "picture_path": "/images/players/konyaspor/ogulcan-ulgun.png"
+    "picture_path": "/images/players/turkey/ogulcan-ulgun.png"
   },
   {
     "name": "Bruno Paz",
@@ -3246,7 +3462,7 @@
     "num": 80,
     "nationality": "portugal",
     "team": "konyaspor",
-    "picture_path": "/images/players/konyaspor/bruno-paz.png"
+    "picture_path": "/images/players/portugal/bruno-paz.png"
   },
   {
     "name": "Andreas Bouchalakis",
@@ -3255,7 +3471,7 @@
     "num": 32,
     "nationality": "greece",
     "team": "konyaspor",
-    "picture_path": "/images/players/konyaspor/andreas-bounchalakis.png"
+    "picture_path": "/images/players/greece/andreas-bounchalakis.png"
   },
   {
     "name": "Soner Dikmen",
@@ -3264,7 +3480,7 @@
     "num": 14,
     "nationality": "turkey",
     "team": "konyaspor",
-    "picture_path": "/images/players/konyaspor/soner-dikmen.png"
+    "picture_path": "/images/players/turkey/soner-dikmen.png"
   },
   {
     "name": "Domagoj Pavicic",
@@ -3273,7 +3489,7 @@
     "num": 10,
     "nationality": "croatia",
     "team": "konyaspor",
-    "picture_path": "/images/players/konyaspor/domagoj-pavicic.png"
+    "picture_path": "/images/players/croatia/domagoj-pavicic.png"
   },
   {
     "name": "Endri Cekici",
@@ -3282,16 +3498,16 @@
     "num": 23,
     "nationality": "albania",
     "team": "konyaspor",
-    "picture_path": "/images/players/konyaspor/endri-cekici.png"
+    "picture_path": "/images/players/albania/endri-cekici.png"
   },
   {
     "name": "Alejandro Pozuelo",
     "age": 31,
     "pos": "Ortasaha",
     "num": 24,
-    "nationality": "turkey",
+    "nationality": "spain",
     "team": "konyaspor",
-    "picture_path": "/images/players/konyaspor/alejandro-pouzelo.png"
+    "picture_path": "/images/players/spain/alejandro-pouzelo.png"
   },
   {
     "name": "Mehmet Ali Büyüksayar",
@@ -3300,7 +3516,7 @@
     "num": 42,
     "nationality": "turkey",
     "team": "konyaspor",
-    "picture_path": "/images/players/konyaspor/mehmet-ali-buyuksayar.png"
+    "picture_path": "/images/players/turkey/mehmet-ali-buyuksayar.png"
   },
   {
     "name": "Robert Muric",
@@ -3309,7 +3525,7 @@
     "num": 11,
     "nationality": "croatia",
     "team": "konyaspor",
-    "picture_path": "/images/players/konyaspor/robert-muric.png"
+    "picture_path": "/images/players/croatia/robert-muric.png"
   },
   {
     "name": "Konrad Michalak",
@@ -3318,7 +3534,7 @@
     "num": 77,
     "nationality": "poland",
     "team": "konyaspor",
-    "picture_path": "/images/players/konyaspor/konrad-michalak.png"
+    "picture_path": "/images/players/poland/konrad-michalak.png"
   },
   {
     "name": "Marlos Moreno",
@@ -3327,7 +3543,7 @@
     "num": 70,
     "nationality": "colombia",
     "team": "konyaspor",
-    "picture_path": "/images/players/konyaspor/marlos-moreno.png"
+    "picture_path": "/images/players/colombia/marlos-moreno.png"
   },
   {
     "name": "Muhammet Demir",
@@ -3336,7 +3552,7 @@
     "num": 9,
     "nationality": "turkey",
     "team": "konyaspor",
-    "picture_path": "/images/players/konyaspor/muhammet-demir.png"
+    "picture_path": "/images/players/turkey/muhammet-demir.png"
   },
   {
     "name": "Mahir Emreli",
@@ -3345,7 +3561,7 @@
     "num": 19,
     "nationality": "azerbaijan",
     "team": "konyaspor",
-    "picture_path": "/images/players/konyaspor/mahir-emreli.png"
+    "picture_path": "/images/players/azerbaijan/mahir-emreli.png"
   },
   {
     "name": "Mame Diouf",
@@ -3354,7 +3570,7 @@
     "num": 99,
     "nationality": "senegal",
     "team": "konyaspor",
-    "picture_path": "/images/players/konyaspor/mame-diouf.png"
+    "picture_path": "/images/players/senegal/mame-diouf.png"
   },
   {
     "name": "Uche Ikpeazu",
@@ -3363,7 +3579,7 @@
     "num": 29,
     "nationality": "uganda",
     "team": "konyaspor",
-    "picture_path": "/images/players/konyaspor/uche-ikpeazu.png"
+    "picture_path": "/images/players/uganda/uche-ikpeazu.png"
   },
   {
     "name": "Gökhan Akkan",
@@ -3372,7 +3588,7 @@
     "num": 32,
     "nationality": "turkey",
     "team": "mke-ankaragucu",
-    "picture_path": "/images/players/mke-ankaragucu/gokhan-akkan.png"
+    "picture_path": "/images/players/turkey/gokhan-akkan.png"
   },
   {
     "name": "Bahadir Güngördü",
@@ -3381,7 +3597,7 @@
     "num": 99,
     "nationality": "turkey",
     "team": "mke-ankaragucu",
-    "picture_path": "/images/players/mke-ankaragucu/bahadir-han-gungordu.png"
+    "picture_path": "/images/players/turkey/bahadir-han-gungordu.png"
   },
   {
     "name": "Doğukan Kaya",
@@ -3390,7 +3606,7 @@
     "num": 25,
     "nationality": "turkey",
     "team": "mke-ankaragucu",
-    "picture_path": "/images/players/mke-ankaragucu/dogukan-kaya.png"
+    "picture_path": "/images/players/turkey/dogukan-kaya.png"
   },
   {
     "name": "Kaan Çinkaya",
@@ -3399,7 +3615,7 @@
     "num": 98,
     "nationality": "turkey",
     "team": "mke-ankaragucu",
-    "picture_path": "/images/players/mke-ankaragucu/kaan-cinkaya.png"
+    "picture_path": "/images/players/turkey/kaan-cinkaya.png"
   },
   {
     "name": "Atakan Çankaya",
@@ -3408,7 +3624,7 @@
     "num": 4,
     "nationality": "turkey",
     "team": "mke-ankaragucu",
-    "picture_path": "/images/players/mke-ankaragucu/atakan-cankaya.png"
+    "picture_path": "/images/players/turkey/atakan-cankaya.png"
   },
   {
     "name": "Uros Radakovic",
@@ -3417,7 +3633,7 @@
     "num": 26,
     "nationality": "serbia",
     "team": "mke-ankaragucu",
-    "picture_path": "/images/players/mke-ankaragucu/uros-radakovic.png"
+    "picture_path": "/images/players/serbia/uros-radakovic.png"
   },
   {
     "name": "Nihad Mujakic",
@@ -3426,7 +3642,7 @@
     "num": 18,
     "nationality": "bosnia-herzegovina",
     "team": "mke-ankaragucu",
-    "picture_path": "/images/players/mke-ankaragucu/nihad-mujakiic.png"
+    "picture_path": "/images/players/bosnia-herzegovina/nihad-mujakiic.png"
   },
   {
     "name": "Arda Kızıldağ",
@@ -3435,7 +3651,7 @@
     "num": -1,
     "nationality": "turkey",
     "team": "mke-ankaragucu",
-    "picture_path": "/images/players/mke-ankaragucu/arda-kizildag.png"
+    "picture_path": "/images/players/turkey/arda-kizildag.png"
   },
   {
     "name": "Marlon Xavier",
@@ -3444,7 +3660,7 @@
     "num": 3,
     "nationality": "brazil",
     "team": "mke-ankaragucu",
-    "picture_path": "/images/players/mke-ankaragucu/marlon-xavier.png"
+    "picture_path": "/images/players/brazil/marlon-xavier.png"
   },
   {
     "name": "Hasan Ali Kaldırım",
@@ -3453,7 +3669,7 @@
     "num": -1,
     "nationality": "turkey",
     "team": "mke-ankaragucu",
-    "picture_path": "/images/players/mke-ankaragucu/yasir-subasi.png"
+    "picture_path": "/images/players/turkey/hasan-ali-kaldirim.png"
   },
   {
     "name": "Mahmut Akan",
@@ -3462,25 +3678,25 @@
     "num": 2,
     "nationality": "turkey",
     "team": "mke-ankaragucu",
-    "picture_path": "/images/players/mke-ankaragucu/mahmut-akan.png"
+    "picture_path": "/images/players/turkey/mahmut-akan.png"
   },
   {
     "name": "Enock Kwateng",
     "age": 25,
     "pos": "Defans",
     "num": -1,
-    "nationality": "turkey",
+    "nationality": "france",
     "team": "mke-ankaragucu",
-    "picture_path": "/images/players/mke-ankaragucu/enock-kwateng.png"
+    "picture_path": "/images/players/france/enock-kwateng.png"
   },
   {
     "name": "Kevin Malcuit",
     "age": 31,
     "pos": "Defans",
     "num": 24,
-    "nationality": "turkey",
+    "nationality": "france",
     "team": "mke-ankaragucu",
-    "picture_path": "/images/players/mke-ankaragucu/kevin-malcuit.png"
+    "picture_path": "/images/players/france/kevin-malcuit.png"
   },
   {
     "name": "Fıratcan Üzüm",
@@ -3489,16 +3705,16 @@
     "num": 88,
     "nationality": "turkey",
     "team": "mke-ankaragucu",
-    "picture_path": "/images/players/mke-ankaragucu/firatcan-uzum.png"
+    "picture_path": "/images/players/turkey/firatcan-uzum.png"
   },
   {
     "name": "Lamine Diack",
     "age": 22,
     "pos": "Ortasaha",
     "num": 14,
-    "nationality": "greece",
+    "nationality": "senegal",
     "team": "mke-ankaragucu",
-    "picture_path": "/images/players/mke-ankaragucu/lamine-djack.png"
+    "picture_path": "/images/players/senegal/lamine-djack.png"
   },
   {
     "name": "Andrej Djokanovic",
@@ -3507,7 +3723,7 @@
     "num": 16,
     "nationality": "bosnia-herzegovina",
     "team": "mke-ankaragucu",
-    "picture_path": "/images/players/mke-ankaragucu/andrej-djokanovic.png"
+    "picture_path": "/images/players/bosnia-herzegovina/andrej-djokanovic.png"
   },
   {
     "name": "Taylan Antalyalı",
@@ -3516,7 +3732,7 @@
     "num": 48,
     "nationality": "turkey",
     "team": "mke-ankaragucu",
-    "picture_path": "/images/players/mke-ankaragucu/talyan-antalyali.png"
+    "picture_path": "/images/players/turkey/talyan-antalyali.png"
   },
   {
     "name": "Pedrinho",
@@ -3525,7 +3741,7 @@
     "num": 8,
     "nationality": "portugal",
     "team": "mke-ankaragucu",
-    "picture_path": "/images/players/mke-ankaragucu/pedrinho.png"
+    "picture_path": "/images/players/portugal/pedrinho.png"
   },
   {
     "name": "Ender Aygören",
@@ -3534,7 +3750,7 @@
     "num": -1,
     "nationality": "turkey",
     "team": "mke-ankaragucu",
-    "picture_path": "/images/players/mke-ankaragucu/ender-aygoren.png"
+    "picture_path": "/images/players/turkey/ender-aygoren.png"
   },
   {
     "name": "Ghayas Zahid",
@@ -3543,7 +3759,7 @@
     "num": 19,
     "nationality": "norway",
     "team": "mke-ankaragucu",
-    "picture_path": "/images/players/mke-ankaragucu/ghayas-zahid.png"
+    "picture_path": "/images/players/norway/ghayas-zahid.png"
   },
   {
     "name": "Milson",
@@ -3552,7 +3768,7 @@
     "num": -1,
     "nationality": "angola",
     "team": "mke-ankaragucu",
-    "picture_path": "/images/players/mke-ankaragucu/milson.png"
+    "picture_path": "/images/players/angola/milson.png"
   },
   {
     "name": "Giorgi Beridze",
@@ -3561,7 +3777,7 @@
     "num": 21,
     "nationality": "georgia",
     "team": "mke-ankaragucu",
-    "picture_path": "/images/players/mke-ankaragucu/giorgi-beridze.png"
+    "picture_path": "/images/players/georgia/giorgi-beridze.png"
   },
   {
     "name": "Emre Kılınç",
@@ -3570,34 +3786,34 @@
     "num": 54,
     "nationality": "turkey",
     "team": "mke-ankaragucu",
-    "picture_path": "/images/players/mke-ankaragucu/emre-kilinc.png"
+    "picture_path": "/images/players/turkey/emre-kilinc.png"
   },
   {
     "name": "Anastasios Chatzigiovanis",
     "age": 25,
     "pos": "Ortasaha",
     "num": 7,
-    "nationality": "turkey",
+    "nationality": "greece",
     "team": "mke-ankaragucu",
-    "picture_path": "/images/players/mke-ankaragucu/anastasios-chatzigiovanis.png"
+    "picture_path": "/images/players/greece/anastasios-chatzigiovanis.png"
   },
   {
     "name": "Gboly Ariyibi",
     "age": 28,
     "pos": "Ortasaha",
     "num": 12,
-    "nationality": "azerbaijan",
+    "nationality": "usa",
     "team": "mke-ankaragucu",
-    "picture_path": "/images/players/mke-ankaragucu/gboly-ariyibi.png"
+    "picture_path": "/images/players/usa/gboly-ariyibi.png"
   },
   {
     "name": "Muhammed Yasir Karabay",
     "age": 24,
     "pos": "Ortasaha",
     "num": -1,
-    "nationality": "senegal",
+    "nationality": "turkey",
     "team": "mke-ankaragucu",
-    "picture_path": "/images/players/mke-ankaragucu/muhammed-yasir-karabay.png"
+    "picture_path": "/images/players/turkey/muhammed-yasir-karabay.png"
   },
   {
     "name": "Ali Sowe",
@@ -3606,7 +3822,7 @@
     "num": 22,
     "nationality": "gambia",
     "team": "mke-ankaragucu",
-    "picture_path": "/images/players/mke-ankaragucu/ali-sowe.png"
+    "picture_path": "/images/players/gambia/ali-sowe.png"
   },
   {
     "name": "Bevic Moussiti-Oko",
@@ -3615,7 +3831,7 @@
     "num": 29,
     "nationality": "congo",
     "team": "mke-ankaragucu",
-    "picture_path": "/images/players/mke-ankaragucu/bevic-moussiti-oko.png"
+    "picture_path": "/images/players/congo/bevic-moussiti-oko.png"
   },
   {
     "name": "Sıtkı Ferdi İmdat",
@@ -3624,7 +3840,7 @@
     "num": 80,
     "nationality": "turkey",
     "team": "mke-ankaragucu",
-    "picture_path": "/images/players/mke-ankaragucu/sitki-ferdi-imdat.png"
+    "picture_path": "/images/players/turkey/sitki-ferdi-imdat.png"
   },
   {
     "name": "Ali Şaşal Vural",
@@ -3633,7 +3849,7 @@
     "num": 35,
     "nationality": "turkey",
     "team": "sivasspor",
-    "picture_path": "/images/players/sivasspor/ali-sasal-vural.png"
+    "picture_path": "/images/players/turkey/ali-sasal-vural.png"
   },
   {
     "name": "Muammer Yıldırım",
@@ -3642,7 +3858,7 @@
     "num": 25,
     "nationality": "turkey",
     "team": "sivasspor",
-    "picture_path": "/images/players/sivasspor/muammer-yildirim.png"
+    "picture_path": "/images/players/turkey/muammer-yildirim.png"
   },
   {
     "name": "Baver Kuckar",
@@ -3651,7 +3867,7 @@
     "num": 16,
     "nationality": "turkey",
     "team": "sivasspor",
-    "picture_path": "/images/players/sivasspor/baver-kuckar.png"
+    "picture_path": "/images/players/turkey/baver-kuckar.png"
   },
   {
     "name": "Emre Satılmış",
@@ -3660,7 +3876,7 @@
     "num": 18,
     "nationality": "turkey",
     "team": "sivasspor",
-    "picture_path": "/images/players/sivasspor/emre-satilmis.png"
+    "picture_path": "/images/players/turkey/emre-satilmis.png"
   },
   {
     "name": "Dimitrios Goutas",
@@ -3669,7 +3885,7 @@
     "num": 6,
     "nationality": "greece",
     "team": "sivasspor",
-    "picture_path": "/images/players/sivasspor/dimitrios-goutas.png"
+    "picture_path": "/images/players/greece/dimitrios-goutas.png"
   },
   {
     "name": "Aaron Appindangoye",
@@ -3678,7 +3894,7 @@
     "num": 4,
     "nationality": "gabon",
     "team": "sivasspor",
-    "picture_path": "/images/players/sivasspor/aaron-appindangoye.png"
+    "picture_path": "/images/players/gabon/aaron-appindangoye.png"
   },
   {
     "name": "Samba Camara",
@@ -3687,7 +3903,7 @@
     "num": 14,
     "nationality": "mali",
     "team": "sivasspor",
-    "picture_path": "/images/players/sivasspor/samba-camara.png"
+    "picture_path": "/images/players/mali/samba-camara.png"
   },
   {
     "name": "Caner Osmanpasa",
@@ -3696,7 +3912,7 @@
     "num": 88,
     "nationality": "turkey",
     "team": "sivasspor",
-    "picture_path": "/images/players/sivasspor/caner-osmanpasa.png"
+    "picture_path": "/images/players/turkey/caner-osmanpasa.png"
   },
   {
     "name": "Mehmet Albayrak",
@@ -3705,7 +3921,7 @@
     "num": 96,
     "nationality": "turkey",
     "team": "sivasspor",
-    "picture_path": "/images/players/sivasspor/mehmet-albayrak.png"
+    "picture_path": "/images/players/turkey/mehmet-albayrak.png"
   },
   {
     "name": "Ugur Çiftçi",
@@ -3714,7 +3930,7 @@
     "num": 3,
     "nationality": "turkey",
     "team": "sivasspor",
-    "picture_path": "/images/players/sivasspor/ugur-ciftci.png"
+    "picture_path": "/images/players/turkey/ugur-ciftci.png"
   },
   {
     "name": "Ziya Erdal",
@@ -3723,7 +3939,7 @@
     "num": 58,
     "nationality": "turkey",
     "team": "sivasspor",
-    "picture_path": "/images/players/sivasspor/ziya-erdal.png"
+    "picture_path": "/images/players/turkey/ziya-erdal.png"
   },
   {
     "name": "Murat Paluli",
@@ -3732,7 +3948,7 @@
     "num": 2,
     "nationality": "turkey",
     "team": "sivasspor",
-    "picture_path": "/images/players/sivasspor/murat-paluli.png"
+    "picture_path": "/images/players/turkey/murat-paluli.png"
   },
   {
     "name": "Alaaddin Okumuş",
@@ -3741,7 +3957,7 @@
     "num": 13,
     "nationality": "turkey",
     "team": "sivasspor",
-    "picture_path": "/images/players/sivasspor/alaaddin-okumus.png"
+    "picture_path": "/images/players/turkey/alaaddin-okumus.png"
   },
   {
     "name": "Kader Keita",
@@ -3750,16 +3966,16 @@
     "num": 28,
     "nationality": "ivoire",
     "team": "sivasspor",
-    "picture_path": "/images/players/sivasspor/kader-keita.png"
+    "picture_path": "/images/players/ivoire/kader-keita.png"
   },
   {
     "name": "Robin Yalçın",
     "age": 29,
     "pos": "Ortasaha",
     "num": 8,
-    "nationality": "turkey",
+    "nationality": "germany",
     "team": "sivasspor",
-    "picture_path": "/images/players/sivasspor/robin-yalcin.png"
+    "picture_path": "/images/players/germany/robin-yalcin.png"
   },
   {
     "name": "Isaac Cofie",
@@ -3768,7 +3984,7 @@
     "num": 5,
     "nationality": "ghana",
     "team": "sivasspor",
-    "picture_path": "/images/players/sivasspor/isaac-cofie.png"
+    "picture_path": "/images/players/ghana/isaac-cofie.png"
   },
   {
     "name": "Fredrik Ulvestad",
@@ -3777,7 +3993,7 @@
     "num": 23,
     "nationality": "norway",
     "team": "sivasspor",
-    "picture_path": "/images/players/sivasspor/fredrik-ulvestad.png"
+    "picture_path": "/images/players/norway/fredrik-ulvestad.png"
   },
   {
     "name": "Charilaos Charisis",
@@ -3786,7 +4002,7 @@
     "num": 15,
     "nationality": "greece",
     "team": "sivasspor",
-    "picture_path": "/images/players/sivasspor/charis-charisis.png"
+    "picture_path": "/images/players/greece/charis-charisis.png"
   },
   {
     "name": "Hakan Arslan",
@@ -3795,7 +4011,7 @@
     "num": 37,
     "nationality": "turkey",
     "team": "sivasspor",
-    "picture_path": "/images/players/sivasspor/hakan-arslan.png"
+    "picture_path": "/images/players/turkey/hakan-arslan.png"
   },
   {
     "name": "Armin Djerlek",
@@ -3804,7 +4020,7 @@
     "num": 27,
     "nationality": "serbia",
     "team": "sivasspor",
-    "picture_path": "/images/players/sivasspor/armin-derlek.png"
+    "picture_path": "/images/players/serbia/armin-djerlek.png"
   },
   {
     "name": "Max Gradel",
@@ -3813,7 +4029,7 @@
     "num": 7,
     "nationality": "ivoire",
     "team": "sivasspor",
-    "picture_path": "/images/players/sivasspor/max-gradel.png"
+    "picture_path": "/images/players/ivoire/max-gradel.png"
   },
   {
     "name": "Samu Saiz",
@@ -3822,7 +4038,7 @@
     "num": 24,
     "nationality": "spain",
     "team": "sivasspor",
-    "picture_path": "/images/players/sivasspor/samu-saiz.png"
+    "picture_path": "/images/players/spain/samu-saiz.png"
   },
   {
     "name": "Ahmed Musa",
@@ -3831,7 +4047,7 @@
     "num": 26,
     "nationality": "nigeria",
     "team": "sivasspor",
-    "picture_path": "/images/players/sivasspor/ahmed-musa.png"
+    "picture_path": "/images/players/nigeria/ahmed-musa.png"
   },
   {
     "name": "Erdoğan Yeşilyurt",
@@ -3840,25 +4056,25 @@
     "num": 17,
     "nationality": "turkey",
     "team": "sivasspor",
-    "picture_path": "/images/players/sivasspor/erdogan-yesilyurt.png"
+    "picture_path": "/images/players/turkey/erdogan-yesilyurt.png"
   },
   {
-    "name": "Clinton N'Jie",
+    "name": "Clinton NJie",
     "age": 29,
     "pos": "Ortasaha",
     "num": 10,
     "nationality": "cameroon",
     "team": "sivasspor",
-    "picture_path": "/images/players/sivasspor/clinton-njie.png"
+    "picture_path": "/images/players/cameroon/clinton-njie.png"
   },
   {
     "name": "Karol Angielski",
     "age": 26,
     "pos": "Forvet",
     "num": 19,
-    "nationality": "senegal",
+    "nationality": "poland",
     "team": "sivasspor",
-    "picture_path": "/images/players/sivasspor/karol-angielski.png"
+    "picture_path": "/images/players/poland/karol-angielski.png"
   },
   {
     "name": "Jordy Caicedo",
@@ -3867,7 +4083,7 @@
     "num": 30,
     "nationality": "ecuador",
     "team": "sivasspor",
-    "picture_path": "/images/players/sivasspor/jordy-caicedo.png"
+    "picture_path": "/images/players/ecuador/jordy-caicedo.png"
   },
   {
     "name": "Mustapha Yatabare",
@@ -3876,7 +4092,7 @@
     "num": 9,
     "nationality": "mali",
     "team": "sivasspor",
-    "picture_path": "/images/players/sivasspor/mustapha-yatabare.png"
+    "picture_path": "/images/players/mali/mustapha-yatabare.png"
   },
   {
     "name": "Leke James",
@@ -3885,7 +4101,7 @@
     "num": 90,
     "nationality": "nigeria",
     "team": "sivasspor",
-    "picture_path": "/images/players/sivasspor/leke-samson-james.png"
+    "picture_path": "/images/players/nigeria/leke-samson-james.png"
   },
   {
     "name": "Berke Özer",
@@ -3894,7 +4110,7 @@
     "num": 35,
     "nationality": "turkey",
     "team": "umraniyespor",
-    "picture_path": "/images/players/umraniyespor/berke-ozer.png"
+    "picture_path": "/images/players/turkey/berke-ozer.png"
   },
   {
     "name": "Orkun Özdemir",
@@ -3903,7 +4119,7 @@
     "num": 13,
     "nationality": "turkey",
     "team": "umraniyespor",
-    "picture_path": "/images/players/umraniyespor/orkun-ozdemir.png"
+    "picture_path": "/images/players/turkey/orkun-ozdemir.png"
   },
   {
     "name": "Serkan Kırıntılı",
@@ -3912,7 +4128,7 @@
     "num": 1,
     "nationality": "turkey",
     "team": "umraniyespor",
-    "picture_path": "/images/players/umraniyespor/serkan-kirintili.png"
+    "picture_path": "/images/players/turkey/serkan-kirintili.png"
   },
   {
     "name": "Anıl Demir",
@@ -3921,7 +4137,7 @@
     "num": 34,
     "nationality": "turkey",
     "team": "umraniyespor",
-    "picture_path": "/images/players/umraniyespor/anil-demir.png"
+    "picture_path": "/images/players/turkey/anil-demir.png"
   },
   {
     "name": "Tomislav Glumac",
@@ -3930,7 +4146,7 @@
     "num": 44,
     "nationality": "croatia",
     "team": "umraniyespor",
-    "picture_path": "/images/players/umraniyespor/tomislav-glumac.png"
+    "picture_path": "/images/players/croatia/tomislav-glumac.png"
   },
   {
     "name": "Allyson",
@@ -3939,7 +4155,7 @@
     "num": 33,
     "nationality": "brazil",
     "team": "umraniyespor",
-    "picture_path": "/images/players/umraniyespor/allyson.png"
+    "picture_path": "/images/players/brazil/allyson.png"
   },
   {
     "name": "Mustafa Eser",
@@ -3948,7 +4164,7 @@
     "num": 4,
     "nationality": "turkey",
     "team": "umraniyespor",
-    "picture_path": "/images/players/umraniyespor/mustafa-eser.png"
+    "picture_path": "/images/players/turkey/mustafa-eser.png"
   },
   {
     "name": "Alexandru Epureanu",
@@ -3957,7 +4173,7 @@
     "num": 24,
     "nationality": "moldova",
     "team": "umraniyespor",
-    "picture_path": "/images/players/umraniyespor/alexandru-epureanu.png"
+    "picture_path": "/images/players/moldova/alexandru-epureanu.png"
   },
   {
     "name": "Ermir Lenjani",
@@ -3966,7 +4182,7 @@
     "num": 3,
     "nationality": "albania",
     "team": "umraniyespor",
-    "picture_path": "/images/players/umraniyespor/ermir-lenjani.png"
+    "picture_path": "/images/players/albania/ermir-lenjani.png"
   },
   {
     "name": "Onur Atasayar",
@@ -3975,7 +4191,7 @@
     "num": 16,
     "nationality": "turkey",
     "team": "umraniyespor",
-    "picture_path": "/images/players/umraniyespor/onur-atasayar.png"
+    "picture_path": "/images/players/turkey/onur-atasayar.png"
   },
   {
     "name": "Strahil Popov",
@@ -3984,7 +4200,7 @@
     "num": 90,
     "nationality": "bulgaria",
     "team": "umraniyespor",
-    "picture_path": "/images/players/umraniyespor/strahil-popov.png"
+    "picture_path": "/images/players/bulgaria/strahil-popov.png"
   },
   {
     "name": "Mert Yılmaz",
@@ -3993,7 +4209,7 @@
     "num": 2,
     "nationality": "turkey",
     "team": "umraniyespor",
-    "picture_path": "/images/players/umraniyespor/mert-yilmaz.png"
+    "picture_path": "/images/players/turkey/mert-yilmaz.png"
   },
   {
     "name": "Kartal Kayra Yılmaz",
@@ -4002,7 +4218,7 @@
     "num": 41,
     "nationality": "turkey",
     "team": "umraniyespor",
-    "picture_path": "/images/players/umraniyespor/kartal-kayra-yilmaz.png"
+    "picture_path": "/images/players/turkey/kartal-kayra-yilmaz.png"
   },
   {
     "name": "Isaac Sackey",
@@ -4011,7 +4227,7 @@
     "num": 5,
     "nationality": "ghana",
     "team": "umraniyespor",
-    "picture_path": "/images/players/umraniyespor/isaac-sackey.png"
+    "picture_path": "/images/players/ghana/isaac-sackey.png"
   },
   {
     "name": "Oğuz Gürbulak",
@@ -4020,7 +4236,7 @@
     "num": 20,
     "nationality": "turkey",
     "team": "umraniyespor",
-    "picture_path": "/images/players/umraniyespor/oguz-gurbulak.png"
+    "picture_path": "/images/players/turkey/oguz-gurbulak.png"
   },
   {
     "name": "Serkan Göksu",
@@ -4029,16 +4245,16 @@
     "num": 8,
     "nationality": "turkey",
     "team": "umraniyespor",
-    "picture_path": "/images/players/umraniyespor/serkan-goksu.png"
+    "picture_path": "/images/players/turkey/serkan-goksu.png"
   },
   {
     "name": "Durel Avounou",
     "age": 25,
     "pos": "Ortasaha",
     "num": 14,
-    "nationality": "kongo",
+    "nationality": "congo",
     "team": "umraniyespor",
-    "picture_path": "/images/players/umraniyespor/durel-avounou.png"
+    "picture_path": "/images/players/congo/durel-avounou.png"
   },
   {
     "name": "Fatih Şanlıtürk",
@@ -4047,7 +4263,7 @@
     "num": 23,
     "nationality": "turkey",
     "team": "umraniyespor",
-    "picture_path": "/images/players/umraniyespor/fatih-sanliturk.png"
+    "picture_path": "/images/players/turkey/fatih-sanliturk.png"
   },
   {
     "name": "Antonio Mrsic",
@@ -4056,7 +4272,7 @@
     "num": 39,
     "nationality": "croatia",
     "team": "umraniyespor",
-    "picture_path": "/images/players/umraniyespor/antonio-mrsic.png"
+    "picture_path": "/images/players/croatia/antonio-mrsic.png"
   },
   {
     "name": "Yunus Mertoğlu",
@@ -4065,7 +4281,7 @@
     "num": 6,
     "nationality": "turkey",
     "team": "umraniyespor",
-    "picture_path": "/images/players/umraniyespor/yunus-mertoglu.png"
+    "picture_path": "/images/players/turkey/yunus-mertoglu.png"
   },
   {
     "name": "Valentin Gheorghe",
@@ -4074,7 +4290,7 @@
     "num": 7,
     "nationality": "romania",
     "team": "umraniyespor",
-    "picture_path": "/images/players/umraniyespor/valentin-gheorghe.png"
+    "picture_path": "/images/players/romania/valentin-gheorghe.png"
   },
   {
     "name": "Jesse Sekidika",
@@ -4083,7 +4299,7 @@
     "num": 77,
     "nationality": "nigeria",
     "team": "umraniyespor",
-    "picture_path": "/images/players/umraniyespor/jesse-sekidika.png"
+    "picture_path": "/images/players/nigeria/jesse-sekidika.png"
   },
   {
     "name": "Geraldo",
@@ -4092,7 +4308,7 @@
     "num": 29,
     "nationality": "angola",
     "team": "umraniyespor",
-    "picture_path": "/images/players/umraniyespor/geraldo.png"
+    "picture_path": "/images/players/angola/geraldo.png"
   },
   {
     "name": "Onur Ayık",
@@ -4101,7 +4317,7 @@
     "num": 11,
     "nationality": "turkey",
     "team": "umraniyespor",
-    "picture_path": "/images/players/umraniyespor/onur-ayik.png"
+    "picture_path": "/images/players/turkey/onur-ayik.png"
   },
   {
     "name": "Olarenwaju Kayode",
@@ -4110,7 +4326,7 @@
     "num": 9,
     "nationality": "nigeria",
     "team": "umraniyespor",
-    "picture_path": "/images/players/umraniyespor/olarenwaju-kayode.png"
+    "picture_path": "/images/players/nigeria/olarenwaju-kayode.png"
   },
   {
     "name": "Umut Nayir",
@@ -4119,7 +4335,7 @@
     "num": 18,
     "nationality": "turkey",
     "team": "umraniyespor",
-    "picture_path": "/images/players/umraniyespor/umut-nayir.png"
+    "picture_path": "/images/players/turkey/umut-nayir.png"
   },
   {
     "name": "Adel Bettaieb",
@@ -4128,7 +4344,7 @@
     "num": 27,
     "nationality": "tunisia",
     "team": "umraniyespor",
-    "picture_path": "/images/players/umraniyespor/adel-bettaieb.png"
+    "picture_path": "/images/players/tunisia/adel-bettaieb.png"
   },
   {
     "name": "Uğurcan Çakır",
@@ -4137,7 +4353,7 @@
     "num": 1,
     "nationality": "turkey",
     "team": "trabzonspor",
-    "picture_path": "/images/players/trabzonspor/ugurcan-cakir.png"
+    "picture_path": "/images/players/turkey/ugurcan-cakir.png"
   },
   {
     "name": "Muammet Taha Tepe",
@@ -4146,7 +4362,7 @@
     "num": 54,
     "nationality": "turkey",
     "team": "trabzonspor",
-    "picture_path": "/images/players/trabzonspor/muammet-taha-tepe.png"
+    "picture_path": "/images/players/turkey/muammet-taha-tepe.png"
   },
   {
     "name": "Kağan Moradaoğlu",
@@ -4155,7 +4371,7 @@
     "num": 98,
     "nationality": "turkey",
     "team": "trabzonspor",
-    "picture_path": "/images/players/trabzonspor/kagan-moradaoglu.png"
+    "picture_path": "/images/players/turkey/kagan-moradaoglu.png"
   },
   {
     "name": "Hakan Aydın",
@@ -4164,7 +4380,7 @@
     "num": 96,
     "nationality": "turkey",
     "team": "trabzonspor",
-    "picture_path": "/images/players/trabzonspor/hakan-aydin.png"
+    "picture_path": "/images/players/turkey/hakan-aydin.png"
   },
   {
     "name": "Vitor Hugo",
@@ -4173,7 +4389,7 @@
     "num": 13,
     "nationality": "brazil",
     "team": "trabzonspor",
-    "picture_path": "/images/players/trabzonspor/vitor-hugo.png"
+    "picture_path": "/images/players/brazil/vitor-hugo.png"
   },
   {
     "name": "Marc Bartra",
@@ -4182,16 +4398,16 @@
     "num": 3,
     "nationality": "spain",
     "team": "trabzonspor",
-    "picture_path": "/images/players/trabzonspor/marc-bartra.png"
+    "picture_path": "/images/players/spain/marc-bartra.png"
   },
   {
     "name": "Stefano Denswil",
     "age": 29,
     "pos": "Defans",
     "num": 24,
-    "nationality": "surinam",
+    "nationality": "netherlands",
     "team": "trabzonspor",
-    "picture_path": "/images/players/trabzonspor/stefano-denswil.png"
+    "picture_path": "/images/players/netherlands/stefano-denswil.png"
   },
   {
     "name": "Taha Altıkardeş",
@@ -4200,7 +4416,7 @@
     "num": 11,
     "nationality": "turkey",
     "team": "trabzonspor",
-    "picture_path": "/images/players/trabzonspor/taha-altikardes.png"
+    "picture_path": "/images/players/turkey/taha-altikardes.png"
   },
   {
     "name": "Hüseyin Türkmen",
@@ -4209,7 +4425,7 @@
     "num": 4,
     "nationality": "turkey",
     "team": "trabzonspor",
-    "picture_path": "/images/players/trabzonspor/huseyin-turkmen.png"
+    "picture_path": "/images/players/turkey/huseyin-turkmen.png"
   },
   {
     "name": "Eren Elmalı",
@@ -4218,7 +4434,7 @@
     "num": 18,
     "nationality": "turkey",
     "team": "trabzonspor",
-    "picture_path": "/images/players/trabzonspor/eren-elmali.png"
+    "picture_path": "/images/players/turkey/eren-elmali.png"
   },
   {
     "name": "Arif Boşluk",
@@ -4227,7 +4443,7 @@
     "num": 72,
     "nationality": "turkey",
     "team": "trabzonspor",
-    "picture_path": "/images/players/trabzonspor/arif-bosluk.png"
+    "picture_path": "/images/players/turkey/arif-bosluk.png"
   },
   {
     "name": "Jens Stryger Larsen",
@@ -4236,7 +4452,7 @@
     "num": 19,
     "nationality": "denmark",
     "team": "trabzonspor",
-    "picture_path": "/images/players/trabzonspor/jens-stryger-larsen.png"
+    "picture_path": "/images/players/denmark/jens-stryger-larsen.png"
   },
   {
     "name": "Bruno Peres",
@@ -4245,7 +4461,7 @@
     "num": 33,
     "nationality": "brazil",
     "team": "trabzonspor",
-    "picture_path": "/images/players/trabzonspor/bruno-peres.png"
+    "picture_path": "/images/players/brazil/bruno-peres.png"
   },
   {
     "name": "Serkan Asan",
@@ -4254,7 +4470,7 @@
     "num": 99,
     "nationality": "turkey",
     "team": "trabzonspor",
-    "picture_path": "/images/players/trabzonspor/serkan-asan.png"
+    "picture_path": "/images/players/turkey/serkan-asan.png"
   },
   {
     "name": "Jean-Philippe Gbamin",
@@ -4263,7 +4479,7 @@
     "num": 25,
     "nationality": "ivoire",
     "team": "trabzonspor",
-    "picture_path": "/images/players/trabzonspor/jean-philippe-gbamin.png"
+    "picture_path": "/images/players/ivoire/jean-philippe-gbamin.png"
   },
   {
     "name": "Manolis Siopis",
@@ -4272,7 +4488,7 @@
     "num": 6,
     "nationality": "greece",
     "team": "trabzonspor",
-    "picture_path": "/images/players/trabzonspor/manolis-siopis.png"
+    "picture_path": "/images/players/greece/manolis-siopis.png"
   },
   {
     "name": "Doğucan Haspolat",
@@ -4281,7 +4497,7 @@
     "num": 34,
     "nationality": "turkey",
     "team": "trabzonspor",
-    "picture_path": "/images/players/trabzonspor/dogucan-haspolat.png"
+    "picture_path": "/images/players/turkey/dogucan-haspolat.png"
   },
   {
     "name": "Dorukhan Toköz",
@@ -4290,7 +4506,7 @@
     "num": 8,
     "nationality": "turkey",
     "team": "trabzonspor",
-    "picture_path": "/images/players/trabzonspor/dorukhan-tokoz.png"
+    "picture_path": "/images/players/turkey/dorukhan-tokoz.png"
   },
   {
     "name": "Marek Hamsik",
@@ -4299,7 +4515,7 @@
     "num": 17,
     "nationality": "slovakia",
     "team": "trabzonspor",
-    "picture_path": "/images/players/trabzonspor/marek-hamsik.png"
+    "picture_path": "/images/players/slovakia/marek-hamsik.png"
   },
   {
     "name": "Abdulkadir Parmak",
@@ -4308,7 +4524,7 @@
     "num": -1,
     "nationality": "turkey",
     "team": "trabzonspor",
-    "picture_path": "/images/players/trabzonspor/abdulkadir-parmak.png"
+    "picture_path": "/images/players/turkey/abdulkadir-parmak.png"
   },
   {
     "name": "Yusuf Yazıcı",
@@ -4317,7 +4533,7 @@
     "num": 61,
     "nationality": "turkey",
     "team": "trabzonspor",
-    "picture_path": "/images/players/trabzonspor/yusuf-yazici.png"
+    "picture_path": "/images/players/turkey/yusuf-yazici.png"
   },
   {
     "name": "Anastasios Bakasetas",
@@ -4326,7 +4542,7 @@
     "num": 11,
     "nationality": "greece",
     "team": "trabzonspor",
-    "picture_path": "/images/players/trabzonspor/anastasios-bakasetas.png"
+    "picture_path": "/images/players/greece/anastasios-bakasetas.png"
   },
   {
     "name": "Abdülkadir Ömür",
@@ -4335,7 +4551,7 @@
     "num": 10,
     "nationality": "turkey",
     "team": "trabzonspor",
-    "picture_path": "/images/players/trabzonspor/albulkadir-omur.png"
+    "picture_path": "/images/players/turkey/albulkadir-omur.png"
   },
   {
     "name": "Enis Bardhi",
@@ -4344,7 +4560,7 @@
     "num": 29,
     "nationality": "north-macedonia",
     "team": "trabzonspor",
-    "picture_path": "/images/players/trabzonspor/enis-bardhi.png"
+    "picture_path": "/images/players/north-macedonia/enis-bardhi.png"
   },
   {
     "name": "Mahmoud Trezeguet",
@@ -4353,7 +4569,7 @@
     "num": 27,
     "nationality": "egypt",
     "team": "trabzonspor",
-    "picture_path": "/images/players/trabzonspor/trezeguet.png"
+    "picture_path": "/images/players/egypt/trezeguet.png"
   },
   {
     "name": "Naci Ünüvar",
@@ -4362,7 +4578,7 @@
     "num": 23,
     "nationality": "netherlands",
     "team": "trabzonspor",
-    "picture_path": "/images/players/trabzonspor/naci-unuvar.png"
+    "picture_path": "/images/players/netherlands/naci-unuvar.png"
   },
   {
     "name": "Edin Visca",
@@ -4371,16 +4587,16 @@
     "num": 7,
     "nationality": "bosnia-herzegovina",
     "team": "trabzonspor",
-    "picture_path": "/images/players/trabzonspor/edin-visca.png"
+    "picture_path": "/images/players/bosnia-herzegovina/edin-visca.png"
   },
   {
     "name": "Lazar Markovic",
     "age": 28,
     "pos": "Ortasaha",
     "num": 50,
-    "nationality": "netherlands",
+    "nationality": "serbia",
     "team": "trabzonspor",
-    "picture_path": "/images/players/trabzonspor/lazar-markovic.png"
+    "picture_path": "/images/players/serbia/lazar-markovic.png"
   },
   {
     "name": "Montasser Lahtimi",
@@ -4389,7 +4605,7 @@
     "num": 80,
     "nationality": "morocco",
     "team": "trabzonspor",
-    "picture_path": "/images/players/trabzonspor/montassir-lahtimi.png"
+    "picture_path": "/images/players/morocco/montassir-lahtimi.png"
   },
   {
     "name": "Maxi Gómez",
@@ -4398,7 +4614,7 @@
     "num": 30,
     "nationality": "uruguay",
     "team": "trabzonspor",
-    "picture_path": "/images/players/trabzonspor/maxi-gomez.png"
+    "picture_path": "/images/players/uruguay/maxi-gomez.png"
   },
   {
     "name": "Umut Bozok",
@@ -4407,6 +4623,6 @@
     "num": 9,
     "nationality": "turkey",
     "team": "trabzonspor",
-    "picture_path": "/images/players/trabzonspor/umut-bozok.png"
+    "picture_path": "/images/players/turkey/umut-bozok.png"
   }
 ]
