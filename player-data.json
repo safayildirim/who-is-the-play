@@ -36,15 +36,6 @@
     "picture_path": "/images/players/turkey/mert-cetin.png"
   },
   {
-    "name": "Simon Deli",
-    "age": 31,
-    "pos": "Defans",
-    "num": 19,
-    "nationality": "ivoire",
-    "team": "adanademirspor",
-    "picture_path": "/images/players/ivoire/simon-deli.png"
-  },
-  {
     "name": "Semih Güler",
     "age": 28,
     "pos": "Defans",
@@ -1836,15 +1827,6 @@
     "picture_path": "/images/players/turkey/erten-ersu.png"
   },
   {
-    "name": "Ertuğrul Ersoy",
-    "age": 26,
-    "pos": "Kaleci",
-    "num": 15,
-    "nationality": "turkey",
-    "team": "gaziantepfk",
-    "picture_path": "/images/players/turkey/ertugrul-ersoy.png"
-  },
-  {
     "name": "Matej Hanousek",
     "age": 29,
     "pos": "Defans",
@@ -2529,6 +2511,15 @@
     "picture_path": "/images/players/denmark/david-jensen.png"
   },
   {
+    "name": "Ertuğrul Ersoy",
+    "age": 26,
+    "pos": "Kaleci",
+    "num": 15,
+    "nationality": "turkey",
+    "team": "istanbulspor",
+    "picture_path": "/images/players/turkey/ertugrul-ersoy.png"
+  },
+  {
     "name": "Alp Arda",
     "age": 27,
     "pos": "Kaleci",
@@ -2554,6 +2545,15 @@
     "nationality": "turkey",
     "team": "istanbulspor",
     "picture_path": "/images/players/turkey/mucahit-serbest.png"
+  },
+  {
+    "name": "Simon Deli",
+    "age": 31,
+    "pos": "Defans",
+    "num": 19,
+    "nationality": "ivoire",
+    "team": "istanbulspor",
+    "picture_path": "/images/players/ivoire/simon-deli.png"
   },
   {
     "name": "Michael Ologo",
@@ -3814,6 +3814,15 @@
     "nationality": "turkey",
     "team": "mke-ankaragucu",
     "picture_path": "/images/players/turkey/muhammed-yasir-karabay.png"
+  },
+  {
+    "name": "Gökhan Töre",
+    "age": 31,
+    "pos": "Ortasaha",
+    "num": -1,
+    "nationality": "turkey",
+    "team": "mke-ankaragucu",
+    "picture_path": "/images/players/turkey/gokhan-tore.png"
   },
   {
     "name": "Ali Sowe",
